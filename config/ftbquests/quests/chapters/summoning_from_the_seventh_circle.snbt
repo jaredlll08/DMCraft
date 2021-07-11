@@ -1,0 +1,27 @@
+{
+	id: "35A737F052939C90"
+	group: "75B5EF683272C3D8"
+	order_index: 1
+	filename: "summoning_from_the_seventh_circle"
+	title: "Summoning from the Seventh Circle"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Naturally Demonic"
+		x: -6.0d
+		y: -1.5d
+		subtitle: "Trippy!"
+		description: ["These seeds seem... Otherworldly. I wonder what they may lead you to?"]
+		id: "6EB3164B41A0C2CE"
+		tasks: [{
+			id: "3F7E08634443138F"
+			type: "item"
+			item: "occultism:datura_seeds"
+		}]
+		rewards: [{
+			id: "0ABCA9A4D1091206"
+			type: "xp_levels"
+			xp_levels: 1
+		}]
+	}]
+}

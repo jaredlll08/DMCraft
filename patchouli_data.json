@@ -1,0 +1,101 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "occultism:dictionary_of_spirits": {
+      "viewedEntries": [
+        "occultism:getting_started/third_eye",
+        "occultism:getting_started/spirit_fire",
+        "occultism:getting_started/first_ritual",
+        "occultism:rituals/summoning/summon_crusher",
+        "occultism:rituals/overview",
+        "occultism:pentacles/overview",
+        "occultism:storage/stable_wormhole",
+        "occultism:storage/storage_stabilizer",
+        "occultism:storage/storage_controller",
+        "occultism:rituals/crafting/craft_dimensional_matrix",
+        "occultism:spirits/books_of_binding",
+        "occultism:storage/autocrafting",
+        "occultism:storage/storage_remote",
+        "occultism:pentacles/craft_djinni"
+      ],
+      "bookmarks": [],
+      "history": [
+        "occultism:storage/stable_wormhole",
+        "occultism:storage/storage_stabilizer",
+        "occultism:rituals/crafting/craft_dimensional_matrix",
+        "occultism:pentacles/craft_djinni",
+        "occultism:storage/storage_controller",
+        "occultism:storage/storage_remote",
+        "occultism:storage/autocrafting",
+        "occultism:spirits/books_of_binding",
+        "occultism:pentacles/overview",
+        "occultism:rituals/overview",
+        "occultism:rituals/summoning/summon_crusher",
+        "occultism:getting_started/first_ritual",
+        "occultism:getting_started/spirit_fire"
+      ],
+      "completedManualQuests": []
+    },
+    "dynamictrees:guide": {
+      "viewedEntries": [
+        "dynamictrees:other_mechanics/staff"
+      ],
+      "bookmarks": [],
+      "history": [
+        "dynamictrees:other_mechanics/staff"
+      ],
+      "completedManualQuests": []
+    },
+    "dimdungeons:guide_book": {
+      "viewedEntries": [
+        "dimdungeons:introduction",
+        "dimdungeons:simple_advice",
+        "dimdungeons:basic_keys",
+        "dimdungeons:basic_portals",
+        "dimdungeons:patch_notes_1_10"
+      ],
+      "bookmarks": [],
+      "history": [
+        "dimdungeons:basic_keys",
+        "dimdungeons:basic_portals",
+        "dimdungeons:patch_notes_1_10",
+        "dimdungeons:simple_advice",
+        "dimdungeons:introduction"
+      ],
+      "completedManualQuests": []
+    },
+    "betterendforge:guidebook": {
+      "viewedEntries": [
+        "betterendforge:rituals/infusion_ritual",
+        "betterendforge:rituals/eternal_ritual"
+      ],
+      "bookmarks": [],
+      "history": [
+        "betterendforge:rituals/eternal_ritual",
+        "betterendforge:rituals/infusion_ritual"
+      ],
+      "completedManualQuests": []
+    },
+    "doom:doom": {
+      "viewedEntries": [
+        "doom:demons/motherdemon",
+        "doom:demons/hellknight",
+        "doom:demons/iconofsin",
+        "doom:demons/maykrs",
+        "doom:weapons/supershotgun",
+        "doom:weapons/cruciblesword"
+      ],
+      "bookmarks": [],
+      "history": [
+        "doom:weapons/cruciblesword",
+        "doom:weapons/supershotgun",
+        "doom:demons/maykrs",
+        "doom:demons/iconofsin",
+        "doom:demons/hellknight",
+        "doom:demons/motherdemon"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+	id: "550BC5410F343EDE"
+	group: "75B5EF683272C3D8"
+	order_index: 0
+	filename: "basics"
+	title: "Basics"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -27.5d
+			y: -13.5d
+			subtitle: "Swing swing swing! Chop chop chop!"
+			description: ["Combat here is different. Harder. Enter Combat Mode by pressing the R key. Use LSHIFT to dodge. Hold LMB for a special attack."]
+			id: "12E2442552E14663"
+			tasks: [{
+				id: "5005A31698B89668"
+				type: "checkmark"
+				title: "Combat"
+			}]
+			rewards: [{
+				id: "04B293891AA746B5"
+				type: "pmmo:levelreward"
+				title: "Combat XP"
+				icon: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				auto: "invisible"
+				skill: "combat"
+				amount: 1.0d
+			}]
+		}
+		{
+			title: "Scavenging"
+			x: -27.5d
+			y: -9.5d
+			subtitle: "Get on those hands and knees!"
+			description: ["Have you tried to break a tree yet? Yeah, doesn't work does it? Right click some sticks and rocks on the floor. Break grass. Start with the easy to lift stuff."]
+			id: "082ABB9F8A51E270"
+			tasks: [
+				{
+					id: "462A7AED7CA3C61A"
+					type: "item"
+					item: "minecraft:stick"
+					count: 5L
+					consume_items: false
+					only_from_crafting: false
+				}
+				{
+					id: "11D5B16CD4147558"
+					type: "item"
+					item: "notreepunching:plant_fiber"
+					count: 15L
+					consume_items: false
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "55461BCA9EB74C57"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 3
+			}]
+		}
+		{
+			title: "The Power of Flint"
+			x: -25.0d
+			y: -9.5d
+			subtitle: "Do you need a knap?"
+			description: ["Flint is your key to starting here. Flint tools are fragile, but they get the job done. Right click flint on stone to knap it."]
+			dependencies: ["082ABB9F8A51E270"]
+			id: "4441EE6156FAE3C8"
+			tasks: [
+				{
+					id: "589A2454904EDD07"
+					type: "item"
+					item: "minecraft:flint"
+					count: 3L
+				}
+				{
+					id: "1CF6791F70BE2A32"
+					type: "item"
+					item: "notreepunching:flint_shard"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "097CEA4F986512A9"
+				type: "pmmo:xpreward"
+				auto: "invisible"
+				skill: "crafting"
+				amount: 83.0d
+				ignoreBonuses: false
+			}]
+		}
+		{
+			title: "Flint Tools"
+			x: -22.5d
+			y: -9.5d
+			subtitle: "Get digging!"
+			description: ["This is where you really start. Get ready to truly experience rage, pain, and victory."]
+			dependencies: ["4441EE6156FAE3C8"]
+			id: "0AA32D88F07B9E27"
+			tasks: [
+				{
+					id: "0B2695C66759949D"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D2122E1FF0DC7AD"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7E79057F2FDEE3FB"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "mining"
+					amount: 83.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "29E01A04E002A409"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "woodcutting"
+					amount: 83.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: -13.5d
+			subtitle: "No more magnets."
+			description: ["Right click on the items on the floor to pick them up, sneak to pick up everything around you."]
+			id: "06DFA6F4C441A603"
+			tasks: [{
+				id: "6B8C0C18587E6166"
+				type: "checkmark"
+				title: "Gathering"
+			}]
+			rewards: [{
+				id: "516A1A3FD6232632"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -24.5d
+			y: -13.5d
+			subtitle: "Ready to grind?"
+			description: ["Progression in this pack is all XP and Quest based. You will have to grind, grind, grind to progress. No finding diamond tools and armor in chests and throwing it on right away. Press P to open the Project MMO screen, and click the scroll in your inventory to access the PlayerEx screen."]
+			id: "521B65C7C5353A7B"
+			tasks: [{
+				id: "2A0B13F45EB3F304"
+				type: "checkmark"
+				title: "Progression"
+			}]
+			rewards: [{
+				id: "00E91A759F1C0612"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Splitting Logs"
+			x: -20.0d
+			y: -9.5d
+			subtitle: "Finally a use for that!"
+			description: ["Create a chopping block to split logs into planks."]
+			dependencies: ["0AA32D88F07B9E27"]
+			id: "3BECF2FF2CD7AA5F"
+			tasks: [{
+				id: "4DDE1375442D859F"
+				type: "item"
+				title: "Any #minecraft:planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E635CB7B6762604"
+				type: "pmmo:xpreward"
+				auto: "invisible"
+				skill: "woodcutting"
+				amount: 100.0d
+				ignoreBonuses: false
+			}]
+		}
+		{
+			title: "Getting Thirsty?"
+			x: -22.5d
+			y: -7.0d
+			subtitle: "Salty!"
+			description: ["Drinking with your hands is unsanitary and filthy. Also not very useful when you're not around water. Craft some glass bottles and fill them so you don't dehydrate."]
+			dependencies: ["0AA32D88F07B9E27"]
+			id: "5E741302FAD1CE35"
+			tasks: [{
+				id: "783364CCAB47C432"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5390188819928AEC"
+				type: "item"
+				item: "toughasnails:purified_water_bottle"
+			}]
+		}
+		{
+			title: "Clear Gold!"
+			x: -22.5d
+			y: -4.5d
+			subtitle: "Crystalline Freshness"
+			description: ["To no longer have to worry about water, you may want to craft a way to purify water, otherwise, well, who knows what's in the water you're drinking?"]
+			dependencies: ["5E741302FAD1CE35"]
+			id: "5F2AFDC2C48306F0"
+			tasks: [{
+				id: "7E956FF69374C2DE"
+				type: "item"
+				item: "toughasnails:water_purifier"
+			}]
+			rewards: [{
+				id: "5B99131D33D16A90"
+				type: "pmmo:levelreward"
+				auto: "invisible"
+				skill: "endurance"
+				amount: 1.0d
+			}]
+		}
+		{
+			title: "Trinkets"
+			x: -27.5d
+			y: -12.0d
+			subtitle: "No, they aren't Curios."
+			description: ["Sometimes, you may randomly unlock trinkets, which can be accessed via the trinket menu. These give passive effects that are often weaker than Curios but do not take up a Curio slot, as they have their own slot system."]
+			id: "046CD345B0BFEDB1"
+			tasks: [{
+				id: "01ABE2B454D2380E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4435DECA34E34DDC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Hands too Full"
+			x: -20.0d
+			y: -7.0d
+			subtitle: "Can't carry all those bottles and food?"
+			description: ["Backpacks are extremely useful, as a good majority of your time will be spent exploring you will probably want to bring many things with you."]
+			dependencies: ["3BECF2FF2CD7AA5F"]
+			id: "24466533AFE7B4EA"
+			tasks: [{
+				id: "775CC0DFC726665F"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [
+				{
+					id: "092889E99DE00A03"
+					type: "pmmo:levelreward"
+					auto: "invisible"
+					skill: "mining"
+					amount: 1.0d
+				}
+				{
+					id: "066321D6533A28F8"
+					type: "pmmo:levelreward"
+					auto: "invisible"
+					skill: "combat"
+					amount: 1.0d
+				}
+			]
+		}
+		{
+			title: "Finally, a night's rest"
+			x: -17.5d
+			y: -9.5d
+			subtitle: "A grassy bag to lay in"
+			description: ["Using the plant fiber you have gathered from grass, you can create a string substitute to craft wool, using that to create a sleeping bag to pass the nights."]
+			dependencies: ["3BECF2FF2CD7AA5F"]
+			id: "2ACFAF0E9E7E8199"
+			tasks: [{
+				id: "791D97EC1B10CA3D"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+			rewards: [{
+				id: "7257603DF6D40F0E"
+				type: "item"
+				item: "scalinghealth:bandages"
+				count: 5
+			}]
+		}
+	]
+}

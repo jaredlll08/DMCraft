@@ -1,0 +1,222 @@
+{
+  "MOD_RESEARCHES": [
+    {
+      "modIds": [
+        "simplybackpacks"
+      ],
+      "restrictions": {
+        "restricts": {
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "ENTITY_INTERACTABILITY": false,
+          "USABILITY": false,
+          "ENTITY_HITTABILITY": false,
+          "DIMENSION_TRAVEL": false,
+          "EQUIP": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Backpacks!",
+      "cost": 2
+    },
+    {
+      "modIds": [
+        "trashcans",
+        "pickletweaks",
+        "dankstorage"
+      ],
+      "restrictions": {
+        "restricts": {
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "ENTITY_INTERACTABILITY": false,
+          "USABILITY": false,
+          "ENTITY_HITTABILITY": false,
+          "DIMENSION_TRAVEL": false,
+          "EQUIP": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Organisation",
+      "cost": 3
+    },
+    {
+      "modIds": [
+        "masonry",
+        "decorative_blocks",
+        "camera"
+      ],
+      "restrictions": {
+        "restricts": {
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "ENTITY_INTERACTABILITY": false,
+          "USABILITY": false,
+          "ENTITY_HITTABILITY": false,
+          "DIMENSION_TRAVEL": false,
+          "EQUIP": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Decorator",
+      "cost": 1
+    },
+    {
+      "modIds": [
+        "mcwbridges",
+        "blockcarpentry",
+        "mcwwindows",
+        "mcwroofs",
+        "mcwdoors",
+        "enviromats",
+        "platforms"
+      ],
+      "restrictions": {
+        "restricts": {
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "ENTITY_INTERACTABILITY": false,
+          "USABILITY": false,
+          "ENTITY_HITTABILITY": false,
+          "DIMENSION_TRAVEL": false,
+          "EQUIP": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Locked Until Decorator Unlocked",
+      "cost": 2
+    },
+    {
+      "modIds": [
+        "create",
+        "quark"
+      ],
+      "restrictions": {
+        "restricts": {
+          "CRAFTABILITY": true,
+          "BLOCK_HITTABILITY": false,
+          "ENTITY_INTERACTABILITY": false,
+          "USABILITY": false,
+          "ENTITY_HITTABILITY": false,
+          "DIMENSION_TRAVEL": false,
+          "EQUIP": false,
+          "BLOCK_INTERACTABILITY": false
+        }
+      },
+      "name": "Double Locked",
+      "cost": 3
+    }
+  ],
+  "CUSTOM_RESEARCHES": [
+    {
+      "itemRestrictions": {
+        "minecraft:diamond_leggings": {
+          "restricts": {
+            "CRAFTABILITY": true,
+            "BLOCK_HITTABILITY": true,
+            "USABILITY": true,
+            "ENTITY_HITTABILITY": true,
+            "EQUIP": true
+          }
+        },
+        "appliedenergistics2:molecular_assembler": {
+          "restricts": {
+            "CRAFTABILITY": true,
+            "BLOCK_HITTABILITY": true,
+            "USABILITY": true,
+            "ENTITY_HITTABILITY": true,
+            "EQUIP": true
+          }
+        },
+        "mekanism:formulaic_assemblicator": {
+          "restricts": {
+            "CRAFTABILITY": true,
+            "BLOCK_HITTABILITY": true,
+            "USABILITY": true,
+            "ENTITY_HITTABILITY": true,
+            "EQUIP": true
+          }
+        },
+        "refinedstorage:crafter": {
+          "restricts": {
+            "CRAFTABILITY": true,
+            "BLOCK_HITTABILITY": true,
+            "USABILITY": true,
+            "ENTITY_HITTABILITY": true,
+            "EQUIP": true
+          }
+        },
+        "rftoolsutility:crafter1": {
+          "restricts": {
+            "CRAFTABILITY": true,
+            "BLOCK_HITTABILITY": true,
+            "USABILITY": true,
+            "ENTITY_HITTABILITY": true,
+            "EQUIP": true
+          }
+        },
+        "minecraft:diamond_chestplate": {
+          "restricts": {
+            "CRAFTABILITY": true,
+            "BLOCK_HITTABILITY": true,
+            "USABILITY": true,
+            "ENTITY_HITTABILITY": true,
+            "EQUIP": true
+          }
+        },
+        "minecraft:diamond_helmet": {
+          "restricts": {
+            "CRAFTABILITY": true,
+            "BLOCK_HITTABILITY": true,
+            "USABILITY": true,
+            "ENTITY_HITTABILITY": true,
+            "EQUIP": true
+          }
+        },
+        "minecraft:diamond_boots": {
+          "restricts": {
+            "CRAFTABILITY": true,
+            "BLOCK_HITTABILITY": true,
+            "USABILITY": true,
+            "ENTITY_HITTABILITY": true,
+            "EQUIP": true
+          }
+        },
+        "minecraft:diamond_sword": {
+          "restricts": {
+            "CRAFTABILITY": true,
+            "BLOCK_HITTABILITY": true,
+            "USABILITY": true,
+            "ENTITY_HITTABILITY": true,
+            "EQUIP": true
+          }
+        }
+      },
+      "blockRestrictions": {
+        "minecraft:furnace": {
+          "restricts": {
+            "BLOCK_HITTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        }
+      },
+      "entityRestrictions": {
+        "minecraft:villager": {
+          "restricts": {
+            "ENTITY_INTERACTABILITY": true,
+            "ENTITY_HITTABILITY": true
+          }
+        }
+      },
+      "dimensionRestrictions": {
+        "minecraft:the_nether": {
+          "restricts": {
+            "DIMENSION_TRAVEL": true
+          }
+        }
+      },
+      "name": "Custom Research Example",
+      "cost": 100
+    }
+  ]
+}

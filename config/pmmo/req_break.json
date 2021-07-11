@@ -1,0 +1,218 @@
+{
+	"#forge:ores/aluminum":
+	{
+		"mining": 10
+	},
+	"#forge:ores/copper":
+	{
+		"mining": 2
+	},
+	"#forge:ores/diamond":
+	{
+		"mining": 15
+	},
+	"#forge:ores/emerald":
+	{
+		"mining": 50
+	},
+	"#forge:ores/netherite_scrap":
+	{
+		"mining": 60
+	},
+	"#forge:ores/gold":
+	{
+		"mining": 8
+	},
+	"#forge:ores/iron":
+	{
+		"mining": 4
+	},
+	"#forge:ores/lapis":
+	{
+		"mining": 10
+	},
+	"#forge:ores/nickel":
+	{
+		"mining": 10
+	},
+	"#forge:ores/quartz":
+	{
+		"mining": 20
+	},
+	"#forge:ores/redstone":
+	{
+		"mining": 10
+	},
+	"#forge:ores/silver":
+	{
+		"mining": 10
+	},
+	"#forge:ores/tin":
+	{
+		"mining": 8
+	},
+	"#forge:ores/zinc":
+	{
+		"mining": 10
+	},
+	"#forge:ores/amethyst":
+	{
+		"mining": 15
+	},
+	"#forge:ores/nebu":
+	{
+	"mining": 15
+	},
+	"#forge:ores/bone":
+	{
+	"mining": 4
+	},
+	"#forge:ores/relic":
+	{
+		"mining": 18
+	},
+	"#forge:ores/biotite":
+	{
+		"mining": 15
+	},
+	"stalwart_dungeons:tungsten_ore":
+	{
+		"mining": 30
+	},
+	"stalwart_dungeons:chorundum_ore":
+	{
+		"mining": 45
+	},
+	"#forge:ores/ender":
+	{
+		"mining": 20
+	},
+	"#forge:ores/amber":
+	{
+		"mining": 18
+	},
+	"#forge:ores/thallasium":
+	{
+		"mining": 18
+	},
+	"#forge:ores/lead":
+	{
+		"mining": 12
+	},
+	"iceandfire:sapphire_ore":
+	{
+		"mining": 15
+	},
+	"astralsorcery:rock_crystal_ore":
+	{
+		"mining": 12
+	},
+	"astralsorcery:starmetal_ore":
+	{
+		"mining": 25
+	},
+	"majruszs_difficulty:end_shard_ore":
+	{
+		"mining": 65
+	},
+	"#forge:ores/iesnium":
+	{
+		"mining": 35
+	},
+	"#forge:ores/cloggrum":
+	{
+		"mining": 15
+	},
+	"#forge:ores/frosteel":
+	{
+		"mining": 25
+	},
+	"#forge:ores/utherium":
+	{
+		"mining": 35
+	},
+	"#forge:ores/regalium":
+	{
+		"mining": 18
+	},
+	"#forge:ores/azurite":
+	{
+		"mining": 18
+	},
+	"#forge:ores/eudialyte":
+	{
+		"mining": 25
+	},
+	"#forge:ores/manganese":
+	{
+		"mining": 18
+	},
+	"#forge:ores/shaka":
+	{
+		"mining": 18
+	},
+	"#forge:ores/zircon":
+	{
+		"mining": 18
+	},
+	"#forge:ores/osmium":
+	{
+		"mining": 18
+	},
+	"#forge:ores/uranium":
+	{
+		"mining": 18
+	},
+	"#forge:ores/fluorite":
+	{
+		"mining": 18
+	},
+	"rftoolsbase:dimensionalshard_end":
+	{
+		"mining": 35
+	},
+	"minecraft:spawner":
+	{
+		"combat": 5
+	},
+	"oresandmetals:adamantite_ore":
+	{
+		"mining": 35
+	},
+	"oresandmetals:banite_ore":
+	{
+		"mining": 80
+	},
+	"oresandmetals:dark_animica_ore":
+	{
+		"mining": 90
+	},
+	"oresandmetals:drakolith_ore":
+	{
+		"mining": 60
+	},
+	"oresandmetals:light_animica_ore":
+	{
+		"mining": 90
+	},
+	"oresandmetals:mithril_ore":
+	{
+		"mining": 25
+	},
+	"oresandmetals:necrite_ore":
+	{
+		"mining": 70
+	},
+	"oresandmetals:orichalcite_ore":
+	{
+		"mining": 60
+	},
+	"oresandmetals:phasmatite_ore":
+	{
+		"mining": 70
+	},
+	"oresandmetals:runite_ore":
+	{
+		"mining": 50
+	}
+}

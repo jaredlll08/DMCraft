@@ -1,0 +1,21 @@
+{
+  "SKILL_GATES": {
+    "entries": {
+      "Double Locked": {
+        "dependsOn": [
+          "Backpacks!",
+          "Organisation"
+        ],
+        "lockedBy": [],
+        "pointsGate": 0
+      },
+      "Locked Until Decorator Unlocked": {
+        "dependsOn": [
+          "Decorator"
+        ],
+        "lockedBy": [],
+        "pointsGate": 30
+      }
+    }
+  }
+}

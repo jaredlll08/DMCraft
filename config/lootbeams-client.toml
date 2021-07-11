@@ -1,0 +1,53 @@
+
+#Beam Config
+["Loot Beams"]
+	#The radius of the Loot Beam.
+	#Range: 0.0 ~ 5.0
+	beam_radius = 0.35
+	#Transparency of the Loot Beam.
+	#Range: 0.0 ~ 1.0
+	beam_alpha = 0.85
+	#If beams should be colored the same as the Items name (excludes name colors from rarity). This has priority over render_rarity_color.
+	render_name_color = true
+	#If beams should be colored the same as the Items rarity.
+	render_rarity_color = true
+	#The height of the Loot Beam.
+	#Range: 0.0 ~ 10.0
+	beam_height = 1.6
+	#The Y-offset of the loot beam.
+	#Range: -30.0 ~ 30.0
+	beam_y_offset = 0.0
+
+	#Item nametags
+	["Loot Beams".Nametags]
+		#Scale of the nametag.
+		#Range: -10.0 ~ 10.0
+		nametag_scale = 1.0
+		#If Item names should be rendered.
+		render_nametags = true
+		#If Item names should be rendered when looking at items.
+		render_nametags_onlook = true
+		#How close the player has to look at the item to render the nametag.
+		#Range: 0.0 ~ 5.0
+		nametag_look_sensitivity = 0.018
+		#Transparency of the nametag background.
+		#Range: 0.0 ~ 1.0
+		nametag_background_alpha = 0.25
+		#The Y-offset of the nametag.
+		#Range: -30.0 ~ 30.0
+		nametag_y_offset = 0.75
+		#Transparency of the nametag text.
+		#Range: 0.0 ~ 1.0
+		nametag_text_alpha = 1.0
+
+	#Item Config
+	["Loot Beams".Items]
+		#If Loot Beams should only be rendered on equipment.
+		only_equipment = false
+		#Registry names of items that Loot Beams should NOT render on. This has priority over everything.
+		blacklist = []
+		#If all Items Loot Beams should be rendered. Has priority over only_equipment.
+		all_items = true
+		#Registry names of items that Loot Beams should render on.
+		whitelist = []
+

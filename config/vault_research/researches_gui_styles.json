@@ -1,0 +1,40 @@
+{
+  "styles": {
+    "Decorator": {
+      "x": 100,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "texture": "decorator"
+    },
+    "Organisation": {
+      "x": 50,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "texture": "organisation"
+    },
+    "Double Locked": {
+      "x": 250,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "texture": "double_locked"
+    },
+    "Custom Research Example": {
+      "x": 200,
+      "y": 0,
+      "frameType": "STAR",
+      "texture": "cre"
+    },
+    "Backpacks!": {
+      "x": 0,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "texture": "backpacks"
+    },
+    "Locked Until Decorator Unlocked": {
+      "x": 150,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "texture": "ludu"
+    }
+  }
+}
