@@ -72,7 +72,7 @@
 	#Whether the player should keep items in their inventory after death
 	keep_inventory = true
 	#Whether creepers, zombies, endermen, ghasts, withers, ender dragons, rabbits, sheep, villagers, and snow golems should be able to change blocks and whether mobs can pick up items. This also affects the capability of zombie-like creatures like zombie pigmen and drowned to pathfind to turtle eggs. This will also prevent villagers from breeding.
-	mob_griefing = true
+	mob_griefing = false
 	#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
 	reduced_debug_info = false
 

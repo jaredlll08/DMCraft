@@ -1,0 +1,49 @@
+
+#Wards Settings
+[Wards]
+
+	#Enchantments
+	[Wards.Enchantments]
+		#Curse Enchantments
+		curseEnchantments = ["minecraft:binding_curse", "minecraft:vanishing_curse", "charm:leeching_curse", "ma-enchants:curse_breaking", "ma-enchants:curse_butterfingers", "ma-enchants:curse_aquaphobia", "ma-enchants:curse_death", "ensorcellation:curse_fool", "ensorcellation:curse_mercy"]
+		#Haste Enchantments
+		hasteEnchantments = ["minecraft:efficiency", "minecraft:quick_charge", "ma-enchants:reinforced_tip", "ma-enchants:momentum", "ma-enchants:quick_draw", "ma-enchants:faster_attack", "ma-enchants:ice_aspect", "ensorcellation:excavating", "ensorcellation:fire_rebuke", "ensorcellation:quick_draw", "ensorcellation:phalanx", "ensorcellation:tilling", "ensorcellation:weeding", "ensorcellation:furrowing"]
+		#Knowledge Enchantments
+		knowledgeEnchantments = ["minecraft:infinity", "minecraft:mending", "minecraft:loyalty", "charm:homing", "charm:magnetic", "charm:salvage", "ma-enchants:timeless", "ma-enchants:stone_mending", "ma-enchants:lumberjack", "ma-enchants:wisdom", "ma-enchants:step_assist", "ma-enchants:night_vision", "ma-enchants:timeless", "ma-enchants:multi_jump", "ensorcellation:exp_boost", "ensorcellation:reach"]
+		#Luck Enchantments
+		luckEnchantments = ["minecraft:looting", "minecraft:silk_touch", "minecraft:fortune", "minecraft:luck_of_the_sea", "minecraft:lure", "ensorcellation:hunter", "ensorcellation:angler"]
+		#Destruction Enchantments
+		destructionEnchantments = ["minecraft:blast_protection", "minecraft:multishot", "minecraft:sweeping", "minecraft:channeling", "ma-enchants:detonation"]
+		#Slayer Enchantments
+		slayerEnchantments = ["minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:impaling", "minecraft:piercing", "ma-enchants:butchering", "ma-enchants:lifesteal", "ensorcellation:damage_ender", "ensorcellation:damage_illager", "ensorcellation:damage_villager", "ensorcellation:leech"]
+		#Combat Enchantments
+		combatEnchantments = ["minecraft:sharpness", "minecraft:knockback", "minecraft:power", "minecraft:punch", "minecraft:riptide", "ma-enchants:true_shot", "ma-enchants:floating", "ma-enchants:paralysis", "ma-enchants:combo", "ensorcellation:cavalier", "ensorcellation:magic_edge", "ensorcellation:instigating", "ensorcellation:vorpal", "ensorcellation:trueshot", "ensorcellation:volley", "ensorcellation:bulwark", "ensorcellation:air_affinity"]
+		#Fortitude Enchantments
+		fortitudeEnchantments = ["minecraft:protection", "minecraft:projectile_protection", "minecraft:thorns", "minecraft:unbreaking", "minecraft:feather_falling", "charm:curse_break", "ensorcellation:magic_protection", "ensorcellation:vitality"]
+		#Fire Enchantments
+		fireEnchantments = ["minecraft:fire_protection", "minecraft:fire_aspect", "minecraft:flame", "ma-enchants:blazing_walker", "ensorcellation:fire_rebuke"]
+		#Water Enchantments
+		waterEnchantments = ["minecraft:respiration", "minecraft:aqua_affinity", "minecraft:depth_strider", "minecraft:frost_walker", "ensorcellation:frost_rebuke", "ensorcellation:frost_aspect"]
+
+	#Functions
+	[Wards.Functions]
+		#Power cost to damage mobs
+		#Range: 0 ~ 1000000000
+		damageCost = 35
+		#Target limit - only affects mobs
+		#Range: 0 ~ 1000000000
+		targetCap = 3
+		#Power cost to buff players
+		#Range: 0 ~ 1000000000
+		buffCost = 35
+		#Maximum amount of power a ward can hold
+		#Range: 0 ~ 1000000000
+		maxPower = 100000
+
+	#Items
+	[Wards.Items]
+		#Power Sources, Format = [item-fuel]
+		powerSources = ["minecraft:lapis_lazuli-10000", "wards:enchanted_paper-15000"]
+		#Accepted Items
+		acceptedItems = ["minecraft:enchanted_book", "minecraft:book", "quark:ancient_tome"]
+

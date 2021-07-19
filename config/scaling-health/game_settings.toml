@@ -11,7 +11,7 @@
 	#Ignore the Y-axis in difficulty calculations
 	ignoreYAxis = true
 	#The maximum difficulty value a player can have.
-	maxValue = 250.0
+	maxValue = 1000.0
 	#Distance-based area modes will multiply distance by this value to get difficulty
 	distanceFactor = 0.0025
 	#EvalEx expression: A multiplier for area difficulty calculations, typically based on the number of players in the search radius.
@@ -70,7 +70,7 @@
 		#EvalEx expression: A player killed another player
 		onPlayerKilled = "difficulty + 1.0"
 		#EvalEx expression: A boss is killed by a player
-		onBossKilled = "difficulty"
+		onBossKilled = "difficulty + 1.0"
 		#EvalEx expression: A blight is killed by a player
 		onBlightKilled = "difficulty"
 		#EvalEx expression: A peaceful mob is killed by a player
@@ -87,7 +87,7 @@
 		#'enabled' must be set to true for this to work.
 		[difficulty.multipliers.lunarCycles]
 			values = [1.5, 1.3, 1.2, 1.0, 0.8, 1.0, 1.2, 1.3]
-			enabled = false
+			enabled = true
 
 		#Set difficulty multipliers based on location. You can match dimensions, biomes, or both.
 		#If either the biomes or dimensions array is empty, it is ignored (matching all)
@@ -279,7 +279,7 @@
 		initialDelay = 20.0
 		maxFood = 2147483647
 		tickDelay = 5.0
-		enabled = true
+		enabled = false
 
 	[player.health]
 		#Starting player health, in half-hearts (20 = 10 hearts)

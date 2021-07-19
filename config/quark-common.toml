@@ -272,10 +272,10 @@
 		#Set to 0 to not generate in Woodland Mansions
 		"Woodland Mansion Weight" = 15
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
-		#Set to 0 to not generate in Dungeons
-		"Dungeon Weight" = 20
 		"Item Quality" = 2
 		"Apply Cost" = 35
+		#Set to 0 to not generate in Dungeons
+		"Dungeon Weight" = 20
 		#Set to 0 to not generate in Stronghold Libraries
 		"Library Weight" = 30
 		#Set to 0 to not generate in Nether Fortresses

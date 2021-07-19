@@ -1,0 +1,71 @@
+
+["Traveler's Titles"]
+
+	###########################################################################################################
+	## Biome Title settings.
+	###########################################################################################################
+	["Traveler's Titles"."Biome Titles"]
+		# If enabled, will render a shadow below the text making it easier to read.
+		# Default: true
+		"Display Text Shadow" = true
+		# Biomes that should not have any title displayed when the player enters them.
+		# Example: "[minecraft:plains, minecraft:desert]"
+		# Default: "[minecraft:the_end]"
+		"Blacklisted Biomes" = "[minecraft:the_end]"
+		# How long the text displays, in ticks.
+		# 20 ticks = 1 second.
+		# Default: 70
+		"Text Display Time" = 70
+		"Enable Biome Titles" = true
+		# How long the fade-in text effect lasts, in ticks.
+		# 20 ticks = 1 second.
+		# Default: 10
+		"Text Fade-In Time" = 10
+		# The text's vertical position on the screen.
+		# Default: -23.0
+		"Text Y Offset" = 0.0
+		# The text's scale.
+		# Default: 2.3
+		"Text Size" = 1.3
+		# How long the fade-out text effect lasts, in ticks.
+		# 20 ticks = 1 second.
+		# Default: 20
+		"Text Fade-Out Time" = 20
+		# The text's default RGB color.
+		# Default: "ffffff"
+		"Default Text Color" = "ffffff"
+
+	###########################################################################################################
+	## Dimension Title settings.
+	###########################################################################################################
+	["Traveler's Titles"."Dimension Titles"]
+		# If enabled, will render a shadow below the text making it easier to read.
+		# Default: true
+		"Display Text Shadow" = true
+		# How long the text displays, in ticks.
+		# 20 ticks = 1 second.
+		# Default: 70
+		"Text Display Time" = 70
+		"Enable Dimension Titles" = true
+		# How long the fade-in text effect lasts, in ticks.
+		# 20 ticks = 1 second.
+		# Default: 10
+		"Text Fade-In Time" = 10
+		# The text's vertical position on the screen.
+		# Default: -25.0
+		"Text Y Offset" = 0.0
+		# The text's scale.
+		# Default: 3.0
+		"Text Size" = 2.0
+		# How long the fade-out text effect lasts, in ticks.
+		# 20 ticks = 1 second.
+		# Default: 20
+		"Text Fade-Out Time" = 20
+		# The text's default RGB color.
+		# Default: "ffffff"
+		"Default Text Color" = "ffffff"
+		# Dimensions that should not have any title displayed when the player enters them.
+		# Example: "[minecraft:overworld, minecraft:the_nether]"
+		# Default: "[]"
+		"Blacklisted Dimensions" = "[]"
+

@@ -103,14 +103,6 @@
 	{
 		"mining": 15
 	},
-	"astralsorcery:rock_crystal_ore":
-	{
-		"mining": 12
-	},
-	"astralsorcery:starmetal_ore":
-	{
-		"mining": 25
-	},
 	"majruszs_difficulty:end_shard_ore":
 	{
 		"mining": 65

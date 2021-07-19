@@ -72,7 +72,7 @@
 	[client.ponder]
 		# 
 		#Slow down a ponder scene whenever there is text on screen.
-		comfyReading = true
+		comfyReading = false
 
 	# 
 	#Settings for the Placement Assist

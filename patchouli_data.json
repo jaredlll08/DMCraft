@@ -17,10 +17,12 @@
         "occultism:spirits/books_of_binding",
         "occultism:storage/autocrafting",
         "occultism:storage/storage_remote",
-        "occultism:pentacles/craft_djinni"
+        "occultism:pentacles/craft_djinni",
+        "occultism:getting_started/datura"
       ],
       "bookmarks": [],
       "history": [
+        "occultism:getting_started/datura",
         "occultism:storage/stable_wormhole",
         "occultism:storage/storage_stabilizer",
         "occultism:rituals/crafting/craft_dimensional_matrix",
@@ -32,8 +34,7 @@
         "occultism:pentacles/overview",
         "occultism:rituals/overview",
         "occultism:rituals/summoning/summon_crusher",
-        "occultism:getting_started/first_ritual",
-        "occultism:getting_started/spirit_fire"
+        "occultism:getting_started/first_ritual"
       ],
       "completedManualQuests": []
     },
@@ -53,15 +54,17 @@
         "dimdungeons:simple_advice",
         "dimdungeons:basic_keys",
         "dimdungeons:basic_portals",
-        "dimdungeons:patch_notes_1_10"
+        "dimdungeons:patch_notes_1_10",
+        "dimdungeons:artifact_key_charger"
       ],
       "bookmarks": [],
       "history": [
-        "dimdungeons:basic_keys",
         "dimdungeons:basic_portals",
+        "dimdungeons:introduction",
+        "dimdungeons:basic_keys",
+        "dimdungeons:artifact_key_charger",
         "dimdungeons:patch_notes_1_10",
-        "dimdungeons:simple_advice",
-        "dimdungeons:introduction"
+        "dimdungeons:simple_advice"
       ],
       "completedManualQuests": []
     },

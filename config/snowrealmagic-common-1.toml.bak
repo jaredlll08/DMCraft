@@ -15,7 +15,7 @@ snowOnIce = false
 snowNeverMelt = false
 snowMeltsInWarmBiomes = false
 #Should snow melt if layers are more than 1
-snowNaturalMelt = false
+snowNaturalMelt = true
 snowReduceFallDamage = true
 replaceWorldFeature = true
 sustainGrassIfLayerMoreThanOne = true

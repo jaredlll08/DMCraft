@@ -1,0 +1,321 @@
+{
+  "Brain": {
+    "memories": {}
+  },
+  "HurtByTimestamp": 0,
+  "ForgeData": {
+    "anointeditemschestplateHealthUUID": "",
+    "anointeditemshelmetMiningSpeedUUID": "",
+    "anointeditemshelmetAttackDamageUUID": "",
+    "anointeditemsoffhandAttackSpeedUUID": "",
+    "anointeditemsoffhandHealthUUID": "",
+    "anointeditemschestplateSpeedUUID": "",
+    "anointeditemsoffhandMiningSpeedUUID": "",
+    "anointeditemsleggingsAttackSpeedUUID": "",
+    "anointeditemsonFeet": 0,
+    "anointeditemsbootsMiningSpeedUUID": "",
+    "anointeditemshelmetSpeedUUID": "",
+    "anointeditemschestplateAttackDamageUUID": "",
+    "anointeditemsleggingsArmorUUID": "",
+    "anointeditemsleggingsAttackDamageUUID": "",
+    "anointeditemshelmetHealthUUID": "",
+    "anointeditemsleggingsMiningSpeedUUID": "",
+    "anointeditemsonOffhand": 0,
+    "anointeditemschestplateArmorUUID": "",
+    "anointeditemschestplateAttackSpeedUUID": "",
+    "MajruszDifficultyEntityMarked": 1,
+    "anointeditemsleggingsHealthUUID": "",
+    "anointeditemsoffhandAttackDamageUUID": "",
+    "anointeditemsonHead": 0,
+    "anointeditemsonChest": 0,
+    "anointeditemsbootsAttackSpeedUUID": "",
+    "anointeditemsbootsSpeedUUID": "",
+    "anointeditemsonLegs": 0,
+    "anointeditemshelmetAttackSpeedUUID": "",
+    "anointeditemsleggingsSpeedUUID": "",
+    "anointeditemsbootsAttackDamageUUID": "",
+    "anointeditemshelmetArmorUUID": "",
+    "anointeditemsoffhandSpeedUUID": "",
+    "anointeditemsoffhandArmorUUID": "",
+    "anointeditemsbootsArmorUUID": "",
+    "anointeditemsbootsHealthUUID": "",
+    "anointeditemschestplateMiningSpeedUUID": ""
+  },
+  "Attributes": [
+    {
+      "Base": 1.0,
+      "Name": "epicfight:max_strikes"
+    },
+    {
+      "Base": 0.08,
+      "Name": "forge:entity_gravity"
+    },
+    {
+      "Base": 0.25,
+      "Modifiers": [
+        {
+          "Amount": 0.0,
+          "Operation": 0,
+          "UUID": [
+            -703578948,
+            -1190441909,
+            -1279225232,
+            531847091
+          ],
+          "Name": "Movement Speed Boost thanks to Nearby Player Power Level"
+        }
+      ],
+      "Name": "minecraft:generic.movement_speed"
+    },
+    {
+      "Base": 0.5,
+      "Name": "epicfight:impact"
+    },
+    {
+      "Base": 40.0,
+      "Name": "epicfight:weight"
+    },
+    {
+      "Base": 2.0,
+      "Modifiers": [
+        {
+          "Amount": 0.0,
+          "Operation": 0,
+          "UUID": [
+            -1725230607,
+            2067744985,
+            -1900209457,
+            -1020953833
+          ],
+          "Name": "Damage Boost thanks to Nearby Player Power Level"
+        },
+        {
+          "Amount": 8.548022460937501,
+          "Operation": 0,
+          "UUID": [
+            -749335787,
+            -1000782564,
+            -2035809721,
+            22735001
+          ],
+          "Name": "ScalingHealth.DamageModifier"
+        },
+        {
+          "Amount": 0.8,
+          "Operation": 1,
+          "UUID": [
+            87921352,
+            -860533867,
+            -1696742630,
+            -904642185
+          ],
+          "Name": "MonsterSpawnDamageBonus"
+        }
+      ],
+      "Name": "minecraft:generic.attack_damage"
+    },
+    {
+      "Base": 20.0,
+      "Modifiers": [
+        {
+          "Amount": 0.0,
+          "Operation": 0,
+          "UUID": [
+            -916820340,
+            -1581039241,
+            -1860690388,
+            -191135797
+          ],
+          "Name": "Max HP Bonus thanks to Nearby Player Power Level"
+        },
+        {
+          "Amount": 29.199695927839638,
+          "Operation": 1,
+          "UUID": [
+            -1061227163,
+            905334213,
+            -1152633276,
+            -1014831410
+          ],
+          "Name": "ScalingHealth.HealthModifier"
+        },
+        {
+          "Amount": 0.8,
+          "Operation": 1,
+          "UUID": [
+            -1164056311,
+            1251886042,
+            -1659569205,
+            -1035980010
+          ],
+          "Name": "MonsterSpawnHealthBonus"
+        }
+      ],
+      "Name": "minecraft:generic.max_health"
+    },
+    {
+      "Base": 16.0,
+      "Modifiers": [
+        {
+          "Amount": 0.029828103402941803,
+          "Operation": 1,
+          "UUID": [
+            -1464403360,
+            -1493022484,
+            -1902552028,
+            -900869029
+          ],
+          "Name": "Random spawn bonus"
+        }
+      ],
+      "Name": "minecraft:generic.follow_range"
+    },
+    {
+      "Base": 0.0,
+      "Modifiers": [
+        {
+          "Amount": 0.0,
+          "Operation": 0,
+          "UUID": [
+            1116790440,
+            -282705732,
+            -1887491951,
+            758198938
+          ],
+          "Name": "EndLeggingsArmorBonus"
+        }
+      ],
+      "Name": "minecraft:generic.armor"
+    },
+    {
+      "Base": 0.0,
+      "Name": "epicfight:armor_negation"
+    }
+  ],
+  "Invulnerable": 0,
+  "FallFlying": 0,
+  "PortalCooldown": 0,
+  "AbsorptionAmount": 0.0,
+  "FallDistance": 0.0,
+  "CanUpdate": 1,
+  "DeathTime": 0,
+  "ForgeCaps": {
+    "betterhurttimer:hurt": {
+      "ticksToShieldDamage": 0,
+      "ticksToArmorDamage": 0
+    },
+    "scalinghealth:difficulty_affected": {
+      "Difficulty": 1038.9424,
+      "Blight": 0
+    },
+    "structure_gel:gel_entity": {
+      "portal": "structure_gel:empty"
+    },
+    "betterportals:entity_portal_info": {
+      "teleportCooldown": 0,
+      "entityIsInReclaimer": 0,
+      "entityIsInPortal": 0
+    },
+    "lycanitesmobs:entity": {},
+    "betterhurttimer:health": {},
+    "twilightforest:cap_shield": {
+      "permshields": 0,
+      "tempshields": 0
+    },
+    "mowziesmobs:frozen": {
+      "frozenYaw": 0.0,
+      "freezeProgress": 0.0,
+      "frozenPitch": 0.0,
+      "freezeDecayDelay": 0,
+      "prevHasAI": 1,
+      "frozenYawHead": 0.0,
+      "frozenLimbSwingAmount": 0.0,
+      "prevFrozen": 0,
+      "frozenRenderYawOffset": 0.0,
+      "frozenSwingProgress": 0.0
+    },
+    "citadel:extended_entity_data_citadel": {
+      "Ice And Fire - Siren Property Tracker": {
+        "CharmedBySiren": 0,
+        "SirenID": 0
+      },
+      "Ice And Fire - Frozen Property Tracker": {
+        "TicksUntilUnfrozen": 0,
+        "IsFrozen": 0
+      },
+      "Ice and Fire - Player Property Tracker": {
+        "DismountedDragon": 0,
+        "GauntletDamage": 0,
+        "DreadPortalZ": 0,
+        "DreadPortalY": 0,
+        "DreadPortalX": 0
+      },
+      "Ice And Fire - Chain Property Tracker": {
+        "ConnectedEntities": []
+      }
+    }
+  },
+  "HandDropChances": [
+    0.085,
+    0.085
+  ],
+  "PersistenceRequired": 0,
+  "UUID": [
+    752857119,
+    -532658994,
+    -1684649899,
+    -710010597
+  ],
+  "Motion": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Health": 619.9939,
+  "LeftHanded": 0,
+  "Air": 300,
+  "OnGround": 0,
+  "CitadelData": {},
+  "Rotation": [
+    166.6647,
+    0.0
+  ],
+  "HandItems": [
+    {
+      "ForgeCaps": {
+        "dungeons_gear:bow": {
+          "lastFiredTime": 0,
+          "fuseShotCounter": 0,
+          "crossbowChargeTime": 0,
+          "bowChargeTime": 0.0
+        }
+      },
+      "id": "minecraft:bow",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      }
+    },
+    {}
+  ],
+  "ArmorDropChances": [
+    0.085,
+    0.085,
+    0.085,
+    0.085
+  ],
+  "Pos": [
+    328.86818218422195,
+    4.899999976158142,
+    126.91966827470576
+  ],
+  "Fire": -1,
+  "ArmorItems": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "CanPickUpLoot": 0,
+  "HurtTime": 0
+}
