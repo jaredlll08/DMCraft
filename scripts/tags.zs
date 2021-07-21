@@ -84,14 +84,20 @@ for curiosTag in curiosTags {
   <tag:items:crafttweaker:curios>.add(curiosTag);
 }
 
-var coinsTags = [
+/*var coinsTags = [
     <tag:items:coins:coin>,
     <tag:items:coins:coin_pile>
 ];
 
 for coinsTag in coinsTags {
     <tag:items:crafttweaker:currency>.add(coinsTag);
-}
+}*/
+<tag:items:crafttweaker:currency>.add([
+    <item:calemiutils:coin_penny>,
+    <item:calemiutils:coin_nickel>,
+    <item:calemiutils:coin_quarter>,
+    <item:calemiutils:coin_dollar>
+]);
 
 // Healing
 

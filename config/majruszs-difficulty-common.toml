@@ -46,7 +46,7 @@
 	#Animals, zombies and spiders inflict bleeding.
 	[Features.BiteBleeding]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 24.0
@@ -117,7 +117,7 @@
 	#Touching cactus inflict bleeding.
 	[Features.CactusBleeding]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 24.0
@@ -189,7 +189,7 @@
 	#Arrow inflicts bleeding.
 	[Features.ArrowBleeding]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 24.0
@@ -345,7 +345,7 @@
 	#Thrown trident cause bleeding on target.
 	[Features.TridentBleeding]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 30.0

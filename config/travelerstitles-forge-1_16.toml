@@ -5,35 +5,66 @@
 	## Biome Title settings.
 	###########################################################################################################
 	["Traveler's Titles"."Biome Titles"]
-		# If enabled, will render a shadow below the text making it easier to read.
-		# Default: true
-		"Display Text Shadow" = true
 		# Biomes that should not have any title displayed when the player enters them.
 		# Example: "[minecraft:plains, minecraft:desert]"
-		# Default: "[minecraft:the_end]"
+		# Default: "[minecraft:the_end, minecraft:river, minecraft:frozen_river]"
 		"Blacklisted Biomes" = "[minecraft:the_end]"
-		# How long the text displays, in ticks.
-		# 20 ticks = 1 second.
-		# Default: 70
-		"Text Display Time" = 70
-		"Enable Biome Titles" = true
 		# How long the fade-in text effect lasts, in ticks.
 		# 20 ticks = 1 second.
 		# Default: 10
 		"Text Fade-In Time" = 10
 		# The text's vertical position on the screen.
-		# Default: -23.0
-		"Text Y Offset" = 0.0
+		# A value of 0.0 refers to the center of the screen.
+		# Default: -33.0
+		"Text Y Offset" = -50.0
+		# The text's horizontal position on the screen.
+		# If Horizontally Center Title is enabled, this setting is disregarded.
+		# A value of 0.0 refers to the center of the screen.
+		# Default: 0
+		"Text X Offset" = 0.0
 		# The text's scale.
-		# Default: 2.3
+		# Default: 2.1
 		"Text Size" = 1.3
 		# How long the fade-out text effect lasts, in ticks.
 		# 20 ticks = 1 second.
-		# Default: 20
+		# Default: 10
 		"Text Fade-Out Time" = 20
+		# The minimum amount of time in ticks that must pass after a biome title is displayed before
+		# another can be displayed.
+		# Useful for preventing the player from being spammed if they are traveling quickly.
+		# 20 ticks = 1 second.
+		# Default: 80
+		"Text Cooldown Time" = 80
+		# Traveler's Titles tracks a list of biomes the player most recently visited in order to
+		# prevent the user from being spammed with titles when they move between the same few biomes.
+		# This is the size of that list.
+		# For example, if this value is 5, then your 5 most recent biomes will be saved.
+		# Default: 5
+		"Number of Most Recent Biomes Saved" = 5
+		# Whether or not the biome text should be horizontally centered on the screen.
+		# If enabled, the Text X Offset setting is disregarded.
+		# Default: true
+		"Horizontally Center Title" = true
+		# If enabled, will render a shadow below the text making it easier to read.
+		# Default: true
+		"Display Text Shadow" = true
+		# How long the text displays, in ticks.
+		# 20 ticks = 1 second.
+		# Default: 50
+		"Text Display Time" = 70
+		"Enable Biome Titles" = true
 		# The text's default RGB color.
 		# Default: "ffffff"
 		"Default Text Color" = "ffffff"
+
+	###########################################################################################################
+	## General settings.
+	###########################################################################################################
+	["Traveler's Titles".General]
+		# If enabled, dimensions without ceilings (like the Overworld) will only display titles when the player is exposed to the skylight.
+		# This prevents dimension & biome titles from showing while the user is underground.
+		# Default: true
+		"Only Show Titles When Exposed To Skylight" = true
 
 	###########################################################################################################
 	## Dimension Title settings.
@@ -52,8 +83,14 @@
 		# Default: 10
 		"Text Fade-In Time" = 10
 		# The text's vertical position on the screen.
-		# Default: -25.0
-		"Text Y Offset" = 0.0
+		# A value of 0.0 refers to the center of the screen.
+		# Default: -32.0
+		"Text Y Offset" = -60.0
+		# The text's horizontal position on the screen.
+		# If Horizontally Center Title is enabled, this setting is disregarded.
+		# A value of 0.0 refers to the center of the screen.
+		# Default: 0
+		"Text X Offset" = 0.0
 		# The text's scale.
 		# Default: 3.0
 		"Text Size" = 2.0
@@ -68,4 +105,8 @@
 		# Example: "[minecraft:overworld, minecraft:the_nether]"
 		# Default: "[]"
 		"Blacklisted Dimensions" = "[]"
+		# Whether or not the dimension text should be horizontally centered on the screen.
+		# If enabled, the Text X Offset setting is disregarded.
+		# Default: true
+		"Horizontally Center Title" = true
 

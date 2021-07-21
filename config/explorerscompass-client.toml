@@ -4,7 +4,7 @@
 	translateStructureNames = true
 	#The side for information rendered on the HUD. Ex: LEFT, RIGHT
 	#Allowed Values: LEFT, RIGHT
-	overlaySide = "LEFT"
+	overlaySide = "RIGHT"
 	#Displays Explorer's Compass information on the HUD even while chat is open.
 	displayWithChatOpen = true
 	#The line offset for information rendered on the HUD.

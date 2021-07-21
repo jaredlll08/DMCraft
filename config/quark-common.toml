@@ -42,6 +42,7 @@
 	"Weather Sensor" = true
 	"Ender Watcher" = true
 	"Endermites Form Shulkers" = true
+	"Jukebox Automation" = true
 	"Chains Connect Blocks" = true
 	"Color Slime" = true
 	"Dispensers Place Blocks" = true
@@ -96,7 +97,7 @@
 	"Burn Vines" = true
 	"Quilted Wool" = true
 	"Celebratory Lamps" = true
-	"Variant Chests" = true
+	"Variant Chests" = false
 	Hedges = true
 	"Vertical Slabs" = true
 	"Nether Brick Fence Gate" = true
@@ -190,6 +191,7 @@
 		"Stick Block Fuel Time" = 900
 
 	[building.variant_chests]
+		"Enable Reverting Wooden Chests" = true
 		"Replace Worldgen Chests" = false
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest"]
@@ -246,6 +248,7 @@
 
 [tools]
 	Pickarang = true
+	"Ambient Discs" = true
 	"Seed Pouch" = true
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
@@ -256,8 +259,11 @@
 	Abacus = true
 	Trowel = true
 
+	[tools.ambient_discs]
+		"Drop On Spider Kill" = true
+
 	[tools.trowel]
-		#Amount of blocks placed is this value + 1. Default is 255 (4 stacks).
+		#Amount of blocks placed is this value + 1.
 		#Set to 0 to make the Trowel unbreakable
 		#Allowed values: [0,)
 		"Trowel Max Durability" = 255
@@ -269,13 +275,14 @@
 	[tools.ancient_tomes]
 		#Set to 0 to not generate in Underwater Ruins
 		"Underwater Ruin Weight" = 0
+		"Normal Upgrade Cost" = 10
 		#Set to 0 to not generate in Woodland Mansions
 		"Woodland Mansion Weight" = 15
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
 		"Item Quality" = 2
-		"Apply Cost" = 35
 		#Set to 0 to not generate in Dungeons
 		"Dungeon Weight" = 20
+		"Limit Break Upgrade Cost" = 30
 		#Set to 0 to not generate in Stronghold Libraries
 		"Library Weight" = 30
 		#Set to 0 to not generate in Nether Fortresses
@@ -284,7 +291,6 @@
 		"Bastion Weight" = 25
 		#Set to 0 to not generate in Monster Boxes
 		"Monster Box Weight" = 5
-		"Merge Cost" = 35
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
@@ -367,6 +373,7 @@
 	"Snow Golem Player Heads" = true
 	"Glass Shard" = true
 	"Campfires Boost Elytra" = true
+	"More Banner Layers" = true
 	"Better Elytra Rocket" = true
 
 	[tweaks.sign_editing]
@@ -476,6 +483,10 @@
 		#How many times the algorithm for finding out where a block would be placed is allowed to turn. If you set this to large values (> 3) it may start producing weird effects.
 		"Max Bounces" = 1
 
+	[tweaks.more_banner_layers]
+		#Allowed values: [1,16]
+		"Layer Limit" = 16
+
 [world]
 	"New Stone Types" = true
 	"Lush Underground Biome" = true
@@ -502,6 +513,7 @@
 	"Overgrown Underground Biome" = true
 	"Cave Roots" = true
 	"Spider Nest Underground Biome" = true
+	Deepslate = true
 	"Monster Box" = true
 
 	[world.monster_box]
@@ -567,6 +579,7 @@
 	[world.speleothems]
 		"Tries Per Chunk In Nether" = 4
 		"Speleothems Per Chunk In Nether" = 12
+		"Small Speleothems Increase Fall Damage" = true
 		"Speleothems Per Chunk" = 12
 		"Max Ylevel" = 55
 		"Tries Per Chunk" = 60
@@ -845,6 +858,15 @@
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+	[world.deepslate]
+		"Sheet Height Variance" = 6
+		"Sheet Y Start" = 0
+		"Sheet Height" = 18
+
+		[world.deepslate.dimensions]
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = false
 
 	[world.blossom_trees]
 
@@ -1895,13 +1917,13 @@
 
 	[client.greener_grass]
 		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "atmospheric:rosewood_leaves", "atmospheric:morado_leaves", "atmospheric:yucca_leaves", "autumnity:maple_leaves", "environmental:willow_leaves", "environmental:hanging_willow_leaves", "minecraft:vine"]
-		"Green Shift" = 30
-		"Blue Shift" = -30
 		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "valhelsia_structures:grass_block"]
-		"Alpha Grass" = false
-		"Absolute Values" = false
-		"Red Shift" = -30
 		"Affect Leaves" = true
+
+		[client.greener_grass.color_matrix]
+			R = [0.89, 0.0, 0.0]
+			B = [0.0, 0.0, 0.89]
+			G = [0.0, 1.11, 0.0]
 
 [oddities]
 	"Totem Of Holding" = true
@@ -1952,6 +1974,8 @@
 		"Show Tooltip" = true
 		#Set to false to disable the ability to create Enchanted Books
 		"Allow Books" = true
+		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
+		"Automatically Convert" = true
 		#The higher this is, the better enchantments you'll get on books
 		"Book Enchantability" = 12
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.

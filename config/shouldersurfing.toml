@@ -1,7 +1,7 @@
 
 [perspective]
 	#Whether or not to replace the default third person perspective
-	replace_default_perspective = false
+	replace_default_perspective = true
 	#Size of the camera adjustment per step
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	camera_step_size = 0.025

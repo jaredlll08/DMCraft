@@ -6,6 +6,7 @@
 	#Range: 1 ~ 10
 	long_press_count = 2
 	enable_laser_pointer = true
+	camera_auto_switch = false
 	filter_animation = true
 	show_target_indicator = true
 

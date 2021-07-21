@@ -34,7 +34,7 @@
 		#The wither can only be spawned in the Nether.
 		#Note that this feature completely disables Wither Skulls from begin placed nearby Soul Sand when not in the Nether or when on the Nether Roof.
 		#Requires Minecraft restart.
-		"Wither Nether Only" = false
+		"Wither Nether Only" = true
 		#At this difficulty the Wither Explosion will cause fire. Set to -1 to disable.
 		#Range: > -1
 		"Explosion Causes Fire at Difficulty" = 10

@@ -36,6 +36,14 @@
 		weapon_type = "SPEAR"
 		registry_name = "dungeons_gear:whispering_spear"
 
+	[custom_weaponry.cgm_machinepistol]
+		armor_ignorance = 0.5
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "BOW"
+		registry_name = "cgm:machine_pistol"
+
 	[custom_weaponry.grave_bane]
 		armor_ignorance = 0.9
 		hit_at_once = 2
@@ -44,6 +52,14 @@
 		weapon_type = "SPEAR"
 		registry_name = "dungeons_gear:grave_bane"
 
+	[custom_weaponry.cgm_assaultrifle]
+		armor_ignorance = 0.5
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "CROSSBOW"
+		registry_name = "cgm:assault_rifle"
+
 	[custom_weaponry.great_hammer]
 		armor_ignorance = 0.0
 		hit_at_once = 2
@@ -51,6 +67,14 @@
 		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
 		weapon_type = "AXE"
 		registry_name = "dungeons_gear:great_hammer"
+
+	[custom_weaponry.dagger_electrum]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_electrum"
 
 	[custom_weaponry.unmaykr]
 		armor_ignorance = 0.0
@@ -100,6 +124,14 @@
 		weapon_type = "GREATSWORD"
 		registry_name = "dungeons_gear:bone_cudgel"
 
+	[custom_weaponry.dagger_bronze]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_bronze"
+
 	[custom_weaponry.encrusted_anchor]
 		armor_ignorance = 0.5
 		hit_at_once = 2
@@ -115,6 +147,14 @@
 		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
 		weapon_type = "GREATSWORD"
 		registry_name = "dungeons_gear:broadsword"
+
+	[custom_weaponry.dagger_silver]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_silver"
 
 	[custom_weaponry.claymore]
 		armor_ignorance = 0.6
@@ -140,6 +180,14 @@
 		weapon_type = "DAGGER"
 		registry_name = "dungeons_gear:chill_gale_knife"
 
+	[custom_weaponry.cgm_grenadelauncher]
+		armor_ignorance = 0.5
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "CROSSBOW"
+		registry_name = "cgm:grenade_launcher"
+
 	[custom_weaponry.growing_staff]
 		armor_ignorance = 0.7
 		hit_at_once = 3
@@ -164,6 +212,30 @@
 		weapon_type = "DAGGER"
 		registry_name = "dungeons_gear:soul_knife"
 
+	[custom_weaponry.cgm_pistol]
+		armor_ignorance = 0.5
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "BOW"
+		registry_name = "cgm:pistol"
+
+	[custom_weaponry.cgm_shotgun]
+		armor_ignorance = 0.5
+		hit_at_once = 3
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "CROSSBOW"
+		registry_name = "cgm:shotgun"
+
+	[custom_weaponry.cgm_rifle]
+		armor_ignorance = 0.5
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "CROSSBOW"
+		registry_name = "cgm:rifle"
+
 	[custom_weaponry.chaingun]
 		armor_ignorance = 0.5
 		hit_at_once = 1
@@ -171,6 +243,22 @@
 		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
 		weapon_type = "CROSSBOW"
 		registry_name = "doom:chaingun"
+
+	[custom_weaponry.dagger_tin]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_tin"
+
+	[custom_weaponry.dagger_platinum]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_platinum"
 
 	[custom_weaponry.mace]
 		armor_ignorance = 0.3
@@ -187,6 +275,14 @@
 		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
 		weapon_type = "CROSSBOW"
 		registry_name = "doom:ballista"
+
+	[custom_weaponry.dagger_iron]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_iron"
 
 	[custom_weaponry.fighters_bindings]
 		armor_ignorance = 0.3
@@ -227,6 +323,14 @@
 		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
 		weapon_type = "DAGGER"
 		registry_name = "dungeons_gear:eternal_knife"
+
+	[custom_weaponry.dagger_wooden]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_wood"
 
 	[custom_weaponry.suns_grace]
 		armor_ignorance = 0.3
@@ -276,6 +380,14 @@
 		weapon_type = "KATANA"
 		registry_name = "dungeons_gear:masters_katana"
 
+	[custom_weaponry.dagger_stone]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:stone"
+
 	[custom_weaponry.shear_dagger]
 		armor_ignorance = 0.8
 		hit_at_once = 2
@@ -316,6 +428,22 @@
 		weapon_type = "SPEAR"
 		registry_name = "dungeons_gear:glaive"
 
+	[custom_weaponry.cgm_bazooka]
+		armor_ignorance = 0.5
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "BOW"
+		registry_name = "cgm:bazooka"
+
+	[custom_weaponry.cgm_heavyrifle]
+		armor_ignorance = 0.5
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "BOW"
+		registry_name = "cgm:heavy_rifle"
+
 	[custom_weaponry.heartstealer]
 		armor_ignorance = 0.6
 		hit_at_once = 3
@@ -332,6 +460,14 @@
 		weapon_type = "DAGGER"
 		registry_name = "dungeons_gear:resolute_tempest_knife"
 
+	[custom_weaponry.dagger_gold]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_gold"
+
 	[custom_weaponry.heavycannon]
 		armor_ignorance = 0.5
 		hit_at_once = 1
@@ -340,6 +476,14 @@
 		weapon_type = "CROSSBOW"
 		registry_name = "doom:heavycannon"
 
+	[custom_weaponry.dagger_lead]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_lead"
+
 	[custom_weaponry.battlestaff_of_terror]
 		armor_ignorance = 0.3
 		hit_at_once = 3
@@ -347,6 +491,14 @@
 		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
 		weapon_type = "SPEAR"
 		registry_name = "dungeons_gear:battlestaff_of_terror"
+
+	[custom_weaponry.dagger_copper]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_copper"
 
 	[custom_weaponry.pistol]
 		armor_ignorance = 0.5
@@ -364,6 +516,14 @@
 		weapon_type = "SWORD"
 		registry_name = "epicfight:registryname"
 
+	[custom_weaponry.dagger_nickel]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_nickel"
+
 	[custom_weaponry.flail]
 		armor_ignorance = 0.3
 		hit_at_once = 2
@@ -371,6 +531,22 @@
 		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
 		weapon_type = "AXE"
 		registry_name = "dungeons_gear:flail"
+
+	[custom_weaponry.dagger_diamond]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_diamond"
+
+	[custom_weaponry.dagger_steel]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_steel"
 
 	[custom_weaponry.venom_glaive]
 		armor_ignorance = 0.9
@@ -396,6 +572,14 @@
 		weapon_type = "GREATSWORD"
 		registry_name = "dungeons_gear:anchor"
 
+	[custom_weaponry.cgm_minigun]
+		armor_ignorance = 0.5
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "CROSSBOW"
+		registry_name = "cgm:mini_gun"
+
 	[custom_weaponry.daggers]
 		armor_ignorance = 0.5
 		hit_at_once = 2
@@ -403,6 +587,14 @@
 		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
 		weapon_type = "DAGGER"
 		registry_name = "dungeons_gear:dagger"
+
+	[custom_weaponry.dagger_invar]
+		armor_ignorance = 0.5
+		hit_at_once = 2
+		impact = 0.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
+		weapon_type = "DAGGER"
+		registry_name = "spartanweaponry:dagger_invar"
 
 	[custom_weaponry.whispering_spear]
 		armor_ignorance = 0.8

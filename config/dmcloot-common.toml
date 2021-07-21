@@ -1,0 +1,44 @@
+
+#Default strength muliplier of each rarity.
+["Default Rarity Multipliers"]
+	#If all items should recive random modifiers. Else they must be randomized through nbt.
+	modify_all = true
+
+	#Registry names of items that the modifier should also be applied to.
+	["Default Rarity Multipliers"."Item Additions"]
+		additions_lifesteal = []
+		additions_fire = []
+		additions_guarding = []
+		additions_frost = []
+		additions_mending = []
+		additions_learning = []
+		additions_reaching = []
+		additions_speed = []
+		additions_swiftness = []
+
+["Modifier Weights"]
+
+	#Chance of the suffix being chose out of others.
+	["Modifier Weights"."Suffix Weights"]
+		#Range: > 0
+		weight_speed = 5
+		#Range: > 0
+		weight_learning = 5
+		#Range: > 0
+		weight_swiftness = 5
+		#Range: > 0
+		weight_guarding = 5
+
+	#Chance of the prefix being chose out of others.
+	["Modifier Weights"."Prefix Weights"]
+		#Range: > 0
+		weight_fire = 5
+		#Range: > 0
+		weight_reaching = 5
+		#Range: > 0
+		weight_lifesteal = 5
+		#Range: > 0
+		weight_mending = 5
+		#Range: > 0
+		weight_frost = 5
+
