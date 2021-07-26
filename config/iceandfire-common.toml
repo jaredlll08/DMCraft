@@ -13,15 +13,15 @@
 
 	[Generation.Dimensions]
 		#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		whitelistDimensionsMobs = ["minecraft:overworld"]
+		whitelistDimensionsMobs = ["minecraft:overworld", "twilightforest:twilightforest"]
 		#True if using blacklists, false if using whitelists for dragons and structure gen.
 		"Use Dimension Blacklist" = false
 		#Whitelisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		whitelistDimensionsFeature = ["minecraft:overworld"]
+		whitelistDimensionsFeature = ["minecraft:overworld", "twilightforest:twilightforest"]
 		#Blacklisted dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		blacklistDimensionsDragons = ["minecraft:the_nether", "minecraft:the_end"]
 		#Whitelist dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		whitelistDimensionsDragons = ["minecraft:overworld"]
+		whitelistDimensionsDragons = ["minecraft:overworld", "twilightforest:twilightforest"]
 		#Blacklisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		blacklistDimensionsFeature = ["minecraft:the_nether", "minecraft:the_end"]
 		#Blacklisted mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 

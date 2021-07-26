@@ -418,22 +418,22 @@
 [Endurance]
 	#Per how many levels you gain 1 Max Heart
 	#Range: 1.0 ~ 1.0E9
-	levelsPerHeart = 10.0
+	levelsPerHeart = 1.0E9
 	#Multiplier for xp gained in endurance from Regeneration
 	#Range: 0.0 ~ 1000000.0
-	hpRegenXpMultiplier = 15.23
+	hpRegenXpMultiplier = 0
 	#Addition per level to hpRegenPerMinuteBase (if set to 0.01, every 100 Endurance levels, you regen 1 more half heart per 60 seconds, 0 means no extra regeneration)
 	#Range: 0.0 ~ 1000.0
-	hpRegenPerMinuteBoostPerLevel = 0.02
+	hpRegenPerMinuteBoostPerLevel = 0
 	#How much endurance is max (100 = god mode)
 	#Range: 0.0 ~ 100.0
 	maxEndurance = 50.0
 	#How many Max Hearts you can have (20 means 10 vanilla + 20 boosted)
 	#Range: 0 ~ 1000000000
-	maxExtraHeartBoost = 100
+	maxExtraHeartBoost = 0
 	#How many half hearts regenerate per minute at level 0 Endurance (at 1, and at level 0 Endurance, you regenerate half a heart every 60 seconds, 0 means no base regeneration)
 	#Range: 0.0 ~ 1000.0
-	hpRegenPerMinuteBase = 1.0
+	hpRegenPerMinuteBase = 0
 	#How much endurance you gain per level (1 = 1% per level)
 	#Range: 0.0 ~ 100.0
 	endurancePerLevel = 0.25

@@ -1,7 +1,7 @@
 
 [general]
 	#Range: 0 ~ 100
-	"How random the genes should be, 100 is all wildtype animals, 0 is completely random:" = 90
+	"How random the genes should be, 100 is all wildtype animals, 0 is completely random:" = 30
 	"Allow feeding to age/grow animals:" = false
 	"Animals will spawn with random biome type" = false
 	#Set this to true to enable omnigenders, meaning the gender of the animal is irrelevant to who can fall pregnant, lay eggs, milk or sire young. False results in gendered animals. Visually nothing changes.

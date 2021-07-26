@@ -60,7 +60,12 @@ import stdlib.List;
     <item:quark:ravager_hide>,
     <item:alexsmobs:void_worm_mandible>,
     <item:alexsmobs:void_worm_eye>,
-    <item:alexsmobs:void_worm_beak>
+    <item:alexsmobs:void_worm_beak>,
+    <item:twilightforest:naga_scale>,
+    <item:twilightforest:alpha_fur>,
+    <item:twilightforest:fiery_blood>,
+    <item:twilightforest:fiery_tears>,
+    <item:twilightforest:hydra_chop>
 ]);
 
 // Ancient
@@ -69,29 +74,34 @@ import stdlib.List;
     <item:quark:ancient_tome>
 ]);
 
-// Curios
+// Relics
 
-var curiosTags = [
+var relicsTags = [
     <tag:items:curios:head>,
     <tag:items:curios:charm>,
     <tag:items:curios:ring>,
     <tag:items:curios:body>,
     <tag:items:curios:necklace>,
-    <tag:items:curios:hands>
+    <tag:items:curios:hands>,
+    <tag:items:curios:curio>,
+    <tag:items:curios:back>,
+    <tag:items:curios:belt>,
+    <tag:items:curios:feet>,
+    <tag:items:blue_skies:arcs>
 ];
 
-for curiosTag in curiosTags {
-  <tag:items:crafttweaker:curios>.add(curiosTag);
+for relicsTag in relicsTags {
+  <tag:items:crafttweaker:relics>.add(relicsTag);
 }
 
-/*var coinsTags = [
+/* var coinsTags = [
     <tag:items:coins:coin>,
     <tag:items:coins:coin_pile>
 ];
 
 for coinsTag in coinsTags {
     <tag:items:crafttweaker:currency>.add(coinsTag);
-}*/
+} */
 <tag:items:crafttweaker:currency>.add([
     <item:calemiutils:coin_penny>,
     <item:calemiutils:coin_nickel>,
@@ -122,4 +132,10 @@ for coinsTag in coinsTags {
 
 <tag:items:crafttweaker:gunslinger>.add([
     <item:doom:supershotgun>
+]);
+
+// Heirlooms
+
+<tag:items:crafttweaker:heirloom>.add([
+  <item:minecraft:netherite_sword>
 ]);

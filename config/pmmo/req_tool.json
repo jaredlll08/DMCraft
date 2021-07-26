@@ -139,19 +139,22 @@
 	},
 	"iceandfire:copper_axe":
 	{
-		"woodcutting": 10
+		"woodcutting": 7
 	},
 	"iceandfire:copper_hoe":
 	{
-		"farming": 10
+		"farming": 7
 	},
 	"iceandfire:copper_pickaxe":
 	{
-		"mining": 10
+		"mining": 7
 	},
 	"iceandfire:copper_shovel":
 	{
-		"excavation": 10
+		"excavation": 7
+	},"iceandfire:copper_sword":
+	{
+		"combat": 1
 	},
 	"iceandfire:dragonbone_axe":
 	{
@@ -1695,7 +1698,7 @@
 	},
 	"minecraft:netherite_shovel":
 	{
-		"excavation": 6
+		"excavation": 60
 	},
 	"minecraft:stone_axe":
 	{
@@ -1938,6 +1941,34 @@
 		"woodcutting": 0
 	},
 	"notreepunching:flint_pickaxe":
+	{
+		"mining": 0
+	},
+	"notreepunching:flint_shovel":
+	{
+		"excavation": 0
+	},
+	"rankine:flint_pickaxe":
+	{
+		"mining": 0
+	},
+	"rankine:flint_axe":
+	{
+		"woodcutting": 0
+	},
+	"rankine:flint_shovel":
+	{
+		"excavation": 0
+	},
+	"rankine:flint_spear":
+	{
+		"combat": 0
+	},
+	"rankine:flint_knife":
+	{
+		"combat": 0
+	},
+	"rankine:stone_hammer":
 	{
 		"mining": 0
 	}

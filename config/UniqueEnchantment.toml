@@ -97,7 +97,7 @@
 			incompats = ["uniquee:berserk"]
 			#Range: > 0
 			base_cost = 26
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			enabled = true
@@ -178,7 +178,7 @@
 			incompats = []
 			#Range: > 0
 			collector_time = 200
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			activated = true
@@ -215,7 +215,7 @@
 			incompats = ["uniquee:spartanweapon"]
 			#Range: > 0
 			base_cost = 26
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			enabled = true
@@ -242,7 +242,7 @@
 			#Range: > 0
 			max_level = 4
 			incompats = ["minecraft:sweeping"]
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -302,7 +302,7 @@
 			incompats = ["uniquee:swiftblade"]
 			#Range: > 0
 			base_cost = 20
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			enabled = true
@@ -342,7 +342,7 @@
 			incompats = []
 			#Range: > 0
 			base_cost = 14
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -436,7 +436,7 @@
 			incompats = ["uniquee:swiftblade", "uniquee:spartanweapon"]
 			#Range: > 0
 			base_cost = 20
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			enabled = true
@@ -476,7 +476,7 @@
 			incompats = []
 			#Range: > 0
 			base_cost = 10
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			enabled = true
@@ -496,7 +496,7 @@
 			incompats = ["uniquee:fastfood", "minecraft:silk_touch"]
 			#Range: > 0
 			base_cost = 10
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			enabled = true
@@ -536,7 +536,7 @@
 			incompats = []
 			#Range: > 0
 			base_cost = 28
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -624,7 +624,7 @@
 			incompats = []
 			#Range: > 0
 			base_cost = 10
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			enabled = true
@@ -667,7 +667,7 @@
 			incompats = []
 			#Range: > 0
 			base_cost = 28
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			#Range: > 0

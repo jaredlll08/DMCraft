@@ -3,7 +3,7 @@
 	#Set to false to disable the custom HUD.
 	HUD = false
 	#Set to false to disable the food/saturation information provided when AppleSkin is installed.
-	enableFoodInfo = true
+	enableFoodInfo = false
 	#Set to false to disable the custom health bar only.
 	enableHealthBar = false
 

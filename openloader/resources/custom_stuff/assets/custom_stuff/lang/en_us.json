@@ -1,3 +1,6 @@
 {
-  //"item.iceandfire.hydra_fang": "§3Hydra Fang"
+  "item.calemiutils.coin_penny": "Copper Piece",
+  "item.calemiutils.coin_nickel": "Iron Piece",
+  "item.calemiutils.coin_quarter": "Silver Piece",
+  "item.calemiutils.coin_dollar": "Gold Piece"
 }

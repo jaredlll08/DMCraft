@@ -2014,8 +2014,8 @@
 		"Pipe Speed" = 5
 
 [experimental]
-	Shiba = false
-	"Adjustable Chat" = false
+	Shiba = true
+	"Adjustable Chat" = true
 	"Narrator Readout" = false
 	"Overlay Shader" = false
 	"Custom Underground Biome" = false

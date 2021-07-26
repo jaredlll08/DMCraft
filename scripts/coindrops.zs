@@ -1,4 +1,4 @@
-/*import crafttweaker.api.loot.conditions.LootConditionBuilder;
+/* import crafttweaker.api.loot.conditions.LootConditionBuilder;
 import crafttweaker.api.loot.conditions.vanilla.KilledByPlayer;
 import crafttweaker.api.entity.MCEntity;
 
@@ -11,4 +11,4 @@ loot.modifiers.register("currency_drops", LootConditionBuilder.create().add<Kill
       stacks.add(<item:calemiutils:coin_nickel>);
     }
     return stacks;
-});*/
+}); */

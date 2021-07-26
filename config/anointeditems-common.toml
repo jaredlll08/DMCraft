@@ -5,10 +5,10 @@
 	accelerationIncrement = 1.0
 	#Agility Oil increment value.
 	#Range: 0.001 ~ 1000.0
-	agilityIncrement = 0.2
+	agilityIncrement = 0.75
 	#Lightness Oil increment value.
 	#Range: 0.001 ~ 1000.0
-	lightnessIncrement = 0.5
+	lightnessIncrement = 1.0
 	#Protection Oil increment value.
 	#Range: 0.001 ~ 1000.0
 	protectionIncrement = 3.0

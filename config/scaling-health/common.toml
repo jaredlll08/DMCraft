@@ -18,7 +18,7 @@
 	#Enable pet add hp by crystals.
 	crystalsAddPetHealth = true
 	#Enable player bonus hp by xp.
-	xpAddHealth = true
+	xpAddHealth = false
 	#Enable ore gen of power crystals. Still drops as loot.
 	powerCrystalsOreGen = true
 	#Mobs will gain bonus damage with difficulty.

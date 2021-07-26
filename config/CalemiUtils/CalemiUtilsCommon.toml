@@ -51,11 +51,11 @@
 	#Rich Money Bag Maximum Coins Amount
 	#The maximum of the random amount of currency the Rich Money Bag gives.
 	#Range: 0 ~ 10000
-	richMoneyBagMax = 300
+	richMoneyBagMax = 5000
 	#Cheap Money Bag Maximum Coins Amount
 	#The maximum of the random amount of currency the Cheap Money Bag gives.
 	#Range: 0 ~ 10000
-	cheapMoneyBagMax = 100
+	cheapMoneyBagMax = 500
 
 [Wallet]
 	#Render Wallet Currency Overlay

@@ -1,0 +1,4 @@
+#How many levels it costs to unlock the next armiger set. A value of 0 means all armiger sets are unlocked by default.
+#Range: > 0
+setUnlockCost = 30
+

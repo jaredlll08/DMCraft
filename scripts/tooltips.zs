@@ -12,7 +12,7 @@ var Rare = [0x5555FF, 0x3A3AAD];
 var Exotic = [0x3FFA7, 0xC9163];
 var Trophy = [0xB580FF, 0x765A9E];
 var Ancient = [0xFF0037, 0xAB2642];
-var Curio = [0x89B36D, 0x5B754A];
+var Relics = [0xFFFF78, 0xC9C967];
 var Anointment = [0xE7F06E, 0xC5CC6A];
 var Healing = [0xFF0000, 0xAA0000];
 var Gunslinger = [0xD3C1A3, 0xADA089];
@@ -47,10 +47,10 @@ IngredientAny.getInstance().modifyTooltip((stack, tooltip, advanced) => {
         tooltip[0] = (tooltip[0].formattedText as MCTextComponent).setStyle(tooltip[0].getStyle().setColor(Currency[0]));
         tooltip.insert(1, ("Currency" as MCTextComponent).setStyle(new MCStyle().setColor(Currency[1])));
     }
-    else if <tag:items:crafttweaker:curios>.asIIngredient().matches(stack) {
-        tooltip[0] = (tooltip[0].formattedText as MCTextComponent).setStyle(tooltip[0].getStyle().setColor(Curio[0]));
-        if tooltip.length > 1 && tooltip[1].getString() != "Curio" {
-            tooltip.insert(1, ("Curio" as MCTextComponent).setStyle(new MCStyle().setColor(Curio[1])));
+    else if <tag:items:crafttweaker:relics>.asIIngredient().matches(stack) {
+        //tooltip[0] = (tooltip[0].formattedText as MCTextComponent).setStyle(tooltip[0].getStyle().setColor(Relics[0]));
+        if tooltip.length > 1 && tooltip[1].getString() != "Relic" {
+            tooltip.insert(1, ("Relic" as MCTextComponent).setStyle(new MCStyle().setColor(Relics[1])));
         }
     }
     else if <tag:items:crafttweaker:anointment>.asIIngredient().matches(stack) {

@@ -32,6 +32,9 @@
 	"Maximum Bands" = 3
 	#Enable/disable Aurora processing
 	Auroras = true
+	#The render style of water ripples
+	#Allowed Values: CIRCLE, DARK_CIRCLE, DARK_SQUARE, PIXELATED_CIRCLE
+	"Water Ripple Style" = "PIXELATED_CIRCLE"
 	#Enable/disable Firefly effect around plants
 	Fireflies = true
 	#Enable/disable Fountain Jets spraying
@@ -44,20 +47,20 @@
 #Options that control the various fog effects in the client
 ["Fog Options"]
 	#Enable/disable fog processing
-	"Enable Fog Processing" = false
+	"Enable Fog Processing" = true
 	#Increase fog based on the strength of rain
-	"Weather Fog" = false
+	"Weather Fog" = true
 	#Increase fog at bedrock layers
-	"Bedrock Fog" = false
+	"Bedrock Fog" = true
 	#Chance morning fog will occurs expressed as 1 in N
 	#Range: > 0
 	"Morning Fog Chance" = 1
 	#Show morning fog that eventually burns off
-	"Morning Fog" = false
+	"Morning Fog" = true
 	#Higher the player elevation the more haze that is experienced
-	"Elevation Haze" = false
+	"Elevation Haze" = true
 	#Enable biome specific fog density and color
-	"Biome Fog" = false
+	"Biome Fog" = true
 
 #Options for defining sound behavior
 ["Sound Options"]
@@ -71,5 +74,5 @@
 	#Range: 0 ~ 100
 	"Spot Sound Volume" = 100
 	#Occlude WATERFALL sounds
-	"Occlude WATERFALL sounds" = false
+	"Occlude WATERFALL sounds" = true
 

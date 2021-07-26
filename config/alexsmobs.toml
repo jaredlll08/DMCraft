@@ -37,10 +37,10 @@
 	mungusBiomeTransformationType = 2
 	#Max Health of the void worm boss.
 	#Range: 0.0 ~ 1000000.0
-	voidWormMaxHealth = 160.0
+	voidWormMaxHealth = 5000.0
 	#All void worm damage is scaled to this.
 	#Range: 0.0 ~ 100.0
-	voidWormDamageModifier = 1.0
+	voidWormDamageModifier = 3.0
 	#Whether the void worm boss is summonable or not, via the mysterious worm item.
 	voidWormSummonable = true
 	#List of all mungus mushrooms, biome transformations and surface blocks. Each is seperated by a |. Add an entry with a block registry name, biome registry name, and block registry name(for the ground).

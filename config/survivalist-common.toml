@@ -38,6 +38,6 @@
 
 #Settings for the fibre collection
 [fibres]
-	EnableStringCrafting = true
-	DropStringFromSheep = true
+	EnableStringCrafting = false
+	DropStringFromSheep = false
 

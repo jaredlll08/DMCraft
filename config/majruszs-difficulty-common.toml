@@ -92,7 +92,7 @@
 	[Features.Bleeding]
 		#Damage dealt by bleeding every tick.
 		#Range: 0.0 ~ 20.0
-		damage = 1.0
+		damage = 0.0
 		#List of entities that are immune to Bleeding effect. (only human-like mobs and animals)
 		black_list = ["minecraft:skeleton_horse"]
 		#Cooldown between attacking entity.
@@ -367,7 +367,7 @@
 	#Spawns special Zombie whenever player dies from Bleeding or Zombie.
 	[Features.PlayerZombie]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
 		chance = 1.0
@@ -470,7 +470,7 @@
 	#All sharp items inflict bleeding. (tools, weapons, shears etc.)
 	[Features.SharpItemBleeding]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
 		duration = 24.0

@@ -1,0 +1,31 @@
+v3.7
+add sound glass_2 using slightly lower pitch of end_portal_frame.fill
+add sound cloat_2 using a combine sounds of cloat, dirt and snow
+add sound stone_3 using slightly lower pitch of shulker_box.open
+change all dye sounds to cloat_2
+change all dye shulker box sounds to stone_3
+
+Following items have been moved from Add=on to Vanilla
+dye shulker box, firework_rocket, firework_star
+pink_wool and white_wool
+
+Small adjustment
+---- Vanilla ----
+beehive; food_1 -> wood_1
+beetroot_soup; none -> food_1
+ender_eye; fire_1 -> glass_2
+fermented_spider_eye; food_1 -> food_2
+soul_campfire; wood_3 -> fire_1
+purple_wool; none -> cloat_1
+rabbit_stew; none -> food_1
+
+---- Add-on ----
+ender_pearl; none -> glass_2
+experience_bottle; food_1 -> glass_2
+totem_of_undying iron_3 -> enchant_2
+
+v3.6
+Fixed Addon contantly playing sounds
+
+#note to myself
+#pack.mcmeta, start_up, auto_install, advancement

@@ -18,23 +18,33 @@
         "occultism:storage/autocrafting",
         "occultism:storage/storage_remote",
         "occultism:pentacles/craft_djinni",
-        "occultism:getting_started/datura"
+        "occultism:getting_started/datura",
+        "occultism:spirits/books_of_calling",
+        "occultism:spirits/wild_hunt",
+        "occultism:spirits/true_names",
+        "occultism:spirits/overview",
+        "occultism:misc/magic_lamps",
+        "occultism:pentacles/craft_afrit",
+        "occultism:rituals/crafting/craft_miner_spirits",
+        "occultism:pentacles/possess_djinni",
+        "occultism:pentacles/craft_marid",
+        "occultism:rituals/summoning/summon_manage_machine"
       ],
       "bookmarks": [],
       "history": [
-        "occultism:getting_started/datura",
-        "occultism:storage/stable_wormhole",
-        "occultism:storage/storage_stabilizer",
-        "occultism:rituals/crafting/craft_dimensional_matrix",
-        "occultism:pentacles/craft_djinni",
-        "occultism:storage/storage_controller",
-        "occultism:storage/storage_remote",
         "occultism:storage/autocrafting",
-        "occultism:spirits/books_of_binding",
-        "occultism:pentacles/overview",
-        "occultism:rituals/overview",
-        "occultism:rituals/summoning/summon_crusher",
-        "occultism:getting_started/first_ritual"
+        "occultism:rituals/summoning/summon_manage_machine",
+        "occultism:pentacles/craft_marid",
+        "occultism:pentacles/possess_djinni",
+        "occultism:pentacles/craft_djinni",
+        "occultism:rituals/crafting/craft_miner_spirits",
+        "occultism:pentacles/craft_afrit",
+        "occultism:misc/magic_lamps",
+        "occultism:spirits/overview",
+        "occultism:spirits/true_names",
+        "occultism:spirits/wild_hunt",
+        "occultism:spirits/books_of_calling",
+        "occultism:spirits/books_of_binding"
       ],
       "completedManualQuests": []
     },
@@ -97,6 +107,106 @@
         "doom:demons/iconofsin",
         "doom:demons/hellknight",
         "doom:demons/motherdemon"
+      ],
+      "completedManualQuests": []
+    },
+    "craftandhunt:huntersguide": {
+      "viewedEntries": [
+        "craftandhunt:effect/effect_magic_strike",
+        "craftandhunt:effect/effect_inky_defense",
+        "craftandhunt:effect/effect_pack_leader",
+        "craftandhunt:effect/effect_beetalion",
+        "craftandhunt:crafting/crafting_cooking",
+        "craftandhunt:traps/traps_bonespikes",
+        "craftandhunt:traps/traps_beartrap",
+        "craftandhunt:upgrades/upgrade_bee",
+        "craftandhunt:upgrades/upgrade_thrasher_skin",
+        "craftandhunt:crafting/crafting_leather_replacement",
+        "craftandhunt:crafting/crafting_piglin_emblem",
+        "craftandhunt:upgrades/upgrade_dragon_scale"
+      ],
+      "bookmarks": [],
+      "history": [
+        "craftandhunt:upgrades/upgrade_dragon_scale",
+        "craftandhunt:crafting/crafting_piglin_emblem",
+        "craftandhunt:crafting/crafting_leather_replacement",
+        "craftandhunt:upgrades/upgrade_thrasher_skin",
+        "craftandhunt:upgrades/upgrade_bee",
+        "craftandhunt:traps/traps_beartrap",
+        "craftandhunt:traps/traps_bonespikes",
+        "craftandhunt:crafting/crafting_cooking",
+        "craftandhunt:effect/effect_beetalion",
+        "craftandhunt:effect/effect_pack_leader",
+        "craftandhunt:effect/effect_inky_defense",
+        "craftandhunt:effect/effect_magic_strike"
+      ],
+      "completedManualQuests": []
+    },
+    "feywild:feywild_lexicon": {
+      "viewedEntries": [
+        "feywild:dwarves/schematics",
+        "feywild:dwarves/dwarves",
+        "feywild:fey_gems/fey_ore",
+        "feywild:fey_gems/fey_dust",
+        "feywild:feywild/introduction",
+        "feywild:feywild/fey_altar"
+      ],
+      "bookmarks": [],
+      "history": [
+        "feywild:feywild/fey_altar",
+        "feywild:feywild/introduction",
+        "feywild:fey_gems/fey_dust",
+        "feywild:fey_gems/fey_ore",
+        "feywild:dwarves/dwarves",
+        "feywild:dwarves/schematics"
+      ],
+      "completedManualQuests": []
+    },
+    "occultism:dictionary_of_debug": {
+      "viewedEntries": [
+        "occultism:pentacles_debug"
+      ],
+      "bookmarks": [],
+      "history": [
+        "occultism:pentacles_debug"
+      ],
+      "completedManualQuests": []
+    },
+    "rankine:rankine_journal": {
+      "viewedEntries": [
+        "rankine:guide/00",
+        "rankine:guide/01",
+        "rankine:mechanics/axing",
+        "rankine:mechanics/stripping",
+        "rankine:guide/02",
+        "rankine:guide/tips",
+        "rankine:tools/swords",
+        "rankine:machines/charcoal_pit",
+        "rankine:machines/alloy_furnace",
+        "rankine:tools/hammers",
+        "rankine:world/stones",
+        "rankine:materials/explosives",
+        "rankine:machines/template_table",
+        "rankine:machines/rankine_box",
+        "rankine:machines/induction_furnace",
+        "rankine:guide/03",
+        "rankine:materials/refractory_bricks"
+      ],
+      "bookmarks": [],
+      "history": [
+        "rankine:materials/refractory_bricks",
+        "rankine:machines/alloy_furnace",
+        "rankine:guide/01",
+        "rankine:guide/03",
+        "rankine:machines/induction_furnace",
+        "rankine:machines/rankine_box",
+        "rankine:machines/template_table",
+        "rankine:materials/explosives",
+        "rankine:world/stones",
+        "rankine:tools/hammers",
+        "rankine:machines/charcoal_pit",
+        "rankine:tools/swords",
+        "rankine:guide/tips"
       ],
       "completedManualQuests": []
     }

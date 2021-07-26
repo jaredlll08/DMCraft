@@ -4,7 +4,7 @@
 
 	[client.hurtCameraAnimation]
 		#Set this to false to disable hurt camera animations.
-		enabled = true
+		enabled = false
 
 	[client.particles]
 		#Set this to false to disable health particles.

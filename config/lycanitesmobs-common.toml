@@ -57,7 +57,7 @@
 	#Controls how fused mobs combine their levels. Can be 'both' (default) where both levels are added together, 'highest' where the higher level is used and 'lowest' where the lowest level is used.
 	elementalFusionLevelMix = "both"
 	#The maximum size scale mobs can randomly spawn at.
-	randomSizeMax = 1.15
+	randomSizeMax = 3.0
 	#How much knowledge experience studying (using a Soulgazer on) a creature gives.
 	creatureStudyKnowledge = 25
 	#If true, pets, minions, etc can't harm their owners (with ranged attacks, etc).
@@ -95,7 +95,7 @@
 	#How much knowledge experience killing a creature gives.
 	creatureKillKnowledge = 50
 	#Increases the base start level by this amount of every world day that has gone by, use this to slowly level up mobs as the world gets older. Fractions can be used such as 0.05 levels per day. The levels are rounded down so +0.9 would be +0 levels.
-	levelPerDay = 0.0
+	levelPerDay = 0.05
 	#If true, tamed mobs will display their owner's name in their name tag.
 	ownerTags = true
 	#The maximum base starting level of every mob. Ignored when not greater than the min level.
@@ -377,7 +377,7 @@
 
 		["Mob Events".random.day]
 			#If random events are enabled, they wont occur until this day is reached. Set to 0 to have random events enabled from the start of a world.
-			min = 15
+			min = 0
 
 	["Mob Events".altars]
 		#If set to true, Altars will only activate in dimensions that the monster spawned or event started is allowed in.

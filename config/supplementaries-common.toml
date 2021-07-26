@@ -4,7 +4,7 @@
 
 	[blocks.blackboard]
 		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
-		colored_blackboard = false
+		colored_blackboard = true
 
 	[blocks.turn_table]
 		#can rotate entities standing on it?
@@ -55,7 +55,7 @@
 
 	[blocks.notice_board]
 		#allow notice boards to accept and display any item, not just maps and books
-		allow_any_item = false
+		allow_any_item = true
 
 	[blocks.iron_gate]
 		#Allows two iron gates to be opened simultaneously when on top of the other
@@ -63,9 +63,9 @@
 
 	[blocks.cage]
 		#allow all baby mobs to be captured by cages
-		cage_allow_all_babies = false
+		cage_allow_all_babies = true
 		#allow all entities to be captured by cages and jars. Not meant for survival
-		cage_allow_all_mobs = false
+		cage_allow_all_mobs = true
 
 	[blocks.globe]
 		#how many globe trades to give to the wandering trader. This will effectively increase the chance of him having a globe trader. Increase this if you have other mods that add stuff to that trader
@@ -129,7 +129,7 @@
 
 	[blocks.item_shelf]
 		#Makes item shelves climbable
-		climbable_shelves = false
+		climbable_shelves = true
 
 #Configure spawning conditions
 [spawns]

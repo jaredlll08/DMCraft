@@ -14,17 +14,18 @@
 		# Default: 10
 		"Text Fade-In Time" = 10
 		# The text's vertical position on the screen.
-		# A value of 0.0 refers to the center of the screen.
+		# If Horizontally Center Title is enabled, this number is relative to the center of the screen.
+		# If Horizontally Center Title is disabled, this number is relative to the top of the screen.
 		# Default: -33.0
-		"Text Y Offset" = -50.0
+		"Text Y Offset" = -64.0
 		# The text's horizontal position on the screen.
-		# If Horizontally Center Title is enabled, this setting is disregarded.
-		# A value of 0.0 refers to the center of the screen.
-		# Default: 0
+		# If Horizontally Center Title is enabled, this number is relative to the center of the screen.
+		# If Horizontally Center Title is disabled, this number is relative to the left side of the screen.
+		# Default: 0.0
 		"Text X Offset" = 0.0
 		# The text's scale.
 		# Default: 2.1
-		"Text Size" = 1.3
+		"Text Size" = 1.0
 		# How long the fade-out text effect lasts, in ticks.
 		# 20 ticks = 1 second.
 		# Default: 10
@@ -36,15 +37,11 @@
 		# Default: 80
 		"Text Cooldown Time" = 80
 		# Traveler's Titles tracks a list of biomes the player most recently visited in order to
-		# prevent the user from being spammed with titles when they move between the same few biomes.
+		# prevent the player from being spammed with titles when they move between the same few biomes.
 		# This is the size of that list.
 		# For example, if this value is 5, then your 5 most recent biomes will be saved.
 		# Default: 5
 		"Number of Most Recent Biomes Saved" = 5
-		# Whether or not the biome text should be horizontally centered on the screen.
-		# If enabled, the Text X Offset setting is disregarded.
-		# Default: true
-		"Horizontally Center Title" = true
 		# If enabled, will render a shadow below the text making it easier to read.
 		# Default: true
 		"Display Text Shadow" = true
@@ -53,9 +50,19 @@
 		# Default: 50
 		"Text Display Time" = 70
 		"Enable Biome Titles" = true
+		# Traveler's Titles tracks a list of biomes the player most recently visited in order to
+		# prevent the player from being spammed with titles when they move between the same few biomes.
+		# This option determines whether or not that list should be cleared every time
+		# the player changes dimensions.
+		# Default: true
+		"Reset Biome Cache When Changing Dimensions" = true
 		# The text's default RGB color.
 		# Default: "ffffff"
 		"Default Text Color" = "ffffff"
+		# Whether or not the biome text should be centered on the screen.
+		# The Text X Offset and Text Y Offset options are relative to the center of the screen if this is enabled.
+		# Default: true
+		"Center Title" = true
 
 	###########################################################################################################
 	## General settings.
@@ -83,13 +90,14 @@
 		# Default: 10
 		"Text Fade-In Time" = 10
 		# The text's vertical position on the screen.
-		# A value of 0.0 refers to the center of the screen.
+		# If Horizontally Center Title is enabled, this number is relative to the center of the screen.
+		# If Horizontally Center Title is disabled, this number is relative to the top of the screen.
 		# Default: -32.0
-		"Text Y Offset" = -60.0
+		"Text Y Offset" = -65.0
 		# The text's horizontal position on the screen.
-		# If Horizontally Center Title is enabled, this setting is disregarded.
-		# A value of 0.0 refers to the center of the screen.
-		# Default: 0
+		# If Horizontally Center Title is enabled, this number is relative to the center of the screen.
+		# If Horizontally Center Title is disabled, this number is relative to the left side of the screen.
+		# Default: 0.0
 		"Text X Offset" = 0.0
 		# The text's scale.
 		# Default: 3.0
@@ -105,8 +113,8 @@
 		# Example: "[minecraft:overworld, minecraft:the_nether]"
 		# Default: "[]"
 		"Blacklisted Dimensions" = "[]"
-		# Whether or not the dimension text should be horizontally centered on the screen.
-		# If enabled, the Text X Offset setting is disregarded.
+		# Whether or not the dimension text should be centered on the screen.
+		# The Text X Offset and Text Y Offset options are relative to the center of the screen if this is enabled.
 		# Default: true
-		"Horizontally Center Title" = true
+		"Center Title" = true
 

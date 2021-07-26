@@ -37,7 +37,7 @@
 			incompats = ["uniuqee:climate_tranquility"]
 			#Range: > 0
 			base_cost = 14
-			treasure = false
+			treasure = true
 			#Range: > 0
 			min_level = 1
 			#battle.celestial_blessing
