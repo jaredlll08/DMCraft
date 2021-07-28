@@ -1,0 +1,730 @@
+Welcome to the Nether Expansions Features log
+How this works is Each Feature is Split into Catagories of "Crimson Forest, Warped Forest, Soul Sand Valley, Basalt Delta, Gear n Items and Misc!
+
+===CUSTOM ITEM TEXTURES GUIDE===
+
+for CIT/Renamable Items There will be a Sub-Cataogry inside an Existing one, The First one Tells you what to Name it and the Second one Tells you what Item to Rename
+For example if you want Magma Fungus simply name any in game Paper to "Magma Fungus" and place it in an Empty Item frame!
+
+Tip: If you want to See the Item Frames use F3 + B to see it's Hitboxes if you can!
+
+===CONNECTED OVERLAYS GUIDE===
+
+Simply Place Two Different Blocks Which are Compatable with Each other like shown in the Catagories to Get a New Block!
+For Example placing Nether Wart Blocks next to Blackstone Bricks you will get Crimson Mossy Blackstone!
+
+Tip: if one of the Blocks have Slabs Use Those to Prevent Blocks from Connecting!
+
+### NEW IN FULL RELEASE 1.0.0 ###
+
+Rooted Soul Soil | Soul Soil + Coarse Dirt
+Phosphor Magma Fungus - Rename Paper
+Basalt Slab - Rename Paper
+Top Basalt Slab - Rename Paper
+Tall Crimson Roots - Rename Paper
+Tall Warped Roots - Rename Paper
+Hanging Crimson Roots - Rename Paper
+Hanging Warped Roots - Rename Paper
+
+RASPBERRY BLOCKS
+
+Raspberry Wool | Crimson Planks + White Wool
+Raspberry Concrete | Crimson Planks + White Concrete
+Raspberry Concrete Powder | Crimson Planks + White Concrete Powder
+Raspberry Terracotta | Crimson Planks + Terracotta
+Raspberry Lamp | Crimson Planks + Redstone Lamp
+Raspberry Dye - Rename Paper
+Crimson Raspberry - Rename Steak or Golden Carrot
+Raspberry Pie - Rename Steak or Golden Carrot
+Crimson Raspberry Bush - Rename Paper
+Berry Crimson Raspberry Bush - Rename Paper
+Raspberry Carpet - Rename Paper
+Raspberry Candle - Rename Paper
+Two Raspberry Candles - Rename Paper
+Three Raspberry Candles - Rename Paper
+Four Raspberry Candles - Rename Paper
+
+SHADOW BLOCKS
+
+Shadow Wool | Soul Soil + White Wool
+Shadow Concrete | Soul Soil + White Concrete
+Shadow Concrete Powder | Soul Soil + White Concrete Powder
+Shadow Terracotta | Soul Soil + Terracotta
+Shadow Lamp | Soul Soil + Redstone Lamp
+Shadow Planks | Soul Soil + Crimson Planks or Warped Planks
+Shadow Stem | Soul Soil + Oak Log or Oak Wood
+Hanging Shadow Stem - Rename Paper
+Shadow Dye - Rename Paper
+Soul Currant - Rename Steak or Golden Carrot
+Shadow Vine - Rename Paper
+Two Shadow Vines - Rename Paper
+Three Shadow Vines - Rename Paper
+Shadow Vine Claw - Rename Paper
+Shadow Vine Berry - Rename Paper
+Two Shadow Vine Berries - Rename Paper
+Three Shadow Vine Berries - Rename Paper
+Shadow Vine Claw Berry - Rename Paper
+Shadow Carpet - Rename Paper
+
+BASALT SPIKES
+
+Basalt Spike Base - Rename Paper
+Basalt Spike - Rename Paper
+Basalt Spike Mid - Rename Paper
+Basalt Spike Frustum - Rename Paper
+Basalt Spike Tip - Rename Paper
+Basalt Spike Tip Merge - Rename Paper
+
+===Basalt Spike Presets===
+
+Two Basalt Spike - Rename Paper
+Three Basalt Spike - Rename Paper
+Small Basalt Spike - Rename Paper
+Normal Basalt Spike - Rename Paper
+Big Basalt Spike - Rename Paper
+Large Basalt Spike - Rename Paper
+
+SULFATE FIRE
+
+Sulfate Furnace | Furnace + Lime Concrete
+Sulfate Smoker | Smoker + Lime Concrete
+Sulfate Blast Furnace | Blast Furnace + Lime Concrete
+Sulfate Fire - Rename Paper
+Sulfate Lantern - Rename Paper
+Hanging Sulfate Lantern - Rename Paper
+Sulfate Campfire - Rename Paper
+Sulfate Torch - Rename Paper
+Sulfate Wall Torch - Rename Paper
+
+WARPED WARTS
+
+Small Warped Warts - Rename Paper
+Warped Warts - Rename Paper
+Large Warped Warts - Rename Paper
+
+PIZZAS
+
+Fungus Pizza - Rename Paper
+Warped Pizza - Rename Paper
+Phosphor Pizza - Rename Paper
+Illuminant Pizza - Rename Paper
+
+CRYING CORAL
+
+Crying Coral Block | Dead Brain Coral Block + Obsidian
+Crying Coral - Rename Paper
+Crying Coral Wall Fan - Rename Paper
+Dead Crying Coral Block | Dead Bubble Coral Block + Obsidian
+Dead Crying Coral - Rename Paper
+Dead Crying Coral Wall Fan - Rename Paper
+
+GOLDEN CHAINS & LANTERNS
+
+Golden Chains - Rename Paper
+Two Golden Chains - Rename Paper
+Three Golden Chains - Rename Paper
+
+===Golden Lanterns===
+
+Golden Enraged Lantern - Rename Paper
+Hanging Golden Enraged Lantern - Rename Paper
+Golden Sulfate Lantern - Rename Paper
+Hanging Golden Sulfate Lantern - Rename Paper
+Golden Lantern - Rename Paper
+Hanging Golden Lantern - Rename Paper
+Golden Soul Lantern - Rename Paper
+Hanging Golden Soul Lantern - Rename Paper
+
+
+NETHERITE CHAINS & LANTERNS
+
+Netherite Chains - Rename Paper
+Two Netherite Chains - Rename Paper
+Three Netherite Chains - Rename Paper
+
+===Netherite Lanterns===
+
+Netherite Enraged Lantern - Rename Paper
+Hanging Netherite Enraged Lantern - Rename Paper
+Netherite Sulfate Lantern - Rename Paper
+Hanging Netherite Sulfate Lantern - Rename Paper
+Netherite Lantern - Rename Paper
+Hanging Netherite Lantern - Rename Paper
+Netherite Soul Lantern - Rename Paper
+Hanging Netherite Soul Lantern - Rename Paper
+
+ENRAGED SOUL FIRE
+
+Enraged Furnace | Furnace + Red Concrete
+Enraged Smoker | Smoker + Red Concrete
+Enraged Blast Furnace | Blast Furnace + Red Concrete
+Enraged Soul Fire - Rename Paper
+Enraged Lantern - Rename Paper
+Hanging Enraged Lantern - Rename Paper
+Enraged Campfire - Rename Paper
+Enraged Torch - Rename Paper
+Enraged Wall Torch - Rename Paper
+
+OBSOLETE NETHER BRICKS
+
+Warped Nether Bricks | Green Terracotta + Nether Bricks
+Cracked Warped Nether Bricks | Green Terracotta + Cracked Nether Bricks
+Chiseled Warped Nether Bricks | Green Terracotta + Chiseled Nether Bricks
+Warped Nether Brick Pillar | Green Terracotta + Quartz Pillar
+Warped Nether Brick Tiles | Green Terracotta + Purpur Block
+
+NETHERITE
+
+Netherite Bricks | Netherite Block + Stone Bricks
+Netherite Tiles | Netherite Block + Purpur Block
+Chiseled Netherite | Netherite Block + Chiseled Stone Bricks
+Netherite Pillar | Netherite Block + Quartz Pillar
+Netherite Lantern | Netherite Block + Sea Lantern
+
+WROUGHT NETHERITE
+
+Wrought Netherite Bricks | Ancient Debris + Stone Bricks
+Wrought Netherite Tiles | Ancient Debris + Purpur Block
+Chiseled Wrought Netherite | Ancient Debris + Chiseled Stone Bricks
+Wrought Netherite Pillar | Ancient Debris + Quartz Pillar
+Wrought Netherite Lantern | Ancient Debris + Sea Lantern
+
+GOLDEN BLOCKS
+
+Golden Bricks | Gold Block + Stone Bricks
+Golden Tiles | Gold Block + Purpur Block
+Chiseled Gold Block | Gold Block + Chiseled Stone Bricks
+Golden Pillar | Gold Block + Quartz Pillar
+
+ROSE GOLD BLOCKS
+
+Rose Gold Block | Pink Glazed Terracotta + Gold Block
+Rose Gold Bricks | Pink Glazed Terracotta + Stone Bricks
+Rose Gold Tiles | Pink Glazed Terracotta + Purpur Block
+Chiseled Rose Gold Block | Pink Glazed Terracotta + Chiseled Stone Bricks
+Rose Gold Pillar | Pink Glazed Terracotta + Quartz Pillar
+
+BULBCAC
+
+Bulbcac Bud - Rename Paper
+Bulbcac Plant - Rename Paper
+Two Bulbcac Plant - Rename Paper
+Three Bulbcac Plant - Rename Paper
+
+BASALT DUST
+
+Basalt Dust | Polished Basalt + Sand
+Basalt Duststone | Polished Basalt + Sandstone
+Smooth Basalt Duststone | Polished Basalt + Smooth Sandstone
+Polished Basalt Duststone | Polished Basalt + Polished Andesite
+Cut Basalt Duststone | Polished Basalt + Cut Sandstone
+Cobbled Basalt Duststone | Polished Basalt + Cobblestone
+Chiseled Basalt Duststone | Polished Basalt + Chiseled Sandstone
+Basalt Duststone Bricks | Polished Basalt + Bricks
+
+===Basalt Dust Layers===
+
+Basalt Dust Layer - Rename Paper
+Basalt Dust Layer Two - Rename Paper
+Basalt Dust Layer Three - Rename Paper
+Basalt Dust Layer Four - Rename Paper
+Basalt Dust Layer Five - Rename Paper
+Basalt Dust Layer Six - Rename Paper
+Basalt Dust Layer Seven - Rename Paper
+
+BRIMSTONE
+
+Brimstone | Red Terracotta + Cobblestone
+Brimstone Bricks | Red Terracotta + Stone Bricks
+Cracked Brimstone Bricks | Red Terracotta + Cracked Stone Bricks
+Chiseled Brimstone Bricks | Red Terracotta + Chiseled Stone Bricks
+Brimstone Brick Pillar | Red Terracotta + Quartz Pillar
+Brimstone Brick Tiles | Red Terracotta + Purpur Block
+
+===Brimstone Ores===
+
+Brimstone Coal Ore | Red Terracotta + Coal Ore
+Brimstone Iron Ore | Red Terracotta + Iron Ore
+Brimstone Gold Ore | Red Terracotta + Nether Gold Ore
+Brimstone Diamond Ore | Red Terracotta + Diamond Ore
+Brimstone Emerald Ore | Red Terracotta + Emerald Ore
+Brimstone Redstone Ore | Red Terracotta + Redstone Ore
+Brimstone Lapis Ore | Red Terracotta + Lapis Ore
+Brimstone Quartz Ore | Red Terracotta + Nether Quartz Ore
+
+### UNIVERSAL BLOCKS ###
+
+THE OBSOLETE
+
+Obsolete Nylium | Crimson Nylium + Green Terracotta
+Ghoulwood Planks | Oak Planks + Black Concrete
+Phosphor Stem | Oak Log + Green Terracotta
+Obsolete Wart Blocks | Nether Wart Block + Green Terracotta
+Phosphor Fungus - Rename Paper
+Phosphor Roots - Rename Paper
+Phosphor Sprouts - Rename Paper
+Hanging Obsolete Wart - Rename Paper
+Hanging Obsolete Warts - Rename Paper
+
+SCARLET GORGE
+
+Scarlet Crystal Block | Redstone Block + Andesite
+Scarlet Nylium | Warped Nylium + Warped Nylium
+Dark Basalt | Black Concrete + Basalt
+Dark Basalt Redstone Ore | Black Concrete + Redstone Ore
+Scarlet Crystal - Rename Paper
+Budding Scarlet Crystal - Rename Paper
+Scarlet Roots - Rename Paper
+Scarlet Lily - Rename Paper
+Scarlet Shroom - Rename Paper
+Scarlet Vines - Rename Paper
+Scarlet Vines Head - Rename Paper
+
+VANILLA
+
+Andesite | Andesite + Magenta Glazed Terracotta
+Basalt | Basalt + Magenta Glazed Terracotta
+Coal Ore | Coal Ore + Magenta Glazed Terracotta
+Iron Ore | Iron Ore + Magenta Glazed Terracotta
+
+===Light Blocks===
+
+Soul Torch - Rename Paper
+Soul Wall Torch - Rename Paper
+Torch - Rename Paper
+Wall Torch - Rename Paper
+Lantern - Rename Paper
+Hanging Lantern - Rename Paper
+
+CRIMSON BLOCKS
+
+Crimson Nylium | Crimson Nylium + Magenta Glazed Terracotta
+Crimson Stem | Crimson Stem + Magenta Glazed Terracotta
+Crimson Fungus - Rename Paper
+Crimson Roots - Rename Paper
+Radiant Crimson Roots - Rename Paper
+Rounded Crimson Roots - Rename Paper
+Soul Crimson Roots - Rename Paper
+
+WARPED BLOCKS
+
+Warped Nylium | Warped Nylium + Magenta Glazed Terracotta
+Warped Stem | Warped Stem + Magenta Glazed Terracotta
+Warped Fungus - Rename Paper
+Warped Roots - Rename Paper
+Radiant Warped Roots - Rename Paper
+Quad Warped Roots - Rename Paper
+Quad Radiant Warped Roots - Rename Paper
+Soul Warped Roots - Rename Paper
+
+### NEW IN PRE-RELEASE 2 ###
+
+===CONNECTED BLOCKS===
+Quartz Crystal | Quartz Block + Emerald Block
+Crimson Blackstone Nylium | Crimson Nylium + Blackstone Double Slab
+Warped Blackstone Nylium | Warped Nylium + Blackstone Double Slab
+
+BASALT
+
+Basalt Bricks | Polished Basalt + Stone Bricks
+Melted Basalt Bricks | Polished Basalt + Cracked Stone Bricks
+Chiseled Basalt Bricks | Polished Basalt + Chiseled Stone Bricks
+Basalt Pillar | Polished Basalt + Quartz Pillar
+Basalt Tiles | Polished Basalt + Purpur Block
+Basalt Lantern | Polished Basalt + Sea Lantern
+Smooth Basalt | Basalt + Stone
+
+BONE BLOCKS
+
+Bone Bricks | Stone Bricks + Bone Block
+Chipped Bone Bricks | Cracked Stone Bricks + Bone Block
+Chiseled Bone Bricks | Chiseled Bone Block + Bone Block
+Bone Spine Pillar | Quartz Pillar + Bone Block
+
+WITHERED BONE BLOCKS
+
+Withered Bone Block | Bone Block + Coal Block
+Withered Bone Bricks | Stone Bricks + Coal Block
+Chipped Withered Bone Bricks | Cracked Stone Bricks + Coal Block
+Chiseled Withered Bone Bricks | Chiseled Stone Bricks + Coal Block
+Withered Bone Spike Pillar | Quartz Pillar + Coal Block
+
+NETHER ORES
+
+Nether Coal Ore | Netherrack + Coal Ore
+Nether Iron Ore | Netherrack + Iron Ore
+Nether Lapis Ore | Netherrack + Lapis Ore
+Nether Redstone Ore | Netherrack + Redstone Ore
+Nether Emerald Ore | Netherrack + Emerald Ore
+Nether Diamond Ore | Netherrack + Diamond Ore
+
+Blackstone Coal Ore | Blackstone + Coal Ore
+Blackstone Iron Ore | Blackstone + Iron Ore
+Blackstone Lapis Ore | Blackstone + Lapis Ore
+Blackstone Redstone Ore | Blackstone + Redstone Ore
+Blackstone Emerald Ore | Blackstone + Emerald Ore
+Blackstone Diamond Ore | Blackstone + Diamond Ore
+Blackstone Quartz Ore | Blackstone + Nether Quartz Ore
+Blackstone Gold Ore | Blackstone + Nether Gold Ore
+
+===CIT FEATURES===
+
+QUARTZ CRYSTAL
+
+Quartz Crystal - Rename Paper
+Large Quartz Crystal - Rename Paper
+Medium Quartz Crystal - Rename Paper
+Small Quartz Crystal - Rename Paper
+
+PRISTINE QUARTZ CRYSTAL
+
+Pristine Quartz Crystal - Rename Paper
+Large Pristine Quartz Crystal - Rename Paper
+Medium Pristine Quartz Crystal - Rename Paper
+Small Pristine Quartz Crystal - Rename Paper
+
+SMOOTH QUARTZ CRYSTAL
+
+Smooth Quartz Crystal - Rename Paper
+Large Smooth Quartz Crystal - Rename Paper
+Medium Smooth Quartz Crystal - Rename Paper
+Small Smooth Quartz Crystal - Rename Paper
+
+THORNS
+
+Soul Thorns - Rename Paper
+Azalea Thorns - Rename Paper
+Vicious Thorns - Rename Paper
+
+WITHERED BONE POST
+
+Small Withered Bone Post - Rename Paper
+Medium Withered Bone Post - Rename Paper
+Withered Bone Post - Rename Paper
+Large Withered Bone Post - Rename Paper
+
+SOUL CANDELS
+
+Soul Candel - Rename Paper
+Two Soul Candels - Rename Paper
+Three Soul Candels - Rename Paper
+Four Soul Candels - Rename Paper
+
+MOB SKULLS
+
+Hoglin Skull - Rename Paper
+Dragon Skull - Rename Paper
+
+SOUL HIVES
+
+Soul Hive - Rename Paper
+Filled Soul Hive - Rename Paper
+Hanging Soul Hive - Rename Paper
+Hanging Filled Soul Hive - Rename Paper
+
+### CRIMSON FOREST ###
+
+===CONNECTED BLOCKS===
+Amber Stem | Red Concrete + Oak Log
+Red Crimson Planks | Red Concrete + Crimson Planks
+
+RED NETHER BRICKS
+
+Cracked Red Nether Bricks | Red Nether Bricks + Cracked Nether Bricks
+Chiseled Red Nether Bricks | Red Nether Bricks + Chiseled Nether Bricks
+Red Nether Brick Pillar | Red Nether Bricks + Quartz Pillar
+Red Nether Brick Tiles | Red Nether Bricks + Purpur Block
+
+===CIT FEATURES===
+Crimson Iris - Rename Paper
+Crimson Bloom - Rename Paper
+Nether Fungus - Rename Paper
+Large Nether Fungus - Rename Paper
+Crimson Fungus Shelfs - Rename Paper
+Magma Bloom - Rename Paper
+Crimson Bulb - Rename Paper
+
+WARPED DANDELION
+
+Warped Dandelion - Rename Paper
+Double Warped Dandelions - Rename Paper
+Triple Warped Dandelions - Rename Paper
+Quad Warped Dandelions - Rename Paper
+
+TUBE FUNGUS
+
+Tube Fungus - Rename Paper
+Tall Tube Fungus - Rename Paper
+Giant Tube Fungus - Rename Paper
+Double Tube Fungus - Rename Paper
+Triple Tube Fungus - Rename Paper
+Quad Tube Fungus - Rename Paper
+
+### WARPED FOREST ###
+
+===CONNECTED BLOCKS===
+Ender Warped Stem | Purple Concrete + Oak Log
+Ender Warped Planks | Purple Concrete + Warped Planks
+Warped Shroomlight | Shroomlight + Purple Concrete (Also Appears Naturally in Warped Forests)
+
+WARPED NETHER BRICKS
+
+Warped Nether Bricks | Warped Wart Block + Nether Bricks
+Cracked Warped Nether Bricks | Warped Wart Block + Cracked Nether Bricks
+Chiseled Warped Nether Bricks | Warped Wart Block + Chiseled Nether Bricks
+Warped Nether Brick Pillar | Warped Wart Block + Quartz Pillar
+Warped Nether Brick Tiles | Warped Wart Block + Purpur Block
+
+===CIT FEATURES===
+Magma Fungus - Rename Paper
+Warped Magma Fungus - Rename Paper
+Warped Huge Fungi - Rename Paper
+Warped Blossom - Rename Paper
+Hanging Warped Warts - Rename Paper
+Hanging Warped Wart - Rename Paper
+
+CRIMSON DANDELION
+
+Crimson Dandelion - Rename Paper
+Double Crimson Dandelions - Rename Paper
+Triple Crimson Dandelions - Rename Paper
+Quad Crimson Dandelions - Rename Paper
+
+### SOUL SAND VALLEY ###
+
+===CONNECTED BLOCKS===
+Soul Slate | Brown Terracotta + Cobblestone
+Soul Slate Bricks | Brown Terracotta + Stone Bricks
+Cracked Soul Slate Bricks | Brown Terracotta + Cracked Stone Bricks
+Soul Slate Pillar | Brown Terracotta + Quartz Pillar
+Chiseled Soul Slate | Brown Terracotta + Chiseled Stone Bricks
+Charged Soul Slate | Brown Terracotta + Sea Lantern
+
+===Soul Slate Ores===
+
+Soul Coal Ore | Brown Terracotta + Coal Ore
+Soul Iron Ore | Brown Terracotta + Iron Ore
+Soul Gold Ore | Brown Terracotta + Nether Gold Ore
+Soul Redstone Ore | Brown Terracotta + Redstone Ore
+Soul Lapis Ore | Brown Terracotta + Lapis Ore
+Soul Emerald Ore | Brown Terracotta + Emerald Ore
+Soul Diamond Ore | Brown Terracotta + Diamond Ore
+Soul Quartz Ore | Brown Terracotta + Quartz Ore
+
+===CIT FEATURES===
+Soul Sac - Rename Paper
+
+BONE FANGS
+
+Small Bone Fang - Rename Paper
+Medium Bone Fang - Rename Paper
+Bone Fang - Rename Paper
+Large Bone Fang - Rename Paper
+
+BONE POST
+
+Small Bone Post - Rename Paper
+Medium Bone Post - Rename Paper
+Bone Post - Rename Paper
+Large Bone Post - Rename Paper
+
+SOUL SOIL LAYERS
+
+Soul Layer - Rename Paper
+Soul Layer Two - Rename Paper
+Soul Layer Three - Rename Paper
+Soul Layer Four - Rename Paper
+Soul Layer Five - Rename Paper
+Soul Layer Six - Rename Paper
+Soul Layer Seven - Rename Paper
+
+### BASALT DELTAS ###
+
+===CONNECTED BLOCKS===
+Soul Fire Furnace | Soul Soil + Furnace
+Soul Fire Smoker | Soul Soil + Smoker
+Soul Fire Blast Furnace | Soul Soil + Blast Furnace
+
+BLACKSTONE
+
+Weeping Mossy Blackstone Bricks | Nether Wart Block + Polished Blackstone Bricks
+Twisting Mossy Blackstone Bricks | Warped Wart Block + Polished Blackstone Bricks
+Polished Blackstone Brick Pillar | Polished Blackstone Bricks + Quartz Pillar
+Polished Gilded Blackstone | Polished Blackstone + Gilded Blackstone
+Polished Blackstone Brick Tile | Polished Blackstone Bricks + Purpur Block
+
+CHARRED NETHER BRICKS
+
+Charred Nether Bricks | Basalt + Nether Bricks
+Cracked Charred Nether Bricks | Basalt + Cracked Nether Bricks
+Chiseled Charred Nether Bricks | Basalt + Chiseled Nether Bricks
+Charred Nether Brick Pillar | Basalt + Quartz Pillar
+Charred Nether Brick Tiles | Basalt + Purpur Block
+
+===CIT FEATURES===
+Delta Core - Rename Paper
+
+WHITE ASH LAYERS
+
+Overhanging White Ash - Rename Paper
+White Ash - Rename Paper
+White Ash Two - Rename Paper
+White Ash Three - Rename Paper
+White Ash Four - Rename Paper
+White Ash Five - Rename Paper
+White Ash Six - Rename Paper
+White Ash Seven - Rename Paper
+
+### MISC ###
+
+===CONNECTED BLOCKS===
+Blackstone Magma | Magma Block + Blackstone
+Basalt Magma | Magma Block + Basalt
+Soul Magma | Magma + Soul Soil (Also Appears naturally in Soul Sand Valleys)
+
+GLOWSTONE LAMPS
+
+Red Lamp | Red Concrete + Redstone Lamp
+Orange Lamp | Orange Concrete + Redstone Lamp
+Yellow Lamp | Yellow Concrete + Redstone Lamp
+Lime Lamp | Lime Concrete + Redstone Lamp
+Green Lamp | Green Concrete + Redstone Lamp
+Cyan Lamp | Cyan Concrete + Redstone Lamp
+Light Blue Lamp | Light Blue Concrete + Redstone Lamp
+Blue Lamp | Blue Concrete + Redstone Lamp
+Purple Lamp | Purple Concrete + Redstone Lamp
+Magenta Lamp | Magenta Concrete + Redstone Lamp
+Pink Lamp | Pink Concrete + Redstone Lamp
+White Lamp | White Concrete + Redstone Lamp
+Light Gray Lamp | Light Gray Concrete + Redstone Lamp
+Gray Lamp | Gray Concrete + Redstone Lamp
+Black Lamp | Black Concrete + Redstone Lamp
+Brown Lamp | Brown Concrete + Redstone Lamp
+Prismarine Lamp | Prismarine, Prismarine Bricks, Dark Prismarine + Redstone Lamp
+Dragon Lamp | Endstone, Purpur Block, Purpur Pillar + Redstone Lamp
+Jeb_ Lamp | Netherite Block + Redstone Lamp
+
+GREEN GRANITE
+
+Green Granite Block | Green Concrete + Granite
+Polished Green Granite | Green Concrete + Polished Andesite
+Polished Green Granite Bricks | Green Concrete + Stone Bricks
+Chiseled Polished Green Granite | Green Concrete + Chiseled Stone Bricks
+Cracked Polished Green Granite Bricks | Green Concrete + Cracked Stone Bricks
+Polished Green Granite Tiles | Green Concrete + Purpur Block
+
+POLISHED NETHERRACK
+
+Polished Netherrack Block | Polished Andesite + Netherrack
+Polished Netherrack Bricks | Stone Bricks + Netherrack
+Chiseled Polished Netherrack | Chiseled Stone Bricks + Netherrack
+Cracked Polished Netherrack Bricks | Cracked Stone Bricks + Netherrack
+Polished Netherrack Pillar | Quartz Pillar + Netherrack
+Polished Netherrack Tiles | Purpur Block + Netherrack
+Mossy Polished Netherrack Bricks | Mossy Stone Bricks + Netherrack
+Polished Nether Quartz Ore | Nether Quartz Ore + Polished Andesite
+Polished Nether Quartz Ore Bricks | Nether Quartz Ore + Stone Bricks
+Polished Nether Gold Ore | Nether Gold Ore + Polished Andesite
+Polished Nether Gold Ore Bricks | Nether Gold Ore + Stone Bricks
+
+===CIT FEATURES===
+Fungus Pizza Slice - Steak or Golden Carrot
+Warped Pizza Slice - Steak or Golden Carrot
+Phosphor Pizza Slice - Steak or Golden Carrot
+Illuminant Pizza Slice - Steak or Golden Carrot
+
+### Legacy Features ###
+
+Legacy Soul Lamp | Lime Glazed Terracotta + Redstone Lamp
+Legacy Smooth Basalt Tile | Lime Glazed Terracotta + Basalt
+Legacy Basalt Tile | Lime Glazed Terracotta + Polished Basalt
+Legacy Ash - Rename Paper
+
+LEGACY SOUL SLATE
+
+Legacy Soul Slate | Soul Soil + Cobblestone
+Legacy Soul Slate Bricks | Soul Soil + Stone Bricks
+Legacy Cracked Soul Slate Bricks | Soul Soil + Cracked Stone Bricks
+Legacy Soul Slate Pillar | Soul Soil + Quartz Pillar
+Legacy Chiseled Soul Slate | Soul Soil + Chiseled Stone Bricks
+Legacy Charged Soul Slate | Soul Soil + Sea Lantern
+
+Legacy Gold
+
+Legacy Golden Helmet - Rename Golden Helmet
+Legacy Golden Chestplate - Rename Golden Chestplate
+Legacy Golden Leggings - Rename Golden Leggings
+Legacy Golden Boots - Rename Golden Boots
+Legacy Golden Sword - Rename Golden Sword
+Legacy Golden Pickaxe - Rename Golden Pickaxe
+Legacy Golden Shovel - Rename Golden Shovel
+Legacy Golden Axe - Rename Golden Axe
+Legacy Golden Hoe - Rename Golden Hoe
+
+
+### Armor and Tools ###
+
+Crimson Cleaver - Rename Netherite Sword
+Warped Cleaver - Rename Netherite Sword
+Warped Blindfold - Rename Carved Pumpkin
+Netherite Scythe - Rename Netherite Axe
+Golden Crown - Rename Netherite Helmet, Golden Helmet
+
+GILDED NETHERITE
+
+Gilded Netherite Sword - Rename Netherite Sword
+Gilded Netherite Pickaxe - Rename Netherite Pickaxe
+Gilded Netherite Shovel - Rename Netherite Shovel
+Gilded Netherite Axe - Rename Netherite Axe
+Gilded Netherite Scythe - Rename Netherite Axe
+Gilded Netherite Hoe - Rename Netherite Hoe
+Gilded Netherite Helmet - Rename Netherite Helmet
+Gilded Netherite Chestplate - Rename Netherite Chestplate
+Gilded Netherite Leggings - Rename Netherite Leggings
+Gilded Netherite Boots - Rename Netherite Boots
+
+OBSIDIAN
+
+Obsidian Helmet - Rename Netherite Helmet
+Obsidian Chestplate - Rename Netherite Chestplate
+Obsidian Leggings - Rename Netherite Leggings
+Obsidian Boots - Rename Netherite Boots
+
+SHIELDS
+
+Gilded Netherite Shield - Rename Shield
+Crimson Fungus Shield - Rename Shield
+Warped Fungus Shield - Rename Shield
+Soul Shield - Rename Shield
+Blue Soul Shield - Rename Shield
+Obsidian Shield - Rename Shield
+Molten Shield - Rename Shield
+
+MOLTEN
+
+Molten Blade - Rename Netherite Sword
+Molten Pickaxe - Rename Netherite Pickaxe
+Molten Hammer - Rename Netherite Pickaxe
+Molten War Axe - Rename Netherite Axe
+Molten Shovel - Rename Netherite Shovel
+Molten Hoe - Rename Netherite Hoe
+
+Rose Gold
+
+Rose Golden Helmet - Rename Netherite Helmet
+Rose Golden Chestplate - Rename Netherite Chestplate
+Rose Golden Leggings - Rename Netherite Leggings
+Rose Golden Boots - Rename Netherite Boots
+Rose Golden Sword - Rename Netherite Sword
+Rose Golden Pickaxe - Rename Netherite Pickaxe
+Rose Golden Shovel - Rename Netherite Shovel
+Rose Golden Axe - Rename Netherite Axe
+Rose Golden Hoe - Rename Netherite Hoe
+
+QUARTZ
+
+Quartz Sword - Rename Netherite Sword
+Quartz Pickaxe - Rename Netherite Pickaxe
+Quartz Shovel - Rename Netherite Shovel
+Quartz Axe - Rename Netherite Axe
+Quartz Hoe - Rename Netherite Hoe

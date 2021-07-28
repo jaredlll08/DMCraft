@@ -1,0 +1,19 @@
+#Wed Jul 28 08:29:00 BST 2021
+shaderPack=Chocapic13_V9_Extreme.zip
+antialiasingLevel=0
+normalMapEnabled=true
+specularMapEnabled=true
+renderResMul=1.0
+shadowResMul=1.0
+handDepthMul=0.125
+cloudShadow=false
+oldHandLight=default
+oldLighting=default
+tweakBlockDamage=false
+shadowClipFrustrum=true
+TexMinFilB=0
+TexMinFilN=0
+TexMinFilS=0
+TexMagFilB=0
+TexMagFilN=0
+TexMagFilS=0

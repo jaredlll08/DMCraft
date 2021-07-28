@@ -3,7 +3,7 @@
 "forced mob update interval" = 500
 
 [defense]
-	"enable dodges" = true
+	"enable dodges" = false
 	#Posture consumed per projectile parried
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"posture per projectile" = 0.5

@@ -3026,5 +3026,13 @@
 	"upgradednetherite:wither_upgraded_netherite_sword":
 	{
 		"combat": 80
+	},
+	"rankine:flint_spear":
+	{
+		"combat": 1
+	},
+	"rankine:flint_knife":
+	{
+		"combat": 1
 	}
 }

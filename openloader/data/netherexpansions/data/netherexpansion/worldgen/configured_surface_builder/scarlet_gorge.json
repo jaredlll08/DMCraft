@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:nether_forest",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:warped_nylium"
+    },
+    "under_material": {
+      "Name": "minecraft:basalt",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "underwater_material": {
+      "Name": "minecraft:andesite"
+    }
+  }
+}

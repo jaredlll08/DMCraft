@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glass_pane"
+        }
+    },
+    "result": {
+        "item": "minecraft:petrified_oak_slab",
+        "count": 6
+    }
+}

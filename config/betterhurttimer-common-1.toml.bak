@@ -14,7 +14,7 @@
 		armorResistantTime = 5
 		#Default value replacing vanilla's iFrame after being hurt.
 		#Range: > 0
-		hurtResistantTime = 0
+		hurtResistantTime = 0.05
 		#Default value replacing vanilla's iFrame after shield damage.
 		## Used mainly to prevent shield from wearing down too fast
 		## If the next attack deals more than the previous the difference is applied

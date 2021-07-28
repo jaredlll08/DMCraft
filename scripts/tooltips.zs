@@ -48,7 +48,6 @@ IngredientAny.getInstance().modifyTooltip((stack, tooltip, advanced) => {
         tooltip.insert(1, ("Currency" as MCTextComponent).setStyle(new MCStyle().setColor(Currency[1])));
     }
     else if <tag:items:crafttweaker:relics>.asIIngredient().matches(stack) {
-        //tooltip[0] = (tooltip[0].formattedText as MCTextComponent).setStyle(tooltip[0].getStyle().setColor(Relics[0]));
         if tooltip.length > 1 && tooltip[1].getString() != "Relic" {
             tooltip.insert(1, ("Relic" as MCTextComponent).setStyle(new MCStyle().setColor(Relics[1])));
         }

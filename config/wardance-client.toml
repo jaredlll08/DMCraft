@@ -1,13 +1,13 @@
 #whether to display the posture of the entity looked at
-displayEnemyPosture = true
+displayEnemyPosture = false
 
 [might]
-	#might HUD x position from the center of the screen
-	#Range: > -2147483647
-	"might X" = -32
 	#might HUD y position from the bottom of the screen
 	#Range: > 0
 	"might Y" = 0
+	#might HUD x position from the center of the screen
+	#Range: > -2147483647
+	"might X" = -32
 
 [spirit]
 	#spirit HUD x position from the center of the screen
@@ -18,12 +18,12 @@ displayEnemyPosture = true
 	"spirit Y" = 0
 
 [combo]
-	#combo HUD x position from the left of the screen
-	#Range: -2147483647 ~ 0
-	"combo X" = -5
 	#combo HUD y position from the center of the screen
 	#Range: > -2147483647
 	"combo Y" = 0
+	#combo HUD x position from the left of the screen
+	#Range: -2147483647 ~ 0
+	"combo X" = -5
 
 [yours]
 	#your posture bar X, defined as deviation from the center

@@ -123,7 +123,7 @@
 		#MULTI_HALF: Same as MULTI but mobs with more than 20 hp have reduced scaling (bosses, endermen, witches, etc).
 		#MULTI_QUARTER: Same as MULTI_HALF but scaling is reduced further for 20hp+ mobs.
 		#ADD: Flat increase for all mobs, no matter their base hp.
-		modifierMode = "MULTI_HALF"
+		modifierMode = "MULTI"
 
 		[mob.health.multiplier]
 			hostile = 0.375

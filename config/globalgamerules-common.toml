@@ -45,7 +45,7 @@
 	#Whether patrols can spawn.
 	do_patrol_spawning = true
 	#Whether the feedback from commands executed by a player should show up in chat. Also affects the default behavior of whether command blocks store their output text
-	send_command_feedback = false
+	send_command_feedback = true
 	#Whether raids are disabled.
 	disable_raids = false
 	#Whether players in spectator mode can generate chunks
@@ -70,7 +70,7 @@
 	#Whether the player should take fire damage
 	fire_damage = true
 	#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer, but may also be used to travel unfairly long distances in survival mode (cheating).
-	disable_elytra_movement_check = false
+	disable_elytra_movement_check = true
 	#Whether the player should keep items in their inventory after death
 	keep_inventory = true
 	#Whether creepers, zombies, endermen, ghasts, withers, ender dragons, rabbits, sheep, villagers, and snow golems should be able to change blocks and whether mobs can pick up items. This also affects the capability of zombie-like creatures like zombie pigmen and drowned to pathfind to turtle eggs. This will also prevent villagers from breeding.

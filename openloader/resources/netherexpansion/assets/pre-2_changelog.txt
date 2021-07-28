@@ -1,0 +1,38 @@
+Jaden's Nether Expansions Pre-Release 2 - Bug Fixes and Polishing
+
+New and Changed Features
+
+-Added Phased Fire a brand new Lime Green fire
+-Added Netherrack and Blackstone variants for overworld ores
+-Added Soul Hives with both Regular and Hanging Variants
+-Added The Scorched a fire zombie which spawns in all Nether Biomes
+-Added Blackstone Variants for both Nyliums
+-Added Quartz Crystal Block and Spikes
+-Added Pristine Quartz Spikes and Smooth Quartz Spikes for variation
+-Added Quartz Tools, Armor set coming soon
+-Added more Basalt building blocks
+-Added Soul Thorns which also comes in the End and Overworld variants
+-Changed the name of Bone Spikes to Bone Fangs
+-Added Bone and Withered Bone building blocks
+-Changed Ender Warped Stem to resemble Warped Shroomlight
+-Added Withered Bone Post for Consistancy
+-Changed Charred Nether Bricks Combination to use Basalt instead
+-Temporarly ported Smooth Basalt from 1.17 (will be removed after 1.17 update)
+-Added Soul Candels, Currently only comes in unlit variant
+-Changed both Regular and Black Ash Layer textures
+-Added the Hoglin and Ender Dragon Skulls
+
+Removed Features
+
+-Removed Old Regular and Smooth Polished Basalt Tiles
+-Removed Old Regular and Polished Basalt Bricks
+-Removed A really Out of place Crimson Roots Variant
+-Temporarly Removed Soul Blaze (will return in a future update)
+-Temporarly Removed Soul Firefly (Too many Bugs, will return in a future update)
+
+BUG FIXES
+
+-Fixed Bees appearing Invisible in Soul Sand Valleys
+-Fixed Double Sided textures for Nether Plants
+-Fixed Hanging Warts and Pot of Gold having a 1 pixel gap
+-Polished Basalt Tiles can now be properly Obtained Again

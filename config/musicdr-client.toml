@@ -14,7 +14,7 @@
 
 	[music.experimental]
 		#Change pitch/key randomly each time a song starts
-		distortPitch = false
+		distortPitch = true
 		#The chance for a song to change pitch/key
 		#Range: 0.0 ~ 1.0
 		chanceToPitchChange = 0.3

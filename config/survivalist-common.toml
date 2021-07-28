@@ -6,11 +6,15 @@
 #Settings for rock and ore rock drops
 [rocks]
 	ReplaceStoneDrops = true
+	ReplaceCopperOreDrops = true
 	Enable = false
-	ReplaceModOreDrops = false
+	ReplaceSilverOreDrops = true
+	ReplaceTinOreDrops = true
+	ReplaceAluminumOreDrops = true
 	ReplaceIronOreDrops = false
 	ReplaceGoldOreDrops = false
 	ReplacePoorOreDrops = false
+	ReplaceLeadOreDrops = true
 
 #Settings for recipes
 [recipes]

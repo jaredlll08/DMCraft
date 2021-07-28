@@ -1938,38 +1938,38 @@
 	},
 	"notreepunching:flint_axe":
 	{
-		"woodcutting": 0
+		"woodcutting": 1
 	},
 	"notreepunching:flint_pickaxe":
 	{
-		"mining": 0
+		"mining": 1
 	},
 	"notreepunching:flint_shovel":
 	{
-		"excavation": 0
+		"excavation": 1
 	},
 	"rankine:flint_pickaxe":
 	{
-		"mining": 0
+		"mining": 1
 	},
 	"rankine:flint_axe":
 	{
-		"woodcutting": 0
+		"woodcutting": 1
 	},
 	"rankine:flint_shovel":
 	{
-		"excavation": 0
+		"excavation": 1
 	},
 	"rankine:flint_spear":
 	{
-		"combat": 0
+		"combat": 1
 	},
 	"rankine:flint_knife":
 	{
-		"combat": 0
+		"combat": 1
 	},
 	"rankine:stone_hammer":
 	{
-		"mining": 0
+		"mining": 1
 	}
 }

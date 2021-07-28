@@ -99,11 +99,11 @@
 	#Pregnancy time is only used as a cooldown, babies pop out instantly like in Vanilla.
 	easy_breeding = false
 	#Defines whether animals should breed without Player intervention.
-	natural_breeding = true
+	natural_breeding = false
 	#Allows mobs to spawn as fully random species, ignoring Biomes and Rarity.
 	random_species = false
 	#Should 'Grazing' mobs destroy Tall Grass and/or turn Grass into dirt blocks (like Vanilla Sheep do).
-	grazer_griefing = true
+	grazer_griefing = false
 	#Should fantasy mobs spawn naturally in the world?.
 	fantasy_mobs = true
 	#Should mobs with Rare skins generate in the wild (if defined through assets)
