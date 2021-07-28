@@ -1,0 +1,199 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 20, -4, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-4, 20, -4, 8, 8, 8], "textureOffset": [32, 0], "sizeAdd": 0.4}
+			]
+		},
+		{
+			"part": "stick1",
+			"id": "stick1",
+			"invertAxis": "xy",
+			"translate": [-7, -26, 7],
+			"submodels": [
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [7, 17, -6.5],
+					"rotate": [0, -50, 0],
+					"boxes": [
+						{"coordinates": [-5, -10, -0.5, 10, 20, 1], "textureOffset": [0, 27]}
+					]
+				}
+			],
+			"boxes": [
+				{"coordinates": [6, 18, -8, 2, 8, 2], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "stick2",
+			"id": "stick2",
+			"invertAxis": "xy",
+			"translate": [7, -26, 7],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [-8, 18, -8, 2, 8, 2], "textureOffset": [0, 16]}
+					]
+				},
+				{
+					"id": "bone2",
+					"invertAxis": "xy",
+					"translate": [-6, 26, -9],
+					"rotate": [0, 50, 0],
+					"boxes": [
+						{"coordinates": [-7.49793, -19, 0.41781, 10, 20, 1], "textureOffset": [0, 27]}
+					]
+				}
+			]
+		},
+		{
+			"part": "stick3",
+			"id": "stick3",
+			"invertAxis": "xy",
+			"translate": [7, -26, -7],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [-8, 18, 6, 2, 8, 2], "textureOffset": [0, 16]}
+					]
+				},
+				{
+					"id": "bone3",
+					"invertAxis": "xy",
+					"translate": [7, 17, 6.5],
+					"rotate": [0, -130, 0],
+					"boxes": [
+						{"coordinates": [-5, -10, -0.5, 10, 20, 1], "textureOffset": [0, 27]}
+					]
+				}
+			]
+		},
+		{
+			"part": "stick4",
+			"id": "stick4",
+			"invertAxis": "xy",
+			"translate": [-7, -26, -7],
+			"boxes": [
+				{"coordinates": [6, 18, 6, 2, 8, 2], "textureOffset": [0, 16]}
+			],
+			"submodels": [
+				{
+					"id": "bone4",
+					"invertAxis": "xy",
+					"translate": [-9, 26, 5.25],
+					"rotate": [0, 130, 0],
+					"boxes": [
+						{"coordinates": [-7.49793, -19, 0.41781, 10, 20, 1], "textureOffset": [0, 27]}
+					]
+				}
+			]
+		},
+		{
+			"part": "stick5",
+			"id": "stick5",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 5],
+			"boxes": [
+				{"coordinates": [4, 14, -6, 2, 8, 2], "textureOffset": [10, 16]}
+			]
+		},
+		{
+			"part": "stick6",
+			"id": "stick6",
+			"invertAxis": "xy",
+			"translate": [5, -22, 5],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [-6, 14, -6, 2, 8, 2], "textureOffset": [10, 16]}
+					]
+				}
+			]
+		},
+		{
+			"part": "stick7",
+			"id": "stick7",
+			"invertAxis": "xy",
+			"translate": [5, -22, -5],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [-6, 14, 4, 2, 8, 2], "textureOffset": [10, 16]}
+					]
+				}
+			]
+		},
+		{
+			"part": "stick8",
+			"id": "stick8",
+			"invertAxis": "xy",
+			"translate": [-5, -22, -5],
+			"boxes": [
+				{"coordinates": [4, 14, 4, 2, 8, 2], "textureOffset": [10, 16]}
+			]
+		},
+		{
+			"part": "stick9",
+			"id": "stick9",
+			"invertAxis": "xy",
+			"translate": [-3, -14, 3],
+			"boxes": [
+				{"coordinates": [2, 6, -4, 2, 8, 2], "textureOffset": [10, 16]}
+			]
+		},
+		{
+			"part": "stick10",
+			"id": "stick10",
+			"invertAxis": "xy",
+			"translate": [3, -14, 3],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [-4, 6, -4, 2, 8, 2], "textureOffset": [10, 16]}
+					]
+				}
+			]
+		},
+		{
+			"part": "stick11",
+			"id": "stick11",
+			"invertAxis": "xy",
+			"translate": [3, -14, -3],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [-4, 6, 2, 2, 8, 2], "textureOffset": [10, 16]}
+					]
+				}
+			]
+		},
+		{
+			"part": "stick12",
+			"id": "stick12",
+			"invertAxis": "xy",
+			"translate": [-3, -14, -3],
+			"boxes": [
+				{"coordinates": [2, 6, 2, 2, 8, 2], "textureOffset": [10, 16]}
+			]
+		}
+	]
+}

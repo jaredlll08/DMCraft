@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 16
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "maximum": 128,
+                "bottom_offset": 10,
+                "top_offset": 20
+              }
+            },
+            "feature": {
+              "type": "minecraft:ore",
+              "config": {
+                "state": {
+                  "Name": "minecraft:nether_gold_ore"
+                },
+                "size": 14,
+                "target": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:basalt"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
