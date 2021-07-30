@@ -14,7 +14,7 @@ reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:true
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -23,19 +23,19 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:1.0
-renderDistance:24
+renderDistance:38
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
-maxFps:145
+maxFps:260
 difficulty:2
 graphicsMode:1
-ao:2
+ao:1
 biomeBlendRadius:3
 renderClouds:true
-resourcePacks:["inmemory:jaopca","vanilla","mod_resources","openloader/resources/custom_stuff","quark:emote_resources","resourcefulbees","file/Unity-1.16.X-Base-2.4.0.zip","file/Unity-1.16.X-Extras-1.1.0.zip","file/Unity-1.16.X-Modded-1.3.0.zip","file/Unity-1.16.X-Dark-0.7.0.zip","file/FrostbiteBrimstone.zip","file/Wyrms and Pixels.zip","file/lycanites_redux_6.0.0+1.16.5.zip","openloader/resources/Incendium","file/Enhanced+Audio+r3.zip","openloader/resources/Jaden\u0027s+Nether+Expansion+v1.0.0.zip","openloader/resources/netherexpansion","file/3D-Bottles.zip","file/Tool+Belt+Retextured.zip","file/Modded+Connected+CTM+v1.5.zip","file/CreateTools+Rockit14+Edition+1.3.1.zip","file/AdditionalEndergeticEmissives.zip","file/Dramatic+Skys+Demo+1.3.zip","file/OrchestraSoundpackJavaR1.3Va.zip","file/Full-Grown+1.0.0.zip","file/Spartan Retextured.zip","file/§b§lTetra_GUI_v0.5.1d.zip","openloader/resources/wardance","openloader/resources/sound_overhaul"]
-incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources","file/Dramatic+Skys+Demo+1.3.zip","file/OrchestraSoundpackJavaR1.3Va.zip"]
-lastServer:
+resourcePacks:["inmemory:jaopca","vanilla","mod_resources","openloader/resources/AntiqueAtlasExtra-v1.2.zip","openloader/resources/ambiencesounds","openloader/resources/antiqueatlas","openloader/resources/custom_stuff","openloader/resources/immersive-soundscapes-resources-v2.4.zip","openloader/resources/sound_overhaul","quark:emote_resources","resourcefulbees","file/Unity-1.16.X-Base-2.4.0.zip","file/Unity-1.16.X-Extras-1.1.0.zip","file/Unity-1.16.X-Modded-1.3.0.zip","file/Unity-1.16.X-Dark-0.7.0.zip","file/lycanites_redux_6.0.0+1.16.5.zip","file/xali\u0027s Enchanted Books v0.6.zip","file/Spartan Retextured.zip","file/Tool+Belt+Retextured.zip","file/Wyrms and Pixels.zip","file/OrchestraSoundpackJavaR1.3Va.zip","file/AmbienceSounds.zip","file/AdditionalEndergeticEmissives.zip","file/Enhanced+Audio+r3.zip","file/FrostbiteBrimstone.zip","file/Full-Grown+1.0.0.zip","file/Modded+Connected+CTM+v1.5.zip","file/CreateTools+Rockit14+Edition+1.3.1.zip","file/3D-Bottles.zip","file/Infernal Resources.zip","openloader/resources/incendium","file/Dramatic Skys Demo 1.3.zip","file/EmbellishedStone.zip","file/FreshAnimations_v1.3.1.zip","file/Better dogs V1.13.zip","file/Jaden\u0027s Nether Expansion v1.0.0.zip","file/§b§lTetra_GUI_v0.6.zip"]
+incompatibleResourcePacks:["inmemory:jaopca","openloader/resources/AntiqueAtlasExtra-v1.2.zip","openloader/resources/ambiencesounds","quark:emote_resources","file/OrchestraSoundpackJavaR1.3Va.zip","file/AmbienceSounds.zip","file/Dramatic Skys Demo 1.3.zip","file/FreshAnimations_v1.3.1.zip"]
+lastServer:auth.minecraftcapes.net
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
@@ -64,7 +64,7 @@ rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:true
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 syncChunkWrites:true
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
@@ -102,12 +102,12 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_of.key.zoom:key.keyboard.c
 key_key.dragon_fireAttack:key.keyboard.r
-key_key.dragon_strike:key.keyboard.g
+key_key.dragon_strike:key.mouse.5
 key_key.dragon_down:key.keyboard.x
 key_key.dragon_change_view:key.keyboard.f7
-key_key.enchdesc.show:key.keyboard.left.shift
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
+key_key.minecraftcapes.gui:key.keyboard.j
 key_tetra.toolbelt.binding.access:key.keyboard.b
 key_tetra.toolbelt.binding.restock:key.keyboard.b:SHIFT
 key_tetra.toolbelt.binding.open:key.keyboard.b:ALT
@@ -129,21 +129,21 @@ key_key.summoning:key.keyboard.unknown
 key_key.minions:key.keyboard.r
 key_key.curios.open.desc:key.keyboard.g
 key_key.pickup.item:key.keyboard.unknown
+key_key.scalinghealth.difficultyMeter:key.keyboard.z
 key_key.pmmo.showBar:key.keyboard.right.control
 key_key.pmmo.showList:key.keyboard.left.alt
 key_key.pmmo.toggleTooltip:key.keyboard.f6
-key_key.pmmo.vein:key.keyboard.grave.accent
+key_key.pmmo.vein:key.keyboard.left.shift
 key_key.pmmo.openMenu:key.keyboard.p
 key_key.pmmo.openSettings:key.keyboard.scroll.lock
 key_key.pmmo.openSkills:key.keyboard.unknown
 key_key.pmmo.openGlossary:key.keyboard.unknown
-key_key.scalinghealth.difficultyMeter:key.keyboard.z
 key_key.veinmining.activate.desc:key.keyboard.grave.accent
+key_key.invtweaks_sort_player.desc:key.keyboard.backslash
+key_key.invtweaks_sort_inventory.desc:key.keyboard.pause
+key_key.invtweaks_sort_either.desc:key.mouse.middle
 key_Open Wallet:key.keyboard.g
 key_Toggle Torch Belt:key.keyboard.h
-key_key.invtweaks_sort_player.desc:key.keyboard.backslash
-key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent
-key_key.invtweaks_sort_either.desc:key.mouse.middle
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
 key_Camera left:key.keyboard.left
@@ -154,16 +154,17 @@ key_Camera up:key.keyboard.page.up
 key_Camera down:key.keyboard.page.down
 key_Swap shoulder:key.keyboard.delete
 key_Toggle perspective:key.keyboard.unknown
-key_wardance.combat:key.keyboard.r:SHIFT
+key_wardance.combat:key.keyboard.grave.accent
 key_wardance.skill:key.mouse.5
 key_wardance.selectSkill:key.keyboard.f4
 key_wardance.quickSkill:key.mouse.middle
 key_key.astikorcarts.desc:key.keyboard.left
 key_key.titles.openTitleSelection:key.keyboard.insert
 key_key.epicfight.show_tooltip:key.keyboard.p
-key_key.epicfight.switch_mode:key.keyboard.r
+key_key.epicfight.switch_mode:key.keyboard.grave.accent
 key_key.epicfight.dodge:key.keyboard.left.shift
 key_key.epicfight.weapon_special_skill:key.mouse.left
+key_key.curiousshulkerboxes.open.desc:key.keyboard.x
 key_key.mountKey1:key.keyboard.v
 key_key.mountKey2:key.keyboard.g
 key_placebo.toggleWings:key.keyboard.keypad.8
@@ -179,6 +180,18 @@ key_key.relics.hud_fourth:key.keyboard.4:ALT
 key_key.relics.hud_fifth:key.keyboard.5:ALT
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
+key_Options.Reload:key.keyboard.p
+key_Force Play:key.keyboard.o
+key_Options.Shortcut1:key.keyboard.97
+key_Options.Shortcut2:key.keyboard.97
+key_Options.Shortcut3:key.keyboard.98
+key_Options.Shortcut4:key.keyboard.99
+key_Options.Shortcut5:key.keyboard.100
+key_Options.Ocarina1:key.keyboard.up
+key_Options.Ocarina2:key.keyboard.down
+key_Options.Ocarina3:key.keyboard.right
+key_Options.Ocarina4:key.keyboard.left
+key_Options.Ocarina5:key.keyboard.right.control
 key_Show comparison tooltip:key.keyboard.left.shift
 key_Open the Crash Utilities Screen:key.keyboard.u:CONTROL
 key_Copy Container Class:key.keyboard.unknown
@@ -190,12 +203,12 @@ key_ping.key.look:key.keyboard.keypad.6
 key_ping.key.goto:key.keyboard.keypad.8
 key_key.armiger.openArmiger:key.keyboard.home
 key_key.playerex.hud:key.keyboard.semicolon
-key_key.spartanweaponry.access_quiver:key.keyboard.i
-key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ars_nouveau.open_book:key.keyboard.unknown
 key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
 key_key.ars_nouveau.next_slot:key.keyboard.x
+key_key.ftbquests.quests:key.keyboard.unknown
+key_key.spartanweaponry.access_quiver:key.keyboard.i
 key_key.doom.reload:key.mouse.4
 key_key.customStructuresScreen:key.keyboard.f10
 key_key.sethorse.desc:key.keyboard.right
@@ -203,18 +216,18 @@ key_key.callhorse.desc:key.keyboard.up
 key_key.showstats.desc:key.keyboard.down
 key_key.endergetic.booflo_vest:key.keyboard.space
 key_key.endergetic.booflo_slam:key.keyboard.x
+key_nimble.keybind.frontView:key.keyboard.f4
 key_key.openManual:key.keyboard.f1
 key_walljump.key.walljump:key.keyboard.left.shift
 key_keybinds.show_wounds:key.keyboard.h
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.autorun:key.keyboard.caps.lock
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_quark.keybind.change_hotbar:key.keyboard.z
 key_mod.chiselsandbits.chiselmode.single:key.keyboard.unknown
 key_mod.chiselsandbits.chiselmode.snap2:key.keyboard.unknown
 key_mod.chiselsandbits.chiselmode.snap4:key.keyboard.unknown
@@ -232,6 +245,8 @@ key_mod.chiselsandbits.positivepatternmode.replace:key.keyboard.unknown
 key_mod.chiselsandbits.positivepatternmode.additive:key.keyboard.unknown
 key_mod.chiselsandbits.positivepatternmode.placement:key.keyboard.unknown
 key_mod.chiselsandbits.positivepatternmode.impose:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.sort_player:key.keyboard.unknown
 key_mod.chiselsandbits.tapemeasure.bit:key.keyboard.unknown
 key_mod.chiselsandbits.tapemeasure.block:key.keyboard.unknown
 key_mod.chiselsandbits.tapemeasure.distance:key.keyboard.unknown
@@ -243,6 +258,7 @@ key_mod.chiselsandbits.other.offgrid:key.keyboard.unknown
 key_mod.chiselsandbits.other.undo:key.keyboard.unknown
 key_mod.chiselsandbits.other.redo:key.keyboard.unknown
 key_mod.chiselsandbits.other.add_to_clipboard:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -261,13 +277,11 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.keybind.autorun:key.keyboard.caps.lock
-key_key.dannys_expansion.mount_ability:key.keyboard.g
 key_key.occultism.backpack:key.keyboard.comma
 key_key.occultism.storage_remote:key.keyboard.n
 key_key.occultism.familiar.otherworld_bird:key.keyboard.unknown
 key_key.occultism.familiar.greedy:key.keyboard.m
+key_key.occultism.familiar.bat:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
@@ -298,16 +312,16 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.bookmark:key.keyboard.a
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
-soundCategory_master:0.06809551
-soundCategory_music:0.52070314
-soundCategory_record:0.58736247
-soundCategory_weather:0.57473594
-soundCategory_block:0.5309804
-soundCategory_hostile:0.5794344
-soundCategory_neutral:0.47694764
-soundCategory_player:0.56298965
-soundCategory_ambient:0.4158671
-soundCategory_voice:0.5277509
+soundCategory_master:1.0000001
+soundCategory_music:0.23644367
+soundCategory_record:0.14570312
+soundCategory_weather:0.0884408
+soundCategory_block:0.13630612
+soundCategory_hostile:0.07434529
+soundCategory_neutral:0.15979864
+soundCategory_player:0.11193332
+soundCategory_ambient:0.13865536
+soundCategory_voice:0.10723481
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

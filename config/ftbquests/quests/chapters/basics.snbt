@@ -11,7 +11,10 @@
 			x: -27.5d
 			y: -13.5d
 			subtitle: "Swing swing swing! Chop chop chop!"
-			description: ["Combat here is different. Harder. Enter Combat Mode by pressing the R key. Use LSHIFT to dodge. Hold LMB for a special attack."]
+			description: [
+				"Combat here is different. Harder. Enter Combat Mode by pressing the ` key. Use LSHIFT to dodge. Hold LMB for a special attack."
+				"Press F4 to open the skills menu, and press MB5 to open the skills wheel when in combat mode."
+			]
 			id: "12E2442552E14663"
 			tasks: [{
 				id: "5005A31698B89668"

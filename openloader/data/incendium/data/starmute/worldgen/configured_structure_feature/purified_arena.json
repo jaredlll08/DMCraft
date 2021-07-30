@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "starmute:purified_arena",
-    "size": 5
-  },
-  "type": "minecraft:bastion_remnant"
-}

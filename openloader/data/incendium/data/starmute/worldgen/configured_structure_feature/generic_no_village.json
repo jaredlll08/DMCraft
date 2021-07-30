@@ -1,8 +1,0 @@
-{
-  "config": {
-    "start_pool": "starmute:generic_no_village",
-    "size": 6
-  },
-  "type": "minecraft:bastion_remnant",
-  "name": "starmute:generic"
-}

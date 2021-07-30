@@ -25,7 +25,7 @@ B:showcustomizationbuttons = 'true';
 S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
 S:copyrightcolor = '#ffffff';
-B:hidelogo = 'false';
+B:hidelogo = 'true';
 B:hiderealmsnotifications = 'true';
 B:hideforgenotifications = 'true';
 
@@ -36,14 +36,14 @@ S:splashcolor = '#ffff00';
 I:splashrotation = '-20';
 I:splashy = '0';
 I:splashx = '0';
-B:hidesplashtext = 'false';
+B:hidesplashtext = 'true';
 S:splashtextfile = '';
 S:splashorientation = 'original';
 
 
 ##[loading]
 
-B:allowgameintroskip = 'true';
+B:allowgameintroskip = 'false';
 S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
@@ -54,9 +54,9 @@ B:loadingscreendarkmode = 'true';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'Damned Minecraft';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[world_loading_screen]

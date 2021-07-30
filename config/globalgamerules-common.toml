@@ -6,7 +6,7 @@
 	#Whether phantoms can spawn in the nighttime
 	do_insomnia = true
 	#Whether command blocks should notify admins when they perform commands	
-	command_block_output = true
+	command_block_output = false
 	#Players respawn immediately without showing the death screen
 	do_immediate_respawn = false
 	#Makes angered neutral mobs stop being angry when the targeted player dies nearby.
@@ -22,7 +22,7 @@
 	#Range: > 0
 	max_command_chain_length = 65536
 	#Whether to log admin commands to server log
-	log_admin_commands = true
+	log_admin_commands = false
 	#How often a random block tick occurs (such as plant growth, leaf decay, etc.) per chunk section per game tick. 0 disables random ticks, higher numbers increase random ticks. Setting to a high integer results in high speeds of decay and growth
 	#Range: > 0
 	random_tick_speed = 3
@@ -97,7 +97,7 @@
 [misc]
 	#A comma separated list of commands to run on world join, @p is replaced with joining player name, command is run by the server
 	#Example: default_commands = ["/tellraw @p [\"\",{\"text\":\"Hi \"},{\"text\":\"@p\",\"color\":\"aqua\"}]"]
-	default_commands = []
+	default_commands = ["/gamerule doVanillaAttack false"]
 	#If gamerules should be saved to config on world unload
 	save_gamerules = true
 

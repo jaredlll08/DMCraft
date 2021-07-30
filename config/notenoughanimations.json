@@ -5,7 +5,8 @@
     "minecraft:clock",
     "minecraft:compass",
     "minecraft:torch",
-    "minecraft:lantern"
+    "minecraft:lantern",
+    "antiqueatlas:atlas"
   ],
   "enableAnimationSmoothing": true,
   "enableInWorldMapRendering": true,

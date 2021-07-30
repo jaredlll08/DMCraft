@@ -1,0 +1,45 @@
+#whether to display the posture of the entity looked at
+displayEnemyPosture = true
+#whether a mob is rotated when it is staggered.
+"mob stagger rotation" = ["example:dragon, false", "example:ghast, true"]
+
+[might]
+	#might HUD x position from the left quartile of the screen
+	#Range: > -2147483647
+	"might X" = 100
+	#might HUD y position from the bottom of the screen
+	#Range: > 0
+	"might Y" = 100
+
+[spirit]
+	#spirit HUD x position from the right quartile of the screen
+	#Range: > -2147483647
+	"spirit X" = -100
+	#spirit HUD y position from the bottom of the screen
+	#Range: > 0
+	"spirit Y" = 100
+
+[combo]
+	#x position of the combo HUD's center from the left of the screen
+	#Range: -2147483647 ~ 0
+	"combo X" = 0
+	#x position of the combo HUD's center the center of the screen
+	#Range: > -2147483647
+	"combo Y" = 0
+
+[yours]
+	#your posture bar X, defined as deviation from the center
+	#Range: > -2147483647
+	yourPostureX = 0
+	#your posture bar Y, defined from the middle of the screen
+	#Range: > -2147483647
+	yourPostureY = -10
+
+[theirs]
+	#enemy posture bar X, defined as deviation from the center
+	#Range: > -2147483647
+	theirPostureX = 0
+	#enemy posture bar Y, defined from the top of the screen
+	#Range: > 0
+	theirPostureY = 30
+

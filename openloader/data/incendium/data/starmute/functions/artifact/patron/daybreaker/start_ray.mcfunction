@@ -1,1 +1,0 @@
-execute anchored eyes positioned ^ ^ ^2 run function starmute:artifact/patron/daybreaker/hit_entity

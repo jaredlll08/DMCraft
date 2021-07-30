@@ -1,0 +1,45 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  smallerthanheight = 1080
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  smallerthanwidth = 1920
+}
+
+customization {
+  name = damnedmc
+  action = setbackgroundpanorama
+}
+
+customization {
+  path = fancymenu/logo.png
+  orientation = top-centered
+  delayappearanceseconds = 0.2
+  x = -114
+  width = 230
+  action = addtexture
+  actionid = c236a530-b8b1-4711-955e-fc55be8a1c1e1627599677646
+  y = -9
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 125
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 57
+  slim = false
+  actionid = e080da65-bdf2-4f32-b3fa-1351779a195d1627599741049
+  action = addentity
+  y = 128
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+

@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "": [
-	    { "model": "block/soul_soil", "weight": 17 },
-	    { "model": "block/soul_soil_pebbles", "weight": 5  }
-,
-	    { "model": "block/soul_soil_basalt", "weight": 4  }	    ]
-    }
-}

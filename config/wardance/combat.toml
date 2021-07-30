@@ -1,0 +1,74 @@
+
+[posture]
+	#percentage of max posture that can be dealt in a single hit
+	#Range: 0.0 ~ 1.0
+	"posture cap" = 0.4
+	#amount of ticks over which you'll quickly recover back to one posture cap's worth of posture if you're lower than that. This triggers after your posture cooldown elapses, plus 50% of that time. Set to 0 to disable this feature.
+	#Range: > 0
+	"recovery speed" = 15
+
+[parrying]
+	#parries will only work in this many ticks after sneaking, 0 to disable. I don't know why everyone wants this option, but here it is.
+	#Range: > 0
+	"sneak parry time" = 0
+	#Posture consumed per projectile parried
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"posture per projectile" = 0.5
+	#Default multiplier for any items not defined in the config, multiplied by their attack damage
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"default attack multiplier" = 0.15
+	#Default multiplier for any item not defined in the config, when used for parrying
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"default defense multiplier" = 1.4
+	#Within this number of ticks after a shield parry, parrying is free
+	#Range: > 0
+	"default shield time" = 16
+	#This many parries are free after a parry that cost posture
+	#Range: > 0
+	"default shield count" = 1
+
+[dodging]
+	"enable dodges" = false
+	#Within this number of ticks after rolling the entity is considered invulnerable.
+	#Range: > 0
+	"roll time" = 10
+	#Within this number of ticks after dodging the entity cannot dodge again
+	#Range: > 0
+	"roll cooldown" = 20
+
+[stagger]
+	#Maximum number of ticks an entity should be staggered for when its posture reaches 0. The actual length of a given stagger is scaled by HP between the min and max values
+	#Range: > 1
+	"max stagger duration" = 100
+	#Minimum number of ticks an entity should be staggered for when its posture reaches 0. The actual length of a given stagger is scaled by HP between the min and max values
+	#Range: > 1
+	"min stagger duration" = 40
+	#Number of hits a staggered entity will take before stagger is automatically canceled
+	#Range: > 1
+	"stagger hits" = 3
+	#Extra damage taken by a staggered entity
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"stagger damage multiplier" = 1.5
+
+[difficulty]
+	#chance that a mob parries with a weapon out of 1. Hands are individually calculated.
+	#Range: 0.0 ~ 1.0
+	"mob weapon parry chance" = 0.3
+	#chance that a mob parries with a shield out of 1. Hands are individually calculated.
+	#Range: 0.0 ~ 1.0
+	"mob shield parry chance" = 0.9
+	#chance that a mob deflects with armor out of 1
+	#Range: 0.0 ~ 1.0
+	"mob deflect chance" = 0.6
+	#Define mobs that are automatically capable of parrying. Entity settings override weapon settings. Format is name, defense posture multiplier, parry chance. Hands are individually calculated for chance. Filling in 0 for parry chance will disable parrying for that mob, regardless of weaponry.
+	"auto parry mobs" = ["example:golem, 0.9, 0.5", "example:fish, 1, 0"]
+	#posture damage from empty fists will be scaled by this number. Notice many mobs, such as endermen and ravagers, technically are empty-handed!
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"unarmed buff" = 1.6
+	#posture damage from mob attacks will be scaled by this number
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"mob posture damage buff" = 1.5
+	#knockback from all sources to everything will be multiplied by this amount
+	#Range: 0.0 ~ 10.0
+	"knockback multiplier" = 1.0
+

@@ -11,20 +11,20 @@
 	limit_player_reach = true
 	#The default perspective when you load the game
 	#Allowed Values: FIRST_PERSON, THIRD_PERSON_BACK, THIRD_PERSON_FRONT, SHOULDER_SURFING
-	default_perspective = "FIRST_PERSON"
+	default_perspective = "THIRD_PERSON_FRONT"
 	#Whether or not to remember the last perspective used
 	remember_last_perspective = true
 
 	[perspective.offset]
 		#Third person camera x-offset
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_x = -1.399999999999999
+		offset_x = -1.1749999999999998
 		#Third person camera y-offset
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_y = 0.07499999999999984
+		offset_y = -0.25000000000000017
 		#Third person camera z-offset
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_z = 2.5249999999999915
+		offset_z = 1.9499999999999935
 
 		[perspective.offset.min]
 			#If x-offset is limited this is the minimum amount
