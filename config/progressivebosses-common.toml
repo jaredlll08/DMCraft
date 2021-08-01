@@ -46,20 +46,14 @@
 
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	[Wither.Attack]
-		#Chance (per difficulty) every time the Wither takes damage to start a barrage attack. The chance is doubled when the Wither is below half health
-		#Range: 0.0 ~ 1.0
-		"Barrage Attack Chance" = 0.002
 		#Percentage bonus damage dealt by the Wither per difficulty.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Increased Damage" = 0.06
-		#Max Chance for the barrage attack. The max chance is doubled when the Wither is below half health
-		#Range: 0.0 ~ 1.0
-		"Max Barrage Attack Chance" = 0.05
-		#Chance every time the Wither takes damage to start a charge attack. The chance is doubled when the Wither is below half health.
-		#Range: 0.0 ~ 1.0
-		"Charge Attack Chance" = 0.015
 		#If the AI changes should be applied to the first wither spawned too.
 		"Apply to Vanilla Wither" = true
+		#Max Chance every time the Wither takes damage to start a charge attack. The actual chance is inversely proportional to Wither's health (100% health = 0% chance, 50% health = 2.5% chance, ...).
+		#Range: 0.0 ~ 1.0
+		"Max Charge Attack Chance" = 0.06
 
 		#Wither Skull Changes
 		[Wither.Attack.Skulls]
@@ -74,6 +68,17 @@
 			"Attack Interval" = 40
 			#The middle head will attack faster (up to 40% of the attack speed) the nearer the target is to the Wither.
 			"Increase Attack Speed when Near" = true
+
+		[Wither.Attack."Barrage Attack"]
+			#Chance (per difficulty) every time the Wither takes damage to start a barrage attack. The actual chance is inversely proportional to Wither's health and damage taken (more damage and less health = higher chance).
+			#Range: 0.0 ~ 1.0
+			"Max Barrage Attack Chance Per Difficulty" = 0.0035
+			#Min time (in ticks) for the duration of the barrage attack. The actual duration is inversely proportional to Wither's health and damage taken (more damage and less health = higher chance)
+			#Range: > 0
+			"Min Barrage Duration" = 20
+			#Max time (in ticks) for the duration of the barrage attack. The actual duration is inversely proportional to Wither's health (100% health = min duration, 0% health = max duration)
+			#Range: > 0
+			"Max Barrage Duration" = 150
 
 	#Handles the Damage Resistances and Vulnerabilities
 	[Wither."Resistances & Vulnerabilities"]
@@ -154,6 +159,8 @@
 		#How much blocks from wither will be scanned for players to check for difficulty
 		#Range: > 16
 		"Spawn Radius Player Check" = 128
+		#Entities that extend the vanilla Wither but shouldn't be taken into account by the mod (e.g. Botania's Pink Wither).
+		"Entity Blacklist" = ["botania:pink_wither"]
 
 	#Bonus Experience and Drops
 	[Wither.Rewards]
@@ -205,7 +212,7 @@
 	#Makes more Crystal spawn and with more cages.
 	[Dragon.Crystals]
 		#Difficulty multiplied by this number will output how many tries will the dragon take to respawn crystals. Tries are capped between 1 and 100.
-		#Range: 0.0 ~ 1.0
+		#Range: 0.0 ~ 100.0
 		"Crystal Respawn Multiplier" = 0.5
 		#When respawning Crystals, chance for the crystal to be spawned inside a Tower instead of on top
 		#Range: 0.0 ~ 1.0

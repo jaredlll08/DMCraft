@@ -386,7 +386,7 @@
 		impact = 0.2
 		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, KNUCKLE, LONGSWORD, DAGGER, BOW, CROSSBOW
 		weapon_type = "DAGGER"
-		registry_name = "spartanweaponry:stone"
+		registry_name = "spartanweaponry:dagger_stone"
 
 	[custom_weaponry.shear_dagger]
 		armor_ignorance = 0.8

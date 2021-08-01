@@ -77,6 +77,8 @@
 	mob_griefing = false
 	#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
 	reduced_debug_info = false
+	#No comment
+	custom_weather_cycle = true
 
 #Configs related to difficult changes
 [difficulty]

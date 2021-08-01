@@ -24,10 +24,22 @@ craftingTable.addShapeless( "lesserequipmentforge",
     <item:lycanitesmobs:equipmentforge_lesser>,
     [<item:minecraft:crafting_table>, <item:betterendforge:iron_hammer>]);
 
-craftingTable.addShaped( "stringdict_bandage", <item:firstaid:bandage>, [
-    [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>],
-    [<tag:items:minecraft:wool>, <tag:items:minecraft:wool>, <tag:items:minecraft:wool>],
-    [<tag:items:forge:string>, <item:minecraft:air>, <tag:items:forge:string>]]);
+craftingTable.addShapeless( "filtermesh",
+    <item:minecolonies:sifter_mesh_string>,
+    [<tag:items:forge:string>, <tag:items:forge:string>, <tag:items:forge:string>, <tag:items:forge:string>]);
+
+
+craftingTable.addShapeless( "purifycanteen",
+    <item:toughasnails:purified_water_canteen>,
+    [<item:minecolonies:sifter_mesh_string>, <item:toughasnails:water_canteen>]);
+
+craftingTable.addShapeless( "bandagecheap",
+    <item:scalinghealth:bandages>,
+    [<tag:items:forge:string>, <tag:items:forge:string>, <tag:items:forge:paper>]);
+
+craftingTable.addShapeless( "purifybottle",
+    <item:toughasnails:purified_water_bottle>,
+    [<item:minecolonies:sifter_mesh_string>, <item:minecraft:potion>.withTag({Potion: "minecraft:water"})]);
 
 craftingTable.addShapeless( "advdungeonkey",
     <item:dimdungeons:item_portal_key>,

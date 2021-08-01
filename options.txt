@@ -12,9 +12,9 @@ invertYMouse:false
 realmsNotifications:false
 reducedDebugInfo:false
 snooperEnabled:false
-showSubtitles:true
+showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -22,8 +22,8 @@ mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:1.0
-renderDistance:38
+gamma:0.0
+renderDistance:12
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
@@ -33,8 +33,8 @@ graphicsMode:1
 ao:1
 biomeBlendRadius:3
 renderClouds:true
-resourcePacks:["inmemory:jaopca","vanilla","mod_resources","openloader/resources/AntiqueAtlasExtra-v1.2.zip","openloader/resources/ambiencesounds","openloader/resources/antiqueatlas","openloader/resources/custom_stuff","openloader/resources/immersive-soundscapes-resources-v2.4.zip","openloader/resources/sound_overhaul","quark:emote_resources","resourcefulbees","file/Unity-1.16.X-Base-2.4.0.zip","file/Unity-1.16.X-Extras-1.1.0.zip","file/Unity-1.16.X-Modded-1.3.0.zip","file/Unity-1.16.X-Dark-0.7.0.zip","file/lycanites_redux_6.0.0+1.16.5.zip","file/xali\u0027s Enchanted Books v0.6.zip","file/Spartan Retextured.zip","file/Tool+Belt+Retextured.zip","file/Wyrms and Pixels.zip","file/OrchestraSoundpackJavaR1.3Va.zip","file/AmbienceSounds.zip","file/AdditionalEndergeticEmissives.zip","file/Enhanced+Audio+r3.zip","file/FrostbiteBrimstone.zip","file/Full-Grown+1.0.0.zip","file/Modded+Connected+CTM+v1.5.zip","file/CreateTools+Rockit14+Edition+1.3.1.zip","file/3D-Bottles.zip","file/Infernal Resources.zip","openloader/resources/incendium","file/Dramatic Skys Demo 1.3.zip","file/EmbellishedStone.zip","file/FreshAnimations_v1.3.1.zip","file/Better dogs V1.13.zip","file/Jaden\u0027s Nether Expansion v1.0.0.zip","file/§b§lTetra_GUI_v0.6.zip"]
-incompatibleResourcePacks:["inmemory:jaopca","openloader/resources/AntiqueAtlasExtra-v1.2.zip","openloader/resources/ambiencesounds","quark:emote_resources","file/OrchestraSoundpackJavaR1.3Va.zip","file/AmbienceSounds.zip","file/Dramatic Skys Demo 1.3.zip","file/FreshAnimations_v1.3.1.zip"]
+resourcePacks:["inmemory:jaopca","vanilla","mod_resources","openloader/resources/AntiqueAtlasExtra-v1.2.zip","openloader/resources/ambiencesounds","openloader/resources/antiqueatlas","openloader/resources/custom_stuff","openloader/resources/immersive-soundscapes-resources-v2.4.zip","openloader/resources/incendium","openloader/resources/sound_overhaul","quark:emote_resources","resourcefulbees","file/Unity-1.16.X-Base-2.4.0.zip","file/Unity-1.16.X-Dark-0.7.0.zip","file/Unity-1.16.X-Extras-1.1.0.zip","file/Unity-1.16.X-Modded-1.3.0.zip","file/§b§lTetra_GUI_v0.6.zip","file/lycanites_redux_6.0.0+1.16.5.zip","file/Tool+Belt+Retextured.zip","file/Spartan Retextured.zip","file/OrchestraSoundpackJavaR1.3Va.zip","file/AdditionalEndergeticEmissives.zip","file/3D-Bottles.zip","file/EmbellishedStone.zip","file/FrostbiteBrimstone.zip","file/Full-Grown+1.0.0.zip","file/Enhanced+Audio+r3.zip","file/Dramatic Skys Demo 1.3.zip","file/Infernal Resources.zip","file/Jaden\u0027s Nether Expansion v1.0.0.zip","file/Wyrms and Pixels.zip","file/FreshAnimations_v1.3.zip","file/CreateTools+Rockit14+Edition+1.3.1.zip","file/Better dogs V1.13.zip","file/AmbienceSounds.zip"]
+incompatibleResourcePacks:["inmemory:jaopca","openloader/resources/AntiqueAtlasExtra-v1.2.zip","openloader/resources/ambiencesounds","quark:emote_resources","file/OrchestraSoundpackJavaR1.3Va.zip","file/Dramatic Skys Demo 1.3.zip","file/AmbienceSounds.zip"]
 lastServer:auth.minecraftcapes.net
 lang:en_us
 chatVisibility:0
@@ -101,6 +101,9 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_of.key.zoom:key.keyboard.c
+key_key.origins.primary_active:key.keyboard.g
+key_key.origins.secondary_active:key.keyboard.f
+key_key.origins.view_origin:key.keyboard.o:CONTROL
 key_key.dragon_fireAttack:key.keyboard.r
 key_key.dragon_strike:key.mouse.5
 key_key.dragon_down:key.keyboard.x
@@ -127,7 +130,7 @@ key_key.beastiary:key.keyboard.unknown
 key_key.pets:key.keyboard.unknown
 key_key.summoning:key.keyboard.unknown
 key_key.minions:key.keyboard.r
-key_key.curios.open.desc:key.keyboard.g
+key_key.curios.open.desc:key.keyboard.g:CONTROL
 key_key.pickup.item:key.keyboard.unknown
 key_key.scalinghealth.difficultyMeter:key.keyboard.z
 key_key.pmmo.showBar:key.keyboard.right.control
@@ -146,6 +149,14 @@ key_Open Wallet:key.keyboard.g
 key_Toggle Torch Belt:key.keyboard.h
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
+key_key.push_to_talk:key.keyboard.caps.lock
+key_key.mute_microphone:key.keyboard.m
+key_key.disable_voice_chat:key.keyboard.n:CONTROL
+key_key.hide_icons:key.keyboard.h:CONTROL
+key_key.voice_chat:key.keyboard.i:CONTROL
+key_key.voice_chat_settings:key.keyboard.home:CONTROL
+key_key.voice_chat_group:key.keyboard.equal:CONTROL
+key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_Camera left:key.keyboard.left
 key_Camera right:key.keyboard.right
 key_Camera closer:key.keyboard.up
@@ -157,8 +168,11 @@ key_Toggle perspective:key.keyboard.unknown
 key_wardance.combat:key.keyboard.grave.accent
 key_wardance.skill:key.mouse.5
 key_wardance.selectSkill:key.keyboard.f4
-key_wardance.quickSkill:key.mouse.middle
+key_wardance.quickSkill:key.mouse.5
+key_wardance.parry:key.keyboard.16
 key_key.astikorcarts.desc:key.keyboard.left
+key_key.lockon.lock_on:key.keyboard.left.bracket
+key_key.lockon.tab:key.keyboard.tab
 key_key.titles.openTitleSelection:key.keyboard.insert
 key_key.epicfight.show_tooltip:key.keyboard.p
 key_key.epicfight.switch_mode:key.keyboard.grave.accent
@@ -203,12 +217,13 @@ key_ping.key.look:key.keyboard.keypad.6
 key_ping.key.goto:key.keyboard.keypad.8
 key_key.armiger.openArmiger:key.keyboard.home
 key_key.playerex.hud:key.keyboard.semicolon
+key_key.spartanweaponry.access_quiver:key.keyboard.i
 key_key.ars_nouveau.open_book:key.keyboard.unknown
+key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
 key_key.ars_nouveau.next_slot:key.keyboard.x
-key_key.ftbquests.quests:key.keyboard.unknown
-key_key.spartanweaponry.access_quiver:key.keyboard.i
+key_servertabinfo.keys.show:key.keyboard.tab:CONTROL
 key_key.doom.reload:key.mouse.4
 key_key.customStructuresScreen:key.keyboard.f10
 key_key.sethorse.desc:key.keyboard.right
@@ -219,46 +234,8 @@ key_key.endergetic.booflo_slam:key.keyboard.x
 key_nimble.keybind.frontView:key.keyboard.f4
 key_key.openManual:key.keyboard.f1
 key_walljump.key.walljump:key.keyboard.left.shift
-key_keybinds.show_wounds:key.keyboard.h
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
 key_quark.keybind.camera_mode:key.keyboard.f12
-key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.back:key.mouse.4
-key_quark.keybind.autorun:key.keyboard.caps.lock
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_mod.chiselsandbits.chiselmode.single:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.snap2:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.snap4:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.snap8:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.line:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.plane:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.connected_plane:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.cube_small:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.cube_medium:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.cube_large:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.same_material:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.drawn_region:key.keyboard.unknown
-key_mod.chiselsandbits.chiselmode.connected_material:key.keyboard.unknown
-key_mod.chiselsandbits.positivepatternmode.replace:key.keyboard.unknown
-key_mod.chiselsandbits.positivepatternmode.additive:key.keyboard.unknown
-key_mod.chiselsandbits.positivepatternmode.placement:key.keyboard.unknown
-key_mod.chiselsandbits.positivepatternmode.impose:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.z
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_mod.chiselsandbits.tapemeasure.bit:key.keyboard.unknown
-key_mod.chiselsandbits.tapemeasure.block:key.keyboard.unknown
-key_mod.chiselsandbits.tapemeasure.distance:key.keyboard.unknown
-key_mod.chiselsandbits.other.mode:key.keyboard.unknown
-key_mod.chiselsandbits.other.rotate.ccw:key.keyboard.unknown
-key_mod.chiselsandbits.other.rotate.cw:key.keyboard.unknown
-key_mod.chiselsandbits.other.pickbit:key.keyboard.unknown
-key_mod.chiselsandbits.other.offgrid:key.keyboard.unknown
-key_mod.chiselsandbits.other.undo:key.keyboard.unknown
-key_mod.chiselsandbits.other.redo:key.keyboard.unknown
-key_mod.chiselsandbits.other.add_to_clipboard:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -277,6 +254,43 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.autorun:key.keyboard.caps.lock
+key_mod.chiselsandbits.chiselmode.single:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.snap2:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.snap4:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.snap8:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.line:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.plane:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.connected_plane:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.cube_small:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.cube_medium:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.cube_large:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.same_material:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.drawn_region:key.keyboard.unknown
+key_mod.chiselsandbits.chiselmode.connected_material:key.keyboard.unknown
+key_mod.chiselsandbits.positivepatternmode.replace:key.keyboard.unknown
+key_mod.chiselsandbits.positivepatternmode.additive:key.keyboard.unknown
+key_mod.chiselsandbits.positivepatternmode.placement:key.keyboard.unknown
+key_mod.chiselsandbits.positivepatternmode.impose:key.keyboard.unknown
+key_mod.chiselsandbits.tapemeasure.bit:key.keyboard.unknown
+key_mod.chiselsandbits.tapemeasure.block:key.keyboard.unknown
+key_mod.chiselsandbits.tapemeasure.distance:key.keyboard.unknown
+key_mod.chiselsandbits.other.mode:key.keyboard.unknown
+key_mod.chiselsandbits.other.rotate.ccw:key.keyboard.unknown
+key_mod.chiselsandbits.other.rotate.cw:key.keyboard.unknown
+key_mod.chiselsandbits.other.pickbit:key.keyboard.unknown
+key_mod.chiselsandbits.other.offgrid:key.keyboard.unknown
+key_mod.chiselsandbits.other.undo:key.keyboard.unknown
+key_mod.chiselsandbits.other.redo:key.keyboard.unknown
+key_mod.chiselsandbits.other.add_to_clipboard:key.keyboard.unknown
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_key.occultism.backpack:key.keyboard.comma
 key_key.occultism.storage_remote:key.keyboard.n
 key_key.occultism.familiar.otherworld_bird:key.keyboard.unknown
@@ -312,7 +326,7 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.bookmark:key.keyboard.a
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
-soundCategory_master:1.0000001
+soundCategory_master:0.10000001
 soundCategory_music:0.23644367
 soundCategory_record:0.14570312
 soundCategory_weather:0.0884408

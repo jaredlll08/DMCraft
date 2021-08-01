@@ -8,9 +8,6 @@
 	"recovery speed" = 15
 
 [parrying]
-	#parries will only work in this many ticks after sneaking, 0 to disable. I don't know why everyone wants this option, but here it is.
-	#Range: > 0
-	"sneak parry time" = 0
 	#Posture consumed per projectile parried
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"posture per projectile" = 0.5
@@ -26,6 +23,9 @@
 	#This many parries are free after a parry that cost posture
 	#Range: > 0
 	"default shield count" = 1
+	#parries will only work in this many ticks after pressing the designated key, and cannot be triggered again for the same amount of time afterwards; 0 to disable. I don't know why everyone wants this option, but here it is.
+	#Range: > 0
+	"manual parry time" = 0
 
 [dodging]
 	"enable dodges" = false

@@ -56,7 +56,7 @@
 				{
 					id: "11D5B16CD4147558"
 					type: "item"
-					item: "notreepunching:plant_fiber"
+					item: "rankine:plant_fiber"
 					count: 15L
 					consume_items: false
 					only_from_crafting: false
@@ -77,20 +77,12 @@
 			description: ["Flint is your key to starting here. Flint tools are fragile, but they get the job done. Right click flint on stone to knap it."]
 			dependencies: ["082ABB9F8A51E270"]
 			id: "4441EE6156FAE3C8"
-			tasks: [
-				{
-					id: "589A2454904EDD07"
-					type: "item"
-					item: "minecraft:flint"
-					count: 3L
-				}
-				{
-					id: "1CF6791F70BE2A32"
-					type: "item"
-					item: "notreepunching:flint_shard"
-					count: 6L
-				}
-			]
+			tasks: [{
+				id: "589A2454904EDD07"
+				type: "item"
+				item: "minecraft:flint"
+				count: 3L
+			}]
 			rewards: [{
 				id: "097CEA4F986512A9"
 				type: "pmmo:xpreward"
@@ -110,10 +102,10 @@
 			id: "0AA32D88F07B9E27"
 			tasks: [
 				{
-					id: "0B2695C66759949D"
+					id: "357074D01B66FBBD"
 					type: "item"
 					item: {
-						id: "notreepunching:flint_pickaxe"
+						id: "rankine:flint_pickaxe"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -121,10 +113,10 @@
 					}
 				}
 				{
-					id: "2D2122E1FF0DC7AD"
+					id: "4696EA5A7E9882AE"
 					type: "item"
 					item: {
-						id: "notreepunching:flint_axe"
+						id: "rankine:flint_axe"
 						Count: 1b
 						tag: {
 							Damage: 0

@@ -24,12 +24,12 @@ cap_brightness = true
 	inventory_tab_x = 88
 	#
 	# This setting does nothing when use_simple_inventory_tabs is set to false.
-	# If set to true, inventory tabs are sorted vertically. If set to false, they are sorted horizontally.
-	# Default: true
-	vertical_inventory_tabs = true
-	#
-	# This setting does nothing when use_simple_inventory_tabs is set to false.
 	# The y position of the inventory tabs.
 	# Default: 80
 	inventory_tab_y = 80
+	#
+	# This setting does nothing when use_simple_inventory_tabs is set to false.
+	# If set to true, inventory tabs are sorted vertically. If set to false, they are sorted horizontally.
+	# Default: true
+	vertical_inventory_tabs = true
 

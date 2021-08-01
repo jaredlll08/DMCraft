@@ -65,15 +65,19 @@
         "dimdungeons:basic_keys",
         "dimdungeons:basic_portals",
         "dimdungeons:patch_notes_1_10",
-        "dimdungeons:artifact_key_charger"
+        "dimdungeons:artifact_key_charger",
+        "dimdungeons:advanced_keys",
+        "dimdungeons:advanced_portals"
       ],
       "bookmarks": [],
       "history": [
+        "dimdungeons:patch_notes_1_10",
+        "dimdungeons:advanced_portals",
+        "dimdungeons:advanced_keys",
         "dimdungeons:basic_portals",
         "dimdungeons:introduction",
         "dimdungeons:basic_keys",
         "dimdungeons:artifact_key_charger",
-        "dimdungeons:patch_notes_1_10",
         "dimdungeons:simple_advice"
       ],
       "completedManualQuests": []
@@ -194,6 +198,8 @@
       ],
       "bookmarks": [],
       "history": [
+        "rankine:guide/00",
+        "rankine:world/stones",
         "rankine:materials/refractory_bricks",
         "rankine:machines/alloy_furnace",
         "rankine:guide/01",
@@ -202,11 +208,9 @@
         "rankine:machines/rankine_box",
         "rankine:machines/template_table",
         "rankine:materials/explosives",
-        "rankine:world/stones",
         "rankine:tools/hammers",
         "rankine:machines/charcoal_pit",
-        "rankine:tools/swords",
-        "rankine:guide/tips"
+        "rankine:tools/swords"
       ],
       "completedManualQuests": []
     }

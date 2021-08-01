@@ -6,7 +6,7 @@ displayEnemyPosture = true
 [might]
 	#might HUD x position from the left quartile of the screen
 	#Range: > -2147483647
-	"might X" = 100
+	"might X" = 175
 	#might HUD y position from the bottom of the screen
 	#Range: > 0
 	"might Y" = 100
@@ -14,7 +14,7 @@ displayEnemyPosture = true
 [spirit]
 	#spirit HUD x position from the right quartile of the screen
 	#Range: > -2147483647
-	"spirit X" = -100
+	"spirit X" = -175
 	#spirit HUD y position from the bottom of the screen
 	#Range: > 0
 	"spirit Y" = 100
@@ -22,7 +22,7 @@ displayEnemyPosture = true
 [combo]
 	#x position of the combo HUD's center from the left of the screen
 	#Range: -2147483647 ~ 0
-	"combo X" = 0
+	"combo X" = -400
 	#x position of the combo HUD's center the center of the screen
 	#Range: > -2147483647
 	"combo Y" = 0
@@ -31,8 +31,8 @@ displayEnemyPosture = true
 	#your posture bar X, defined as deviation from the center
 	#Range: > -2147483647
 	yourPostureX = 0
-	#your posture bar Y, defined from the middle of the screen
-	#Range: > -2147483647
+	#your posture bar Y, defined from the bottom of the screen
+	#Range: -2147483647 ~ 0
 	yourPostureY = -10
 
 [theirs]

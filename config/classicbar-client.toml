@@ -6,7 +6,7 @@
 	armor_toughness_color_values = ["#AAAAAA", "#FF5500", "#FFC747", "#27FFE3", "#00FF00", "#7F00FF"]
 	display_low_hunger_warning = true
 	show_health_numbers = true
-	show_armor_toughness_numbers = false
+	show_armor_toughness_numbers = true
 	show_hunger_numbers = true
 	withered_fractions = [0.25, 0.5, 0.75]
 	show_exhaustion_overlay = true

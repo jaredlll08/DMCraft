@@ -7,5 +7,5 @@
 	#Range: > 1
 	decayTime = 20
 	#Resource locations of sounds to play. Separate with commas.
-	sounds = ["minecraft:music_disc.pigstep", "minecraft:music_disc.mellohi, minecraft:music.nether.nether_wastes"]
+	sounds = ["minecraft:music_disc.pigstep", "minecraft:music_disc.mellohi"]
 

@@ -1,10 +1,12 @@
 {
-  "startingValue" : 1,
-  "minValue" : 1,
+  "startingValue" : 0,
+  "minValue" : 0,
   "maxValue" : 1000,
   "changePerSecond" : 0.0011575,
   "mode" : {
-    "type" : "extrema"
+    "type" : "extrema",
+    "radius" : 256,
+    "min" : false 
   },
   "groupBonus" : "1 + 0.05 * (areaPlayerCount - 1)",
   "groupBonusRadius" : 128,

@@ -18,13 +18,13 @@
 	[perspective.offset]
 		#Third person camera x-offset
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_x = -1.1749999999999998
+		offset_x = -1.5249999999999986
 		#Third person camera y-offset
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_y = -0.25000000000000017
+		offset_y = 0.1999999999999998
 		#Third person camera z-offset
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_z = 1.9499999999999935
+		offset_z = 2.124999999999993
 
 		[perspective.offset.min]
 			#If x-offset is limited this is the minimum amount
@@ -61,7 +61,7 @@
 	show_crosshair_farther = true
 	#Crosshair type to use for shoulder surfing
 	#Allowed Values: ADAPTIVE, DYNAMIC, STATIC, STATIC_WITH_1PP
-	crosshair_type = "ADAPTIVE"
+	crosshair_type = "DYNAMIC"
 	#Additional items that trigger the dynamic crosshair when in apative mode
 	adaptive_crosshair_items = ["minecraft:snowball", "minecraft:egg", "minecraft:experience_bottle", "minecraft:ender_pearl", "minecraft:splash_potion", "minecraft:fishing_rod", "minecraft:lingering_potion"]
 
