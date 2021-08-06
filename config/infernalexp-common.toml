@@ -112,6 +112,8 @@
 	jerkyEffectAmplifier = 1
 	#Determines if thrown fire charges will explode on impact
 	fireChargeExplosion = true
+	#Determines if bricks are throwable or not
+	useThrowableBricks = true
 
 	[Miscellaneous."Luminous Fungus"]
 		#Determines the distance an entity has to be from a luminous fungus for it to activate (larger values have performance impact)

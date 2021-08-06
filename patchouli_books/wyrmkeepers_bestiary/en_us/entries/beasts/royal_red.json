@@ -1,0 +1,30 @@
+{
+    "name" : "Royal Red",
+    "icon" : "wyrmroost:red_geode_dragon_armor",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "Traditionally the mount of ancient kings, the Royal Red Dragon is an extremely dangerous predator native to the highest of mountain peaks. Despite its large size and powerful fire breath, it, much like Alpine Dragons, seems to have no trouble surviving in the thin air of its native mountain environments."
+        },
+		{
+            "type" : "entity",
+            "entity" : "wyrmroost:royal_red",
+			"scale" : 0.55,
+            "offset" : 1.5,
+            "rotate" : false,
+            "default_rotation" : 45.0
+        },
+        {
+            "type" : "text",
+            "title" : "Behavior",
+            "text" : "The Royal Red is a dangerous and powerful dragon. Take extreme caution when approaching, and do not do so unprepared. Their bite and claws are deadly, and their fire breath can set entire forests ablaze. Their hide is extremely tough, and only $(l:equipment/geode_gear)specialized weapons$() will pierce it. A local alchemist sold me a potion of Fire Resistance, which proved invaluable when I was subjected to its breath attack."
+        },
+        {
+            "type" : "text",
+            "title" : "Taming",
+            "text" : "Taming such a powerful creature requires establishing dominance. Simply put, beat the living daylights out of it (before it does the same to you), then show it mercy by feeding it raw meat. It is best to wait at least a minute or so before attempting to feed it, to better establish dominance over the beast."
+        }
+    ]
+}

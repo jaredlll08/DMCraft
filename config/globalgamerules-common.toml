@@ -6,7 +6,7 @@
 	#Whether phantoms can spawn in the nighttime
 	do_insomnia = true
 	#Whether command blocks should notify admins when they perform commands	
-	command_block_output = false
+	command_block_output = true
 	#Players respawn immediately without showing the death screen
 	do_immediate_respawn = false
 	#Makes angered neutral mobs stop being angry when the targeted player dies nearby.
@@ -16,8 +16,6 @@
 	max_entity_cramming = 24
 	#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
 	natural_regeneration = false
-	#No comment
-	do_season_cycle = true
 	#Determines the number at which the chain command block acts as a "chain"
 	#Range: > 0
 	max_command_chain_length = 65536

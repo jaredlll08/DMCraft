@@ -1,0 +1,30 @@
+{
+    "name" : "Dragon Fruit Drake",
+    "icon" : "wyrmroost:purple_geode_dragon_armor",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "The Jungle-dwelling Dragon Fruit Drake is rather hostile to human interaction. They prefer to eat their grass and be left alone."
+        },
+		{
+            "type" : "entity",
+            "entity" : "wyrmroost:dragon_fruit_drake",
+			"scale" : 0.6,
+            "offset" : 1,
+            "rotate" : false,
+            "default_rotation" : 45.0
+        },
+        {
+            "type" : "text",
+            "title" : "Behavior",
+            "text" : "The Dragonfruit Drakes tend to live in pairs or small groups, and will attack anyone in the immediate area. They consume large amounts of grass, and any tamed beasts are useful primarily as lawnmowers."
+        },
+        {
+            "type" : "text",
+            "title" : "Taming",
+            "text" : "Adult Dragonfruit Drakes do not respond positively to any human interaction. However, their young appear to be more trusting than their adult counterparts. I fed one a few apples, and he decided that he would continue to follow me around and pester me for more. I've named him Fredrick."
+        }
+    ]
+}

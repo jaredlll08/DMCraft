@@ -1,0 +1,30 @@
+{
+    "name" : "Roost Stalker",
+    "icon" : "minecraft:egg",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "The Roost Stalker is a small six-legged creature native to plains and forests, typically found in small pack-like groups."
+        },
+		{
+            "type" : "entity",
+            "entity" : "wyrmroost:roost_stalker",
+			"scale" : 0.55,
+            "offset" : 0.5,
+            "rotate" : false,
+            "default_rotation" : 45.0
+        },
+        {
+            "type" : "text",
+            "title" : "Behavior",
+            "text" : "My first encounter with a Roost Stalker was when I was travelling through the plains, after I had made camp for the night. I woke up in the middle of the night to find three of them going through my travelling trunk! My guide accidentally stepped on one of the creatures' tails, and all three became rather upset with him."
+        },
+        {
+            "type" : "text",
+            "title" : "Taming",
+            "text" : "While trying to coax one of the Roost Stalkers into giving back my sword, I found that the creatures have quite a fondness for eggs. I gave it a few, and it seemed to have decided that I was a friend, and chose to ride on my head for a while. Chewing on raw meat seemed to please it."
+        }
+    ]
+}

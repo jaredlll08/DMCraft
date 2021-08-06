@@ -194,23 +194,78 @@
         "rankine:machines/rankine_box",
         "rankine:machines/induction_furnace",
         "rankine:guide/03",
-        "rankine:materials/refractory_bricks"
+        "rankine:materials/refractory_bricks",
+        "rankine:tools/pickaxes",
+        "rankine:tools/gold_pan",
+        "rankine:mechanics/villagers",
+        "rankine:tools/shulker_gas_vacuum",
+        "rankine:guide/04",
+        "rankine:machines/beehive_oven"
       ],
       "bookmarks": [],
       "history": [
-        "rankine:guide/00",
-        "rankine:world/stones",
-        "rankine:materials/refractory_bricks",
-        "rankine:machines/alloy_furnace",
-        "rankine:guide/01",
-        "rankine:guide/03",
-        "rankine:machines/induction_furnace",
-        "rankine:machines/rankine_box",
-        "rankine:machines/template_table",
-        "rankine:materials/explosives",
-        "rankine:tools/hammers",
+        "rankine:machines/beehive_oven",
         "rankine:machines/charcoal_pit",
-        "rankine:tools/swords"
+        "rankine:guide/02",
+        "rankine:guide/03",
+        "rankine:guide/01",
+        "rankine:guide/00",
+        "rankine:guide/04",
+        "rankine:tools/shulker_gas_vacuum",
+        "rankine:mechanics/villagers",
+        "rankine:tools/gold_pan",
+        "rankine:world/stones",
+        "rankine:machines/alloy_furnace",
+        "rankine:tools/pickaxes"
+      ],
+      "completedManualQuests": []
+    },
+    "resourcefulbees:fifty_shades_of_bees": {
+      "viewedEntries": [
+        "resourcefulbees:apiary/building",
+        "resourcefulbees:essential_tools/bee_jar",
+        "resourcefulbees:honeycomb_gathering/tiered_beehives"
+      ],
+      "bookmarks": [],
+      "history": [
+        "resourcefulbees:honeycomb_gathering/tiered_beehives",
+        "resourcefulbees:essential_tools/bee_jar",
+        "resourcefulbees:apiary/building"
+      ],
+      "completedManualQuests": []
+    },
+    "patchouli:wyrmkeepers_bestiary": {
+      "viewedEntries": [
+        "patchouli:beasts/silver_glider",
+        "patchouli:beasts/alpine",
+        "patchouli:beasts/canari_wyvern",
+        "patchouli:beasts/lesser_desertwyrm",
+        "patchouli:beasts/coin_dragon",
+        "patchouli:beasts/overworld_drake",
+        "patchouli:beasts/roost_stalker",
+        "patchouli:beasts/butterfly_leviathan",
+        "patchouli:beasts/royal_red",
+        "patchouli:beasts/ender_dragon",
+        "patchouli:beasts/dragon_fruit_drake",
+        "patchouli:resources/platinum",
+        "patchouli:resources/geode",
+        "patchouli:equipment/trumpet",
+        "patchouli:equipment/platinum_gear",
+        "patchouli:equipment/dragon_staff",
+        "patchouli:equipment/geode_gear",
+        "patchouli:equipment/dragon_armor",
+        "patchouli:equipment/soul_crystal"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:beasts/lesser_desertwyrm",
+        "patchouli:beasts/dragon_fruit_drake",
+        "patchouli:beasts/butterfly_leviathan",
+        "patchouli:equipment/soul_crystal",
+        "patchouli:equipment/trumpet",
+        "patchouli:beasts/coin_dragon",
+        "patchouli:beasts/roost_stalker",
+        "patchouli:beasts/ender_dragon"
       ],
       "completedManualQuests": []
     }

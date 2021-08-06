@@ -1,0 +1,37 @@
+{
+    "name" : "Geode Equipment",
+    "icon" : "wyrmroost:blue_geode_tipped_arrow",
+    "category" : "patchouli:equipment",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "Geodes found deep beneath the earth (or other realms) can be used to craft a wide variety of tools, protective equipment, and even weapons capable of piercing the hide of a Royal Red dragon.$(br2)Note that any kind of geode can be used, to varying effect."
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:blue_geode_sword",
+            "recipe2" : "wyrmroost:blue_geode_tipped_arrow"
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:blue_geode_pickaxe",
+            "recipe2" : "wyrmroost:blue_geode_axe"
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:blue_geode_shovel",
+            "recipe2" : "wyrmroost:blue_geode_hoe"
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:blue_geode_helmet",
+            "recipe2" : "wyrmroost:blue_geode_chestplate"
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:blue_geode_leggings",
+            "recipe2" : "wyrmroost:blue_geode_boots"
+        }
+    ]
+}

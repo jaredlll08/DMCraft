@@ -43,3 +43,23 @@ customization {
   parrot = false
 }
 
+customization {
+  orientation = top-centered
+  basecolor = #12b88e
+  shadow = true
+  delayappearanceseconds = 1.0
+  rotation = -20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 56
+  actionid = c94b57d5-b7fa-45be-a2cb-b78513846f5f1627956791006
+  action = addsplash
+  y = 79
+  delayappearance = true
+  text = good luck <3
+  delayappearanceeverytime = true
+}
+

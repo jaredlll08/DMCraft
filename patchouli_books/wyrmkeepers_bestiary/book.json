@@ -1,0 +1,8 @@
+{
+	"name" : "Wyrmkeeper's Bestiary",
+	"landing_text" : "Welcome to the Wyrmkeeper's Bestiary. Herein lies descriptions of all the world's draconic beasts, and how to tame them! Additionally, this book describes the variety of equipment any successful Wyrmkeeper will need. Happy hunting! $(br2)- Draco the Wyrmkeeper",
+	"subtitle" : "By Draco the Wyrmkeeper",
+	"model" : "patchouli:book_cyan",
+	"texture" : "patchouli:textures/gui/book_cyan.png",
+	"show_progress" : false
+}

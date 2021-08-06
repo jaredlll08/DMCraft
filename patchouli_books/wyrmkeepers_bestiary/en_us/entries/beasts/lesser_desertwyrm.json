@@ -1,0 +1,29 @@
+{
+    "name" : "Lesser Desertwyrm",
+    "icon" : "wyrmroost:desert_wyrm",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "The Lesser Desertwyrm, as its name would suggest, can be found buried in the sands of most of the world's deserts. The small creatures prefer to hunt by burying themselves in the sand and striking out at small prey. They're generally not dangerous to humans."
+        },
+		{
+            "type" : "entity",
+            "entity" : "wyrmroost:lesser_desertwyrm",
+			"scale" : 0.55,
+            "offset" : 0.0,
+            "rotate" : false,
+            "default_rotation" : 45.0
+        },
+        {
+            "type" : "text",
+            "title" : "Behavior",
+            "text" : "The Lesser Desertwyrm is a carnivorous ambush predator that feeds on small prey, such as rabbits. They're too small to pose much of a danger to humans, and the locals I've spoken to treat campfire-grilled desertwyrm as a delicacy. It tastes good with BBQ sauce."
+        },
+        {
+            "type" : "text",
+            "text" : ""
+        }
+    ]
+}

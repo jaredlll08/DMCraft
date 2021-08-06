@@ -1,0 +1,30 @@
+{
+    "name" : "Alpine",
+    "icon" : "wyrmroost:platinum_dragon_armor",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "The feathered Alpine Dragon can often be found in small groups in high-altitude mountainous terrain. Despite their large size, they seem perfectly comfortable with the thinner air of their high-altitude habitat."
+        },
+		{
+            "type" : "entity",
+            "entity" : "wyrmroost:alpine",
+			"scale" : 0.4,
+            "offset" : 1.5,
+            "rotate" : false,
+            "default_rotation" : 45.0
+        },
+        {
+            "type" : "text",
+            "title" : "Behavior",
+            "text" : "Despite being found in groups, the creatures don't seem to exhibit much pack-oriented behavior, and generally won't step in if another member is in danger. When interacting with the beasts, I've found that they rarely attack unless provoked, however a wind blast created by their large and powerful wings can send an unwary traveller tumbling from a cliff side."
+        },
+        {
+            "type" : "text",
+            "title" : "Taming",
+            "text" : "I've found that Alpine Dragons seem to have quite a fondness for honey, although sharing what I had wasn't sufficient to fully gain the creatures' trust. However, I have also noticed that the beasts will seek out and consume bees, and curiously enough, will allow them to leave the hive, only to consume them upon their return. Perhaps a bee might be a sufficient offering..."
+        }
+    ]
+}

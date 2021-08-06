@@ -1,0 +1,30 @@
+{
+    "name" : "Silver Glider",
+    "icon" : "minecraft:cod",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "The Silver Glider is a small coast-dwelling wingwalker, often living in small groups. They're rather skittish creatures, and their behavior reminds of my cat, Irwin."
+        },
+		{
+            "type" : "entity",
+            "entity" : "wyrmroost:silver_glider",
+			"scale" : 0.5,
+            "offset" : 1,
+            "rotate" : false,
+            "default_rotation" : 45.0
+        },
+        {
+            "type" : "text",
+            "title" : "Behavior",
+            "text" : "Silver Gliders are harmless creatures, but also rather fearful of humans. They'll often glide out over the ocean before returning with fish, which they seem to enjoy eating. They live in small groups, but often act largely independently."
+        },
+        {
+            "type" : "text",
+            "title" : "Taming",
+            "text" : "Taming a creature as flighty as a Silver Glider requires an inordinate amount of patience. They like fish, but flee at the slightest movement. One must approach slowly and carefully before offering any food. I've heard some prefer to tie the creature down with a lead before offering fish, though I consider such a practice cruel."
+        }
+    ]
+}

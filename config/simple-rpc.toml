@@ -1,6 +1,6 @@
 
 [general]
-	clientID = 762726289341677668
+	clientID = 871246375919181834
 	enabled = true
 	debugging = false
 	configScreen = true
@@ -10,21 +10,21 @@
 
 [init]
 	enabled = true
-	description = "Minecraft is loading"
+	description = "Damned Minecraft is loading"
 	state = "Game Starting..."
-	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
+	largeImageKey = "dmc_logo"
+	largeImageText = "It's Minecraft %mcver%, but Damned!"
+	smallImageKey = "dmc_logo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
 
 [main_menu]
 	enabled = true
 	description = "%player% is currently lazy"
-	state = "Chilling in the menu"
-	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
+	state = "Trembling in fear on the main menu"
+	largeImageKey = "dmc_logo"
+	largeImageText = "It's Minecraft %mcver%, but Damned!"
+	smallImageKey = "dmc_logo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
 
@@ -32,9 +32,9 @@
 	enabled = true
 	description = "%player% is looking for a server"
 	state = "Searching for friends"
-	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
+	largeImageKey = "dmc_logo"
+	largeImageText = "It's Minecraft %mcver%, but Damned!"
+	smallImageKey = "dmc_logo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
 
@@ -42,38 +42,38 @@
 	enabled = true
 	description = "%player% is joining a game"
 	state = "Joining Game"
-	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
+	largeImageKey = "dmc_logo"
+	largeImageText = "It's Minecraft %mcver%, but Damned!"
+	smallImageKey = "dmc_logo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
 
 [single_player]
 	enabled = true
 	description = "Currently In %world%"
-	state = "Playing lonely mode"
-	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
+	state = "Exploring the damned wilds"
+	largeImageKey = "dmc_logo"
+	largeImageText = "It's Minecraft %mcver%, but Damned!"
+	smallImageKey = "dmc_logo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
 
 [multi_player]
 	enabled = true
 	description = "Playing on %servername% with %players% players"
-	state = "Playing online"
-	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
+	state = "Playing with their party"
+	largeImageKey = "dmc_logo"
+	largeImageText = "It's Minecraft %mcver%, but Damned!"
+	smallImageKey = "dmc_logo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
 
 [generic]
-	description = "Playing Minecraft"
+	description = "Playing Damned Minecraft"
 	state = ""
-	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
+	largeImageKey = "dmc_logo"
+	largeImageText = "It's Minecraft %mcver%, but Damned!"
+	smallImageKey = "dmc_logo"
 	smallImageText = "%mods% mods installed"
 	buttons = []
 
@@ -84,20 +84,20 @@
 		worldname = "overworld"
 		largeImageKey = "overworld"
 		largeImageText = "In the Overworld"
-		smallImageKey = "mclogo"
+		smallImageKey = "dmc_logo"
 		smallImageText = "%mods% mods installed"
 
 	[[world_images.worlds]]
 		worldname = "the_nether"
 		largeImageKey = "nether"
 		largeImageText = "In the Nether"
-		smallImageKey = "mclogo"
+		smallImageKey = "dmc_logo"
 		smallImageText = "%mods% mods installed"
 
 	[[world_images.worlds]]
 		worldname = "the_end"
 		largeImageKey = "end"
 		largeImageText = "In the End"
-		smallImageKey = "mclogo"
+		smallImageKey = "dmc_logo"
 		smallImageText = "%mods% mods installed"
 

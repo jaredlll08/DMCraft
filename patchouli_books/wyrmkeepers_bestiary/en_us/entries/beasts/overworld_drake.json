@@ -1,0 +1,31 @@
+{
+    "name" : "Overworld Drake",
+    "icon" : "wyrmroost:drake_backplate",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "The Overworld Drake is a large land-bound drake native to plains and savannah biomes. It's herbivorous, but its large horns and claws are not to be ignored. The beast can be tamed, but proceed with caution."
+        },
+		{
+            "type" : "entity",
+            "name" : "Overworld Drake",
+            "entity" : "wyrmroost:overworld_drake",
+			"scale" : 0.55,
+            "offset" : 1.5,
+            "rotate" : false,
+            "default_rotation" : 45.0
+        },
+        {
+            "type" : "text",
+            "title" : "Behavior",
+            "text" : "The Overworld Drake is a herbivorous creature, but if you approach it, it will attack you, and its roar is powerful enough to stop many a would-be tamer in their tracks. A tamed drake, however, makes a remarkably good mount. Their horn and claw attacks are powerful, and I found it could carry my travelling trunk with very little trouble. Those who ride them into battle will often equip them with protective armor."
+        },
+        {
+            "type" : "text",
+            "title" : "Taming",
+            "text" : "I've found the best approach to taming an Overworld Drake is to climb aboard its back and cling for dear life. It will throw you off repeatedly, but so long as you get back on every time, it will eventually accept you. I've also found that once they've been tamed, Overworld Drakes tend to be quite fond of wheat."
+        }
+    ]
+}

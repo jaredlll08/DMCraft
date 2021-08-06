@@ -30,33 +30,17 @@ import stdlib.List;
     <item:twilightforest:yeti_trophy>,
     <item:twilightforest:snow_queen_trophy>,
     <item:twilightforest:quest_ram_trophy>,
-    <item:iceandfire:dragon_skull_fire>,
-    <item:iceandfire:dragon_skull_ice>,
-    <item:iceandfire:dragon_skull_lightning>
 ]);
 
 // Exotics
 
 <tag:items:crafttweaker:exotics>.add([
-    <item:iceandfire:hydra_fang>,
     <item:meetyourfight:phantoplasm>,
     <item:meetyourfight:fortunes_favor>,
     <item:meetyourfight:mossy_tooth>,
     <item:minecraft:nether_star>,
     <item:bountifulbaubles:ender_dragon_scale>,
     <item:cagedmobs:dragon_scale>,
-    <item:iceandfire:dragonscales_red>,
-    <item:iceandfire:dragonscales_green>,
-    <item:iceandfire:dragonscales_bronze>,
-    <item:iceandfire:dragonscales_gray>,
-    <item:iceandfire:dragonscales_blue>,
-    <item:iceandfire:dragonscales_white>,
-    <item:iceandfire:dragonscales_sapphire>,
-    <item:iceandfire:dragonscales_silver>,
-    <item:iceandfire:dragonscales_electric>,
-    <item:iceandfire:dragonscales_amythest>,
-    <item:iceandfire:dragonscales_copper>,
-    <item:iceandfire:dragonscales_black>,
     <item:quark:ravager_hide>,
     <item:alexsmobs:void_worm_mandible>,
     <item:alexsmobs:void_worm_eye>,

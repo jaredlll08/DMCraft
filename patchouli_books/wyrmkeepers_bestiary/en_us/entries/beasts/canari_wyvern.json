@@ -1,0 +1,30 @@
+{
+    "name" : "Canari Wyvern",
+    "icon" : "minecraft:sweet_berries",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "These interesting critters can be found in swamp and marsh regions of the world. Their size and feathers make them easily mistakable for the local birds, but the venomous barbs on the end of their tails reveal otherwise."
+        },
+		{
+            "type" : "entity",
+            "entity" : "wyrmroost:canari_wyvern",
+			"scale" : 0.6,
+            "offset" : 0,
+            "rotate" : false,
+            "default_rotation" : 45.0
+        },
+        {
+            "type" : "text",
+            "title" : "Behavior",
+            "text" : "The primary defense mechanism of the Canari Wyvern is to use their venom to strike their targets, and distract them long enough to flee. After a few stings myself, I discovered a faint trail of fallen feathers that led me to the beast's location."
+        },
+        {
+            "type" : "text",
+            "title" : "Taming",
+            "text" : "The best way to any dragon's heart is through the stomach. These beasts are quite fond of sweet berries, however they only seem to hold still long enough for me to feed them when they are threatening me after a short chase."
+        }
+    ]
+}

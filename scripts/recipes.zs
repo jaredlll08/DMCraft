@@ -13,16 +13,10 @@ import crafttweaker.api.util.text.MCTextComponent;
 craftingTable.removeRecipe(<item:minecraft:end_crystal>);
 craftingTable.removeRecipe(<tag:items:mysticalworld:copper_items>);
 craftingTable.removeRecipe(<tag:items:mysticalworld:silver_items>);
-craftingTable.removeRecipe(<item:lycanitesmobs:equipmentforge_lesser>);
-craftingTable.removeRecipe(<item:lycanitesmobs:equipmentpart_ironpaxel>);
-craftingTable.removeRecipe(<item:lycanitesmobs:equipmentpart_woodenpaxel>);
 
 
 // Addition
 
-craftingTable.addShapeless( "lesserequipmentforge",
-    <item:lycanitesmobs:equipmentforge_lesser>,
-    [<item:minecraft:crafting_table>, <item:betterendforge:iron_hammer>]);
 
 craftingTable.addShapeless( "filtermesh",
     <item:minecolonies:sifter_mesh_string>,
@@ -32,6 +26,14 @@ craftingTable.addShapeless( "filtermesh",
 craftingTable.addShapeless( "purifycanteen",
     <item:toughasnails:purified_water_canteen>,
     [<item:minecolonies:sifter_mesh_string>, <item:toughasnails:water_canteen>]);
+
+craftingTable.addShapeless( "mudwithbottle",
+    <item:environmental:mud_ball>,
+    [<item:minecraft:dirt>, <item:minecraft:dirt>, <item:minecraft:dirt>, <item:minecraft:dirt>, <item:minecraft:dirt>, <item:minecraft:dirt>, <item:minecraft:dirt>, <item:minecraft:dirt>, <item:minecraft:potion>.withTag({Potion: "minecraft:water"})]);
+
+craftingTable.addShapeless( "dirttoclay",
+    <item:minecraft:clay> * 4,
+    [<item:environmental:mud_ball>, <item:minecraft:sand>]);
 
 craftingTable.addShapeless( "bandagecheap",
     <item:scalinghealth:bandages>,

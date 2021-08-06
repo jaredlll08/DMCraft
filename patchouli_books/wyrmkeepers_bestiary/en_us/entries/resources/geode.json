@@ -1,0 +1,26 @@
+{
+    "name" : "Geode",
+    "icon" : "wyrmroost:blue_geode",
+    "category" : "resources",
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "A number of forms of geode can be found deep underground within the various realms of the world. They can be fabricated into a variety of $(l:equipment/geode_gear)useful equipment$() by a skilled craftsman."
+        },
+        {
+            "type" : "spotlight",
+            "item" : "wyrmroost:blue_geode_ore",
+            "text" : "Blue geodes can be found deep beneath the earth, close to the very bedrock itself. Mining experts I've consulted with tell me that they often find blue geodes when looking for diamonds."
+        },
+        {
+            "type" : "spotlight",
+            "item" : "wyrmroost:red_geode_ore",
+            "text" : "Travelers into the Nether often find red geodes scattered at any altitude throughout the realm. Anyone seeking them out should however be warned that the Nether is a dangerous place, and travel there is not to be taken lightly."
+        },
+        {
+            "type" : "spotlight",
+            "item" : "wyrmroost:purple_geode_ore",
+            "text" : "I've heard vague rumours of purple geodes in existence, however I have yet to collect a specimen myself, nor do I know of any Earthly or Nether-dwelling miner who has encountered one. Perhaps this has something to do with the rumoured $(l:beasts/ender_dragon)Ender Dragon$(). I will have to investigate further."
+        }
+    ]
+}

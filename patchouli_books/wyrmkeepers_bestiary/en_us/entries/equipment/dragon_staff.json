@@ -1,0 +1,15 @@
+{
+    "name" : "Dragon Staff",
+    "icon" : "wyrmroost:dragon_staff",
+    "category" : "equipment",
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "The Dragon Staff is the quintessential tool of any Wyrmkeeper. It can be used to give basic commands to any dragon, such as to stay or follow, to armor or store items on larger beasts, and for the more dangerous beasts, it can be used to direct their attacks at specific targets."
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:dragon_staff"
+        }
+    ]
+}

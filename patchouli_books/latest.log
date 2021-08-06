@@ -1,0 +1,1309 @@
+[05Aug2021 13:04:28.030] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.0, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[05Aug2021 13:04:28.034] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_231 by Oracle Corporation
+[05Aug2021 13:04:28.273] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[05Aug2021 13:04:28.305] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/gameserver/servers/serveur21/minecraft/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[05Aug2021 13:04:29.771] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '/'
+[05Aug2021 13:04:29.771] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:1 token recognition error at: '/'
+[05Aug2021 13:04:29.799] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[05Aug2021 13:04:30.532] [main/ERROR] [mixin/]: Mixin config antiqueatlas.mixins.json does not specify "minVersion" property
+[05Aug2021 13:04:30.684] [main/ERROR] [mixin/]: Mixin config fancymenu.general.mixin.json does not specify "minVersion" property
+[05Aug2021 13:04:30.758] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.nekomaster1000.infernalexp.mixin.MixinConnector]
+[05Aug2021 13:04:30.759] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[05Aug2021 13:04:30.761] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [shetiphian.core.mixins.MixinConnector]
+[05Aug2021 13:04:30.762] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.erdbeerbaerlp.dcintegration.forge.DCMixinConnector]
+[05Aug2021 13:04:30.763] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.blackgear.cavesandcliffs.mixin.CCBMixinConnector]
+[05Aug2021 13:04:30.764] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.fuzs.sneakymagic.mixin.MixinConnector]
+[05Aug2021 13:04:30.766] [main/ERROR] [mixin/CATCHING]: Catching
+java.lang.ClassNotFoundException: corgiaoc.byg.mixin.MixinConnector
+	at java.lang.ClassLoader.findClass(ClassLoader.java:523) ~[?:1.8.0_231]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_231]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:106) ~[modlauncher-8.0.9.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_231]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_231]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_231]
+	at org.spongepowered.asm.service.modlauncher.ModLauncherClassProvider.findClass(ModLauncherClassProvider.java:57) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.launch.platform.MixinConnectorManager.loadConnectors(MixinConnectorManager.java:71) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.launch.platform.MixinConnectorManager.inject(MixinConnectorManager.java:60) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.inject(MixinPlatformManager.java:197) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.launch.MixinBootstrap.inject(MixinBootstrap.java:190) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at org.spongepowered.asm.launch.MixinLaunchPlugin.initializeLaunch(MixinLaunchPlugin.java:196) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$9(LaunchPluginHandler.java:97) ~[modlauncher-8.0.9.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1289) [?:1.8.0_231]
+	at cpw.mods.modlauncher.LaunchPluginHandler.announceLaunch(LaunchPluginHandler.java:97) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:52) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [minecraft_server.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [minecraft_server.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [minecraft_server.jar:?]
+	Suppressed: java.lang.ClassNotFoundException
+		at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:282) ~[modlauncher-8.0.9.jar:?]
+		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?]
+		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?]
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_231]
+		at java.lang.Class.forName0(Native Method) ~[?:1.8.0_231]
+		at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_231]
+		at org.spongepowered.asm.service.modlauncher.ModLauncherClassProvider.findClass(ModLauncherClassProvider.java:57) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+		at org.spongepowered.asm.launch.platform.MixinConnectorManager.loadConnectors(MixinConnectorManager.java:71) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+		at org.spongepowered.asm.launch.platform.MixinConnectorManager.inject(MixinConnectorManager.java:60) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+		at org.spongepowered.asm.launch.platform.MixinPlatformManager.inject(MixinPlatformManager.java:197) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+		at org.spongepowered.asm.launch.MixinBootstrap.inject(MixinBootstrap.java:190) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+		at org.spongepowered.asm.launch.MixinLaunchPlugin.initializeLaunch(MixinLaunchPlugin.java:196) ~[mixin-0.8.2.jar:0.8.2+unknown-b0.git-unknown]
+		at cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$9(LaunchPluginHandler.java:97) ~[modlauncher-8.0.9.jar:?]
+		at java.util.HashMap.forEach(HashMap.java:1289) [?:1.8.0_231]
+		at cpw.mods.modlauncher.LaunchPluginHandler.announceLaunch(LaunchPluginHandler.java:97) [modlauncher-8.0.9.jar:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:52) [modlauncher-8.0.9.jar:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+		at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+		at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+		at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [minecraft_server.jar:?]
+		at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [minecraft_server.jar:?]
+		at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [minecraft_server.jar:?]
+[05Aug2021 13:04:30.780] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [arekkuusu.betterhurttimer.common.core.Connector]
+[05Aug2021 13:04:30.783] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[05Aug2021 13:04:30.786] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.fuzs.easymagic.mixin.MixinConnector]
+[05Aug2021 13:04:30.789] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [thelm.jaopca.mixins.JAOPCAMixinConnector]
+[05Aug2021 13:04:30.810] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[05Aug2021 13:04:30.819] [main/WARN] [mixin/]: Reference map 'immersivecooking.refmap.json' for immersivecooking.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Aug2021 13:04:30.891] [main/WARN] [mixin/]: Reference map 'untamedwilds.refmap.json' for untamedwilds.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Aug2021 13:04:30.956] [main/WARN] [mixin/]: Reference map 'tribes.refmap.json' for tribes.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Aug2021 13:04:30.960] [main/WARN] [mixin/]: Reference map 'craftabledeeds.refmap.json' for craftabledeeds.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Aug2021 13:04:30.981] [main/WARN] [mixin/]: Reference map 'nethers_delight.refmap.json' for nethers_delight.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Aug2021 13:04:31.299] [main/INFO] [net.minecraftforge.coremod.CoreMod.entity_culling/COREMODLOG]: Transforming class: net.minecraft.entity.Entity
+[05Aug2021 13:04:31.452] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[05Aug2021 13:04:31.571] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[05Aug2021 13:04:31.799] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/UndeadHorseRenderer (java.lang.ClassNotFoundException: null)
+[05Aug2021 13:04:31.799] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.UndeadHorseRenderer was not found supplementaries.mixins.json:UndeadHorseRendererMixin
+[05Aug2021 13:04:31.817] [main/WARN] [mixin/]: @Mixin target net/minecraft/world/gen/feature/structure/MineshaftPieces$Piece is public in supplementaries.mixins.json:accessors.MineshaftAccessor and should be specified in value
+[05Aug2021 13:04:32.029] [main/WARN] [mixin/]: Error loading class: top/theillusivec4/culinaryconstruct/common/item/CulinaryItemBase (java.lang.ClassNotFoundException: null)
+[05Aug2021 13:04:32.029] [main/WARN] [mixin/]: @Mixin target top.theillusivec4.culinaryconstruct.common.item.CulinaryItemBase was not found origins.forge.mixins.json:compat.cconstruct.CulinaryItemBaseMixin
+[05Aug2021 13:04:32.033] [main/WARN] [mixin/]: Error loading class: org/jwaresoftware/mcmods/vfp/common/VfpPantryItem (java.lang.ClassNotFoundException: null)
+[05Aug2021 13:04:32.033] [main/WARN] [mixin/]: @Mixin target org.jwaresoftware.mcmods.vfp.common.VfpPantryItem was not found origins.forge.mixins.json:compat.vfp.VfpPantryItemMixin
+[05Aug2021 13:04:32.060] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[05Aug2021 13:04:32.072] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[05Aug2021 13:04:32.075] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[05Aug2021 13:04:32.591] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: start
+[05Aug2021 13:04:32.605] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: find block call
+[05Aug2021 13:04:32.764] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/PlayerRenderer for invalid dist DEDICATED_SERVER
+[05Aug2021 13:04:32.765] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PlayerRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/PlayerRenderer for invalid dist DEDICATED_SERVER)
+[05Aug2021 13:04:32.765] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PlayerRenderer was not found seals.mixins.json:MixinPlayerRenderer
+[05Aug2021 13:04:32.828] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[05Aug2021 13:04:33.109] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screen/inventory/ContainerScreen for invalid dist DEDICATED_SERVER
+[05Aug2021 13:04:33.109] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screen/inventory/ContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screen/inventory/ContainerScreen for invalid dist DEDICATED_SERVER)
+[05Aug2021 13:04:33.109] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screen.inventory.ContainerScreen was not found equipmentcompare.mixins.json:ContainerScreenMixin
+[05Aug2021 13:04:33.164] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[05Aug2021 13:04:33.165] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[05Aug2021 13:04:33.165] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found ars_nouveau.mixins.json:ClientElytraMixin
+[05Aug2021 13:04:33.210] [main/INFO] [net.minecraftforge.coremod.CoreMod.entity_culling/COREMODLOG]: Transforming class: net.minecraft.tileentity.TileEntity
+[05Aug2021 13:04:33.675] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[05Aug2021 13:04:33.676] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[05Aug2021 13:04:33.676] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found twoplayersonehorse.mixins.json:ClientPlayerEntityMixin
+[05Aug2021 13:04:33.677] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/PlayerController for invalid dist DEDICATED_SERVER
+[05Aug2021 13:04:33.677] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/PlayerController (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/PlayerController for invalid dist DEDICATED_SERVER)
+[05Aug2021 13:04:33.677] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.PlayerController was not found twoplayersonehorse.mixins.json:PlayerControllerMixin
+[05Aug2021 13:04:33.678] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/LivingRenderer for invalid dist DEDICATED_SERVER
+[05Aug2021 13:04:33.679] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/LivingRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/LivingRenderer for invalid dist DEDICATED_SERVER)
+[05Aug2021 13:04:33.679] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.LivingRenderer was not found twoplayersonehorse.mixins.json:LivingRendererMixin
+[05Aug2021 13:04:35.845] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#<init>
+[05Aug2021 13:04:35.850] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#onCraftMatrixChanged
+[05Aug2021 13:04:35.853] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#transferStackInSlot
+[05Aug2021 13:04:36.349] [main/INFO] [net.minecraftforge.coremod.CoreMod.entity_culling/COREMODLOG]: Transforming class: net.minecraft.entity.Entity
+[05Aug2021 13:04:36.523] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[05Aug2021 13:04:36.524] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[05Aug2021 13:04:36.580] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[05Aug2021 13:04:36.833] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[05Aug2021 13:04:36.833] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[05Aug2021 13:04:36.999] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: start
+[05Aug2021 13:04:37.000] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: find block call
+[05Aug2021 13:04:37.112] [main/WARN] [mixin/]: Injection warning: LVT in net/minecraft/entity/player/PlayerEntity::func_71059_n(Lnet/minecraft/entity/Entity;)V has incompatible changes at opcode 371 in callback net/minecraft/entity/player/PlayerEntity::store.
+Expected: [F, F, F, Z, Z, I, Z, Lnet/minecraftforge/event/entity/player/CriticalHitEvent;, Z, D, F, Z, I, Lnet/minecraft/util/math/vector/Vector3d;]
+   Found: [F, F, F, Z, Z, F, Z, Lnet/minecraftforge/event/entity/player/CriticalHitEvent;, Z, D, F, Z, I, Lnet/minecraft/util/math/vector/Vector3d;]
+[05Aug2021 13:04:37.520] [main/INFO] [FerriteCore - class definer/]: Using Java 8 class definer
+[05Aug2021 13:04:37.725] [main/INFO] [net.minecraftforge.coremod.CoreMod.entity_culling/COREMODLOG]: Transforming class: net.minecraft.tileentity.TileEntity
+[05Aug2021 13:04:38.072] [main/WARN] [mixin/]: Method overwrite conflict for setGlowing in cavesandcliffs.glowsquid.mixins.json:common.tileentity.SignTileEntityMixin, previously written by com.minecraftabnormals.upgrade_aquatic.core.mixin.SignTileEntityMixin. Skipping method.
+[05Aug2021 13:04:38.073] [main/WARN] [mixin/]: Method overwrite conflict for isGlowing in cavesandcliffs.glowsquid.mixins.json:common.tileentity.SignTileEntityMixin, previously written by com.minecraftabnormals.upgrade_aquatic.core.mixin.SignTileEntityMixin. Skipping method.
+[05Aug2021 13:04:38.218] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#<init>
+[05Aug2021 13:04:38.218] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#onCraftMatrixChanged
+[05Aug2021 13:04:38.219] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#transferStackInSlot
+[05Aug2021 13:04:40.207] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[05Aug2021 13:04:43.689] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `playerrevive` for name `death`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:43.690] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `playerrevive` for name `revived`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:44.123] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:44.124] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:44.814] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `walljump` for name `walljump`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:44.814] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `walljump` for name `doublejump`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:44.815] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `walljump` for name `speedboost`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:44.843] [main/INFO] [PluginManager/]: Scanning classes for titanium
+[05Aug2021 13:04:44.874] [main/INFO] [PluginManager/]: Found FeaturePluginInstance for class DefaultResourceRegistryPlugin for plugin resources
+[05Aug2021 13:04:45.279] [modloading-worker-0/INFO] [STDOUT/]: [com.mactso.harderspawners.Main:<init>:26]: harderspawners: Registering Mod.
+[05Aug2021 13:04:45.279] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Sound Events Registered!
+[05Aug2021 13:04:45.429] [modloading-worker-3/INFO] [net.minecraftcapes.MinecraftCapes/]: [MinecraftCapes] Initialising
+[05Aug2021 13:04:45.431] [modloading-worker-3/ERROR] [net.minecraftcapes.MinecraftCapes/]: MinecraftCapes has been loaded on server side. MinecraftCapes is a client only mod. No need to worry about this. You can delete the mod if you wish!
+[05Aug2021 13:04:45.432] [modloading-worker-3/INFO] [net.minecraftcapes.MinecraftCapes/]: [MinecraftCapes] Initialised
+[05Aug2021 13:04:45.503] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for portality
+[05Aug2021 13:04:45.513] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Blocks Registered!
+[05Aug2021 13:04:45.514] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Items Registered!
+[05Aug2021 13:04:45.516] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Effects Registered!
+[05Aug2021 13:04:45.520] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Potions Registered!
+[05Aug2021 13:04:45.525] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Entity Types Registered!
+[05Aug2021 13:04:45.531] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Painting Types Registered!
+[05Aug2021 13:04:45.539] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Tile Entity Types Registered!
+[05Aug2021 13:04:45.541] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Biomes Registered!
+[05Aug2021 13:04:45.555] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Loot Modifiers Registered!
+[05Aug2021 13:04:45.560] [modloading-worker-4/INFO] [com.nekomaster1000.infernalexp.InfernalExpansion/]: Infernal Expansion: Entity Classifications Registered!
+[05Aug2021 13:04:45.572] [modloading-worker-4/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[05Aug2021 13:04:45.689] [modloading-worker-5/INFO] [io.github.apace100.origins.Origins/]: Origins 0.7.3.8 is initializing. Have fun!
+[05Aug2021 13:04:45.819] [modloading-worker-6/WARN] [dev.itsmeow.betteranimals.BetterAnimals/]: Better Animal Models is a clientside mod! It does nothing when installed on dedicated servers, and can be safely removed without any issues.
+[05Aug2021 13:04:45.934] [modloading-worker-7/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[05Aug2021 13:04:46.686] [modloading-worker-0/INFO] [Kiwi/Init]: Processing 2 KiwiModule annotations
+[05Aug2021 13:04:46.736] [modloading-worker-0/INFO] [Puzzles Lib/]: Setting up 0 elements for mod betteranimationscollection...
+[05Aug2021 13:04:47.120] [modloading-worker-2/INFO] [craftandhunt/]: Sexy Armors Loaded
+[05Aug2021 13:04:47.475] [modloading-worker-2/INFO] [corgitaco.upstream.Upstream/]: Loading config: /home/gameserver/servers/serveur21/minecraft/config/upstream/upstream-noise.toml
+[05Aug2021 13:04:47.611] [modloading-worker-5/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.0, for MC 1.16.5 with MCP 20210115.111550
+[05Aug2021 13:04:47.612] [modloading-worker-5/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.0 Initialized
+[05Aug2021 13:04:47.697] [modloading-worker-7/INFO] [Shadow.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[05Aug2021 13:04:47.706] [modloading-worker-3/INFO] [untamedwilds.UntamedWilds/]: Loading compatibility module with YUNG's Better Caves
+[05Aug2021 13:04:47.706] [modloading-worker-3/INFO] [untamedwilds.UntamedWilds/]: Loading compatibility module with Caves and Cliffs
+[05Aug2021 13:04:47.960] [modloading-worker-1/ERROR] [com.telepathicgrunt.blame.Blame/]: Blame 1.16.5-3.2.5-forge initialized
+[05Aug2021 13:04:48.748] [modloading-worker-0/INFO] [epicfight/]: Load Configuration File
+[05Aug2021 13:04:48.755] [modloading-worker-0/INFO] [epicfight/]: Load Configuration File
+[05Aug2021 13:04:49.191] [modloading-worker-1/INFO] [dev.itsmeow.whisperwoods.WhisperwoodsMod/]: Spooking you...
+[05Aug2021 13:04:49.408] [modloading-worker-3/INFO] [corgiaoc.byg.BYG/]: Loading config: /home/gameserver/servers/serveur21/minecraft/config/byg/byg-nether.toml
+[05Aug2021 13:04:49.504] [modloading-worker-1/ERROR] [structurize/]: ----------------------------------------------------------------- 
+ Invalid DataFixer detected, schematics might not paste correctly! 
+The following DataFixer was added: class vazkii.dfs.FakeDataFixer
+-----------------------------------------------------------------
+[05Aug2021 13:04:50.479] [modloading-worker-7/INFO] [TerraForged/]: Environment: dev=false, stable=true, vanilla=false
+[05Aug2021 13:04:50.489] [modloading-worker-7/INFO] [TerraForged/]: Signature:  7b:73:d0:a2:c3:40:13:84:35:4f:c9:0e:2b:85:8c:08:ea:3c:3c:eb:f1:98:8b:5b:6e:ca:8a:a0:9a:cf:12:b3
+[05Aug2021 13:04:50.490] [modloading-worker-7/INFO] [TerraForged/]: Trust Data: CN=TerraForged self-signed
+[05Aug2021 13:04:50.492] [modloading-worker-7/INFO] [TerraForged/]: Initializing tags
+[05Aug2021 13:04:50.571] [modloading-worker-1/WARN] [mixin/]: @Final field field_188669_b:Lorg/apache/logging/log4j/Logger; in progressivebosses.mixins.json:ChargingPlayerPhaseMixin should be final
+[05Aug2021 13:04:50.734] [modloading-worker-6/INFO] [STDOUT/]: [de.keksuccino.konkrete.Konkrete:<init>:53]: ## WARNING ## 'Konkrete' is a client mod and has no effect when loaded on a server!
+[05Aug2021 13:04:50.734] [modloading-worker-6/ERROR] [equipmentcompare/]: Running on a dedicated server, disabling mod.
+[05Aug2021 13:04:50.821] [modloading-worker-4/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Setting up config paths...
+[05Aug2021 13:04:51.149] [modloading-worker-4/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Bee Registry Initialized...
+[05Aug2021 13:04:51.151] [modloading-worker-4/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Trait Registry Initialized...
+[05Aug2021 13:04:51.151] [modloading-worker-4/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Bee Registration Enabled...
+[05Aug2021 13:04:51.186] [modloading-worker-4/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Building Biome Dictionary...
+[05Aug2021 13:04:51.324] [modloading-worker-4/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Registering Custom Bees...
+[05Aug2021 13:04:51.443] [modloading-worker-4/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Registering Custom Honeys..
+[05Aug2021 13:04:51.843] [modloading-worker-4/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[05Aug2021 13:04:51.843] [modloading-worker-4/INFO] [Spartan Weaponry/]: Initialising API! Version: 5
+[05Aug2021 13:04:52.178] [modloading-worker-1/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
+[05Aug2021 13:04:52.244] [modloading-worker-3/INFO] [io.github.lukegrahamlandry.tribes.TribesMain/]: Loading config: /home/gameserver/servers/serveur21/minecraft/config/tribes-client.toml
+[05Aug2021 13:04:52.297] [modloading-worker-3/INFO] [io.github.lukegrahamlandry.tribes.TribesMain/]: Built config: /home/gameserver/servers/serveur21/minecraft/config/tribes-client.toml
+[05Aug2021 13:04:52.298] [modloading-worker-3/INFO] [io.github.lukegrahamlandry.tribes.TribesMain/]: Loaded config: /home/gameserver/servers/serveur21/minecraft/config/tribes-client.toml
+[05Aug2021 13:04:52.298] [modloading-worker-3/INFO] [io.github.lukegrahamlandry.tribes.TribesMain/]: Loading config: /home/gameserver/servers/serveur21/minecraft/config/tribes-server.toml
+[05Aug2021 13:04:52.298] [modloading-worker-3/INFO] [io.github.lukegrahamlandry.tribes.TribesMain/]: Built config: /home/gameserver/servers/serveur21/minecraft/config/tribes-server.toml
+[05Aug2021 13:04:52.300] [modloading-worker-3/INFO] [io.github.lukegrahamlandry.tribes.TribesMain/]: Loaded config: /home/gameserver/servers/serveur21/minecraft/config/tribes-server.toml
+[05Aug2021 13:04:52.330] [modloading-worker-5/WARN] [net.minecraftforge.server.permission.PermissionAPI/]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with dev.ftb.mods.ftbranks.forge.PermissionAPIWrapper
+[05Aug2021 13:04:52.612] [modloading-worker-4/INFO] [druidcraft/]: Loading Config: /home/gameserver/servers/serveur21/minecraft/config/druidcraft-server.toml
+[05Aug2021 13:04:52.613] [modloading-worker-4/INFO] [druidcraft/]: Built Config: /home/gameserver/servers/serveur21/minecraft/config/druidcraft-server.toml
+[05Aug2021 13:04:52.613] [modloading-worker-4/INFO] [druidcraft/]: Loaded Config: /home/gameserver/servers/serveur21/minecraft/config/druidcraft-server.toml
+[05Aug2021 13:04:52.613] [modloading-worker-4/INFO] [druidcraft/]: Loading Config: /home/gameserver/servers/serveur21/minecraft/config/druidcraft-client.toml
+[05Aug2021 13:04:52.614] [modloading-worker-4/INFO] [druidcraft/]: Built Config: /home/gameserver/servers/serveur21/minecraft/config/druidcraft-client.toml
+[05Aug2021 13:04:52.614] [modloading-worker-4/INFO] [druidcraft/]: Loaded Config: /home/gameserver/servers/serveur21/minecraft/config/druidcraft-client.toml
+[05Aug2021 13:04:53.167] [modloading-worker-1/INFO] [STDOUT/]: [uniqueeutils.enchantments.FaminesOdiumEnchantment:loadData:48]: Testing
+[05Aug2021 13:04:53.348] [modloading-worker-6/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[05Aug2021 13:04:53.554] [modloading-worker-4/INFO] [tetrapak/]: Checking corundum color mappings...
+[05Aug2021 13:04:53.560] [modloading-worker-1/WARN] [yungsapi/]: WARNING: duplicate block Block{minecraft:air} added to BlockSelector!
+[05Aug2021 13:04:53.561] [modloading-worker-1/WARN] [yungsapi/]: WARNING: duplicate block Block{minecraft:air} added to BlockSelector!
+[05Aug2021 13:04:53.562] [modloading-worker-1/WARN] [yungsapi/]: WARNING: duplicate block Block{minecraft:air} added to BlockSelector!
+[05Aug2021 13:04:53.562] [modloading-worker-1/WARN] [yungsapi/]: WARNING: duplicate block Block{minecraft:air} added to BlockSelector!
+[05Aug2021 13:04:53.740] [modloading-worker-5/INFO] [PluginManager/]: Scanning classes for titanium
+[05Aug2021 13:04:53.782] [modloading-worker-5/INFO] [PluginManager/]: Constructed class DefaultResourceRegistryPlugin for plugin resources for mod titanium
+[05Aug2021 13:04:53.786] [modloading-worker-5/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class DefaultResourceRegistryPlugin
+[05Aug2021 13:04:53.854] [modloading-worker-3/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[05Aug2021 13:04:53.886] [modloading-worker-4/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: tower structure registered
+[05Aug2021 13:04:53.888] [modloading-worker-4/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: ice_tower structure registered
+[05Aug2021 13:04:53.889] [modloading-worker-4/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: jungle_tower structure registered
+[05Aug2021 13:04:53.889] [modloading-worker-4/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: derelict_tower structure registered
+[05Aug2021 13:04:53.889] [modloading-worker-4/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: derelict_grass_tower structure registered
+[05Aug2021 13:04:53.890] [modloading-worker-4/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: ocean_tower structure registered
+[05Aug2021 13:04:53.891] [modloading-worker-4/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: ocean_warm_tower structure registered
+[05Aug2021 13:04:53.903] [modloading-worker-7/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading Bountiful listeners..
+[05Aug2021 13:04:53.998] [modloading-worker-7/INFO] [STDOUT/]: [ejektaflex.bountiful.data.json.JsonSerializers:register:14]: BOREG registering json ser
+[05Aug2021 13:04:54.067] [modloading-worker-3/INFO] [APTweaks/]: Registering common config ...
+[05Aug2021 13:04:54.169] [modloading-worker-3/INFO] [APTweaks/]: Registering server config ...
+[05Aug2021 13:04:54.173] [modloading-worker-3/INFO] [APTweaks/]: Registering client config ...
+[05Aug2021 13:04:54.271] [modloading-worker-5/INFO] [STDOUT/]: [de.keksuccino.fancymenu.FancyMenu:<init>:91]: ## WARNING ## 'FancyMenu' is a client mod and has no effect when loaded on a server!
+[05Aug2021 13:04:54.377] [modloading-worker-3/INFO] [team.chisel.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[05Aug2021 13:04:54.565] [modloading-worker-4/INFO] [corgitaco.enchancedcelestials.EnhancedCelestials/]: Loading config: /home/gameserver/servers/serveur21/minecraft/config/enhancedcelestials/enhancedcelestials-common.toml
+[05Aug2021 13:04:54.576] [modloading-worker-2/INFO] [its_meow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
+[05Aug2021 13:04:54.605] [modloading-worker-2/INFO] [expandability/]: ExpandAbility here, who dis?
+[05Aug2021 13:04:56.328] [main/ERROR] [thelm.jaopca.data.DataCollector/]: Tag biodiversity_levels in namespace untamedwilds has no type
+[05Aug2021 13:04:56.338] [main/INFO] [thelm.jaopca.data.DataCollector/]: Found 6104 unique defined tags
+[05Aug2021 13:04:56.627] [main/INFO] [thelm.jaopca.data.DataCollector/]: Found 28805 unique defined recipes
+[05Aug2021 13:04:56.791] [main/INFO] [thelm.jaopca.data.DataCollector/]: Found 19985 unique defined loot tables
+[05Aug2021 13:04:56.941] [main/INFO] [thelm.jaopca.data.DataCollector/]: Found 14554 unique defined advancements
+[05Aug2021 13:04:57.097] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.wtbwmachines.WTBWMachinesModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.097] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.wtbwmachines.WTBWMachinesDustModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.097] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.wtbwmachines.WTBWMachinesCompatModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.097] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.thermalexpansion.ThermalExpansionNonIngotModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.097] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.thermalexpansion.ThermalExpansionModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.097] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.thermalexpansion.ThermalExpansionCompatModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.097] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.silentsmechanisms.SilentsMechanismsNonIngotModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.097] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.silentsmechanisms.SilentsMechanismsModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.097] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.silentsmechanisms.SilentsMechanismsCompatModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.mekanism.MekanismNonIngotModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.mekanism.MekanismModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.mekanism.MekanismCompatModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.integrateddynamics.IntegratedDynamicsModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.integrateddynamics.IntegratedDynamicsDustModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.indreb.IndRebNonIngotModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.indreb.IndRebModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.immersiveengineering.ImmersiveEngineeringNonIngotModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.immersiveengineering.ImmersiveEngineeringModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.immersiveengineering.ImmersiveEngineeringCompatModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.futurepack.FuturepackNonIngotModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.futurepack.FuturepackModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.crossroads.CrossroadsNonIngotModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.crossroads.CrossroadsModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.101] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.crossroads.CrossroadsCompatModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.108] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.bloodmagic.BloodMagicModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.108] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.bloodmagic.BloodMagicCompatModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.108] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.appliedenergistics2.AppliedEnergistics2Module has missing mod dependencies, skipping
+[05Aug2021 13:04:57.108] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.appliedenergistics2.AppliedEnergistics2CompatModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.108] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.advancedrocketry.AdvancedRocketryModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.108] [main/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.advancedrocketry.AdvancedRocketryCompatModule has missing mod dependencies, skipping
+[05Aug2021 13:04:57.171] [main/INFO] [thelm.jaopca.materials.MaterialHandler/]: Added 231 materials
+[05Aug2021 13:04:57.870] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.aeternium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.873] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.aeternium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.873] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.blaze`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.873] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.blaze`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.874] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.brick`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.874] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.brick`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.874] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.chrome_enstatite`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.874] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.chrome_enstatite`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.874] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.elementium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.874] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.elementium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.874] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.end_stone`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.874] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.end_stone`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.874] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.ender`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.875] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.ender`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.875] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.geodes`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.875] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.geodes`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.875] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.glowstone`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.875] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.glowstone`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.875] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.khnumite`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.875] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.khnumite`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.875] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.manasteel`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.875] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.manasteel`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.875] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.nether_brick`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.876] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.nether_brick`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.876] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.obsidian`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.876] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.obsidian`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.876] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.prismarine`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.876] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.prismarine`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.876] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.refined_glowstone`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.876] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.refined_glowstone`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.876] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.refined_obsidian`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.876] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.refined_obsidian`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.876] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.solder`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.solder`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.terminite`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.terminite`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.terrasteel`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.terrasteel`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.thallasium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.thallasium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.topaz`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.topaz`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.wood`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `storage_blocks.wood`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.878] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.antimony`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.878] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.arsenic`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.878] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.bismuth`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.878] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.cadmium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.878] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.chromium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.878] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.gallium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.878] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.indium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.ironwood`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.knightmetal`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.lithium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.magnesium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.manganese`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.molybdenum`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.niobium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.silicon`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.sodium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.strontium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.tantalum`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.tellurium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.titanium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.tungsten`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.vanadium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `create_crushed_ores.yttrium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.antimony`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.arsenic`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.bismuth`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.cadmium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.chromium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.gallium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.indium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.ironwood`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.knightmetal`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.magnesium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.manganese`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.molybdenum`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.niobium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.silicon`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.sodium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.strontium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.tantalum`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.tellurium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.titanium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.tungsten`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.vanadium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `dusts.yttrium`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `nuggets.ironwood`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `jaopca` for name `nuggets.knightmetal`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:04:57.882] [main/WARN] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Mod 'jaopca' took 1.783 s to run a deferred task.
+[05Aug2021 13:04:58.504] [main/INFO] [Kiwi/Init]: Module [kiwi:contributors] initialized
+[05Aug2021 13:04:58.513] [main/INFO] [Kiwi/Init]: Module [kiwi:data] initialized
+[05Aug2021 13:04:58.516] [main/INFO] [Kiwi/Init]:     recipe_serializer: 3
+[05Aug2021 13:04:59.033] [main/INFO] [ultimate_unicorn_mod/]: HELLO from Register Block
+[05Aug2021 13:04:59.549] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `cauldron`, expected `cavesandcliffs`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:05:00.754] [main/INFO] [syric.dragonseeker.Dragonseeker/]: HELLO from Register Block
+[05Aug2021 13:05:01.471] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Blocks registered!
+[05Aug2021 13:05:02.220] [main/INFO] [net.minecraft.world.biome.Biome/]: HELLO from Register Block
+[05Aug2021 13:05:02.669] [main/INFO] [druidcraft/]: Blocks registered.
+[05Aug2021 13:05:03.742] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:05:03.745] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:05:04.313] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `honeycomb`, expected `cavesandcliffs`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:05:04.313] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `cauldron`, expected `cavesandcliffs`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:05:04.852] [main/INFO] [occultism/]: Registered BlockItems
+[05Aug2021 13:05:04.873] [main/INFO] [occultism/]: Registered SpawnEggItems
+[05Aug2021 13:05:04.873] [main/INFO] [occultism/]: Registered compostable Items
+[05Aug2021 13:05:04.948] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Items registered!
+[05Aug2021 13:05:05.891] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 188 ms
+[05Aug2021 13:05:06.240] [main/INFO] [Spartan Weaponry/]: Registering items...
+[05Aug2021 13:05:06.246] [main/INFO] [Spartan Weaponry/]: Items Registered!
+[05Aug2021 13:05:06.393] [main/INFO] [druidcraft/]: Items registered.
+[05Aug2021 13:05:06.572] [main/INFO] [Spartan Shields/]: Registering Items
+[05Aug2021 13:05:06.572] [main/INFO] [Spartan Shields/]: Registered Items successfully!
+[05Aug2021 13:05:06.949] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 0.3ms.
+[05Aug2021 13:05:06.960] [main/INFO] [Cursed/]: Registered 1 GlobalLootModifierSerializer entries in 0.04ms.
+[05Aug2021 13:05:06.992] [main/INFO] [TerraForged/]: Registering level types
+[05Aug2021 13:05:08.058] [main/INFO] [druidcraft/]: Tile Entities registered.
+[05Aug2021 13:05:08.230] [main/INFO] [Cursed/]: Registered 17 Enchantment entries in 0.23ms.
+[05Aug2021 13:05:08.232] [main/INFO] [Spartan Shields/]: Registering Enchantments
+[05Aug2021 13:05:08.232] [main/INFO] [Spartan Shields/]: Registered Enchantments successfully!
+[05Aug2021 13:05:08.383] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for persistent_players:player, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.393] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farmingforblockheads:merchant, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.471] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Entities registered!
+[05Aug2021 13:05:08.531] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:grizzly_bear, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.531] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:roadrunner, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.532] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bone_serpent, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.532] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bone_serpent_part, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.532] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:gazelle, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.533] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crocodile, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.533] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:fly, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.533] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:hummingbird, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.533] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:orca, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.535] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:sunbird, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.535] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:gorilla, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.536] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crimson_mosquito, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.536] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:rattlesnake, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.536] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:endergrade, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.537] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:hammerhead_shark, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.537] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:lobster, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.537] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:komodo_dragon, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.538] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:capuchin_monkey, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.538] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_head, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.538] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_body, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.538] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_tail, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.538] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:warped_toad, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.538] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:moose, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.539] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mimicube, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.539] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:raccoon, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.539] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:blobfish, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.539] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:seal, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.539] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:cockroach, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.540] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:shoebill, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.541] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:elephant, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.541] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:soul_vulture, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.541] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:snow_leopard, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.541] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:spectre, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.542] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crow, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.542] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:alligator_snapping_turtle, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.543] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mungus, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.543] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mantis_shrimp, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.543] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:guster, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.543] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:warped_mosco, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.543] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:straddler, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.543] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:stradpole, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.544] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:emu, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.544] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:platypus, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.544] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:dropbear, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.544] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tasmanian_devil, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.545] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:kangaroo, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.545] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:cachalot_whale, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.545] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:leafcutter_ant, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.546] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:enderiophage, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.546] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bald_eagle, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.547] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tiger, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.547] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tarantula_hawk, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.548] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:void_worm, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.548] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:void_worm_part, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.548] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:frilled_shark, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.548] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mimic_octopus, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.657] [main/INFO] [Spartan Weaponry/]: Registering Entities
+[05Aug2021 13:05:08.871] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for druidcraft:dreadfish, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.871] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for druidcraft:beetle, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.872] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for druidcraft:lunar_moth, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.872] [main/INFO] [druidcraft/]: Entities registered.
+[05Aug2021 13:05:08.930] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for meetyourfight:bellringer, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.930] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for meetyourfight:dame_fortuna, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.931] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for meetyourfight:swampjaw, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.938] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:archer, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.939] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:berserker, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.939] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:black_iron_golem, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.939] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:enchanter, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.939] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:furantur, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.939] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:hoarder, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.939] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:illager_king, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.939] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:miner, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.939] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for illagers_plus:necromancer, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:08.956] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:05:08.956] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[05Aug2021 13:05:09.101] [main/INFO] [druidcraft/]: GUI registered.
+[05Aug2021 13:05:09.280] [main/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.client.particle.ModParticles:registerParticles:23]: Rendering particles
+[05Aug2021 13:05:09.291] [main/INFO] [druidcraft/]: Particles registered.
+[05Aug2021 13:05:09.491] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[05Aug2021 13:05:09.492] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 0.14ms.
+[05Aug2021 13:05:09.571] [main/INFO] [druidcraft/]: Recipes registered.
+[05Aug2021 13:05:09.674] [main/INFO] [STDOUT/]: [com.paleimitations.schoolsofmagic.common.registries.Registry:registerSounds:88]: Registered SoundEvents
+[05Aug2021 13:05:09.688] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: java.io.FileNotFoundException: /home/gameserver/servers/serveur21/minecraft/resourcepacks\AmbienceSounds\assets\ambience\sounds.json (Aucun fichier ou dossier de ce type)
+[05Aug2021 13:05:09.688] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at java.io.FileInputStream.open0(Native Method)
+[05Aug2021 13:05:09.688] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
+[05Aug2021 13:05:09.688] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+[05Aug2021 13:05:09.688] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+[05Aug2021 13:05:09.688] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at vazkii.ambience.Util.Handlers.SoundHandler.registerSounds(SoundHandler.java:31)
+[05Aug2021 13:05:09.688] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at vazkii.ambience.Ambience$RegistryEvents.onSoundRegister(Ambience.java:191)
+[05Aug2021 13:05:09.688] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.eventbus.ASMEventHandler_1483_RegistryEvents_onSoundRegister_Register.invoke(.dynamic)
+[05Aug2021 13:05:09.688] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:56)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:40)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:249)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:236)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:202)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:44)
+[05Aug2021 13:05:09.689] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraft.server.Main.main(Main.java:95)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+[05Aug2021 13:05:09.690] [main/INFO] [STDERR/]: [vazkii.ambience.Util.Handlers.SoundHandler:registerSounds:56]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
+[05Aug2021 13:05:09.698] [main/INFO] [druidcraft/]: Sound events registered.
+[05Aug2021 13:05:10.055] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[05Aug2021 13:05:10.055] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[05Aug2021 13:05:10.055] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[05Aug2021 13:05:10.055] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[05Aug2021 13:05:10.056] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[05Aug2021 13:05:11.739] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Biomes registered!
+[05Aug2021 13:05:11.963] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Registering block placer types!
+[05Aug2021 13:05:12.073] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Decorators registered!
+[05Aug2021 13:05:12.073] [main/INFO] [TerraForged/]: Registering decorators
+[05Aug2021 13:05:12.181] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Features registered!
+[05Aug2021 13:05:12.191] [main/INFO] [TerraForged/]: Registering features
+[05Aug2021 13:05:12.387] [main/INFO] [com.nhwhite3118.cobbler.Cobbler/]: onRegisterStructures start
+[05Aug2021 13:05:12.395] [main/INFO] [com.nhwhite3118.cobbler.Cobbler/]: register start
+[05Aug2021 13:05:12.395] [main/INFO] [com.nhwhite3118.cobbler.Cobbler/]: register end
+[05Aug2021 13:05:12.397] [main/INFO] [com.nhwhite3118.cobbler.Cobbler/]: onRegisterStructures end
+[05Aug2021 13:05:12.401] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Structures registered!
+[05Aug2021 13:05:12.913] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Surface builders Registered!
+[05Aug2021 13:05:13.156] [main/INFO] [ModdingLegacy/structure_gel/Compat/]: Checking for biome dictionary registry methods in other mods.
+[05Aug2021 13:05:13.430] [main/WARN] [ModdingLegacy/structure_gel/Compat/]: Encountered an unhandled exception while trying to handle BiomeDictionaryCompat in libra.
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: java.lang.NullPointerException
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at com.legacy.structure_gel.StructureGelCompat.lambda$compatForEachMod$4(StructureGelCompat.java:83)
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at java.util.HashMap.forEach(HashMap.java:1289)
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.fml.ModList.forEachModContainer(ModList.java:229)
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at com.legacy.structure_gel.StructureGelCompat.compatForEachMod(StructureGelCompat.java:76)
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at com.legacy.structure_gel.StructureGelCompat.registerBiomeDictionary(StructureGelCompat.java:58)
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+[05Aug2021 13:05:13.431] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.fml.ModWorkManager$SyncExecutor.driveOne(ModWorkManager.java:56)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.fml.ModWorkManager$DrivenExecutor.drive(ModWorkManager.java:40)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:249)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:236)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:202)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:44)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraft.server.Main.main(Main.java:95)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[05Aug2021 13:05:13.432] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
+[05Aug2021 13:05:13.433] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[05Aug2021 13:05:13.433] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[05Aug2021 13:05:13.433] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[05Aug2021 13:05:13.433] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[05Aug2021 13:05:13.433] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[05Aug2021 13:05:13.433] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+[05Aug2021 13:05:13.433] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+[05Aug2021 13:05:13.433] [main/INFO] [STDERR/]: [com.legacy.structure_gel.StructureGelCompat:lambda$compatForEachMod$4:107]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
+[05Aug2021 13:05:13.598] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class untamedwilds.entity.ComplexMobTerrestrial from class untamedwilds.entity.ComplexMob
+[05Aug2021 13:05:13.598] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class untamedwilds.entity.ComplexMobTerrestrial from class untamedwilds.entity.ComplexMob
+[05Aug2021 13:05:13.603] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityHippogryph from class com.github.alexthe666.iceandfire.entity.EntityPixie
+[05Aug2021 13:05:13.616] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityDreadThrall from class com.github.alexthe666.iceandfire.entity.EntityDreadKnight
+[05Aug2021 13:05:13.654] [main/INFO] [STDOUT/]: [com.hackshop.ultimate_unicorn.UltimateUnicornMod:handleConfig:181]: Ultimate Unicorn Mod version: 1.6.1
+[05Aug2021 13:05:13.655] [main/INFO] [STDOUT/]: [com.hackshop.ultimate_unicorn.UltimateUnicornMod:handleConfig:186]: Minecraft version: 1.16.5
+[05Aug2021 13:05:13.657] [Thread-1/INFO] [STDOUT/]: [com.hackshop.ultimate_unicorn.UltimateUnicornMod:handleConfig:181]: Ultimate Unicorn Mod version: 1.6.1
+[05Aug2021 13:05:13.658] [Thread-1/INFO] [STDOUT/]: [com.hackshop.ultimate_unicorn.UltimateUnicornMod:handleConfig:186]: Minecraft version: 1.16.5
+[05Aug2021 13:05:13.702] [main/INFO] [STDOUT/]: [com.mactso.harderspawners.config.MobSpawnerBreakPercentageItemManager:mobBreakPercentageInit:45]: HarderSpawners: Initialization Commencing.
+[05Aug2021 13:05:13.703] [main/INFO] [STDOUT/]: [com.mactso.harderspawners.config.MobSpawnerBreakPercentageItemManager:mobBreakPercentageInit:84]: HarderSpawners: Initialization complete.
+[05Aug2021 13:05:13.703] [Thread-1/INFO] [STDOUT/]: [com.mactso.harderspawners.config.MobSpawnerBreakPercentageItemManager:mobBreakPercentageInit:45]: HarderSpawners: Initialization Commencing.
+[05Aug2021 13:05:13.704] [Thread-1/INFO] [STDOUT/]: [com.mactso.harderspawners.config.MobSpawnerBreakPercentageItemManager:mobBreakPercentageInit:84]: HarderSpawners: Initialization complete.
+[05Aug2021 13:05:13.704] [Thread-1/INFO] [STDOUT/]: [com.mactso.harderspawners.config.MobSpawnerBreakPercentageItemManager:mobBreakPercentageInit:45]: HarderSpawners: Initialization Commencing.
+[05Aug2021 13:05:13.704] [Thread-1/INFO] [STDOUT/]: [com.mactso.harderspawners.config.MobSpawnerBreakPercentageItemManager:mobBreakPercentageInit:84]: HarderSpawners: Initialization complete.
+[05Aug2021 13:05:13.778] [Thread-1/INFO] [Puzzles Lib/]: Reloading common config for mod sneakymagic
+[05Aug2021 13:05:13.779] [Thread-1/INFO] [Puzzles Lib/]: Reloading common config for mod sneakymagic
+[05Aug2021 13:05:13.789] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/gameserver/servers/serveur21/minecraft/config/betterhurttimer-common.toml is not correct. Correcting
+[05Aug2021 13:05:13.802] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/gameserver/servers/serveur21/minecraft/config/betterhurttimer-common.toml is not correct. Correcting
+[05Aug2021 13:05:13.835] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:aquite_boots, 0.1, 8, 4 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.835] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:aquite_chestplate, 0.1, 18, 10 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.835] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:aquite_helmet, 0.1, 8, 5 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.835] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:aquite_leggings, 0.1, 16, 8 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.835] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:charoite_boots, 0, 5, 6 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.835] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:charoite_chestplate, 0, 10, 16 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.835] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:charoite_helmet, 0, 5, 6 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.835] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:charoite_leggings, 0, 8, 12 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.835] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:diopside_boots, 0.2, 2, 8 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.835] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:diopside_chestplate, 0.2, 8, 20 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:diopside_helmet, 0.2, 2, 8 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:diopside_leggings, 0.2, 6, 16 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:horizonite_boots, 0.1, 6, 1 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:horizonite_chestplate, 0.1, 16, 3 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:horizonite_helmet, 0.1, 6, 1 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:horizonite_leggings, 0.1, 12, 2 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:pyrope_boots, 0.1, 4, 6 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:pyrope_chestplate, 0.1, 9, 12 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:pyrope_helmet, 0.1, 4, 6 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:pyrope_leggings, 0.1, 7, 10 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:shadow_boots, 0.25, 8, 8 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:shadow_chestplate, 0.25, 18, 20 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:shadow_helmet, 0.25, 8, 8 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.836] [main/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:shadow_leggings, 0.25, 16, 16 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.842] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:aquite_boots, 0.1, 8, 4 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.842] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:aquite_chestplate, 0.1, 18, 10 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.842] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:aquite_helmet, 0.1, 8, 5 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.842] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:aquite_leggings, 0.1, 16, 8 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:charoite_boots, 0, 5, 6 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:charoite_chestplate, 0, 10, 16 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:charoite_helmet, 0, 5, 6 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:charoite_leggings, 0, 8, 12 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:diopside_boots, 0.2, 2, 8 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:diopside_chestplate, 0.2, 8, 20 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:diopside_helmet, 0.2, 2, 8 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:diopside_leggings, 0.2, 6, 16 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:horizonite_boots, 0.1, 6, 1 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:horizonite_chestplate, 0.1, 16, 3 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:horizonite_helmet, 0.1, 6, 1 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:horizonite_leggings, 0.1, 12, 2 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:pyrope_boots, 0.1, 4, 6 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:pyrope_chestplate, 0.1, 9, 12 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:pyrope_helmet, 0.1, 4, 6 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:pyrope_leggings, 0.1, 7, 10 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:shadow_boots, 0.25, 8, 8 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:shadow_chestplate, 0.25, 18, 20 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:shadow_helmet, 0.25, 8, 8 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.843] [Thread-1/WARN] [jackiecrazy.wardance.WarDance/]: armor data for config entry blue_skies:shadow_leggings, 0.25, 16, 16 is not properly formatted, filling in zeros.
+[05Aug2021 13:05:13.871] [main/INFO] [STDOUT/]: [com.mactso.regrowth.config.WallBiomeDataManager:wallBiomeDataInit:64]: failed to get walls all tags 
+[05Aug2021 13:05:13.873] [Thread-1/INFO] [STDOUT/]: [com.mactso.regrowth.config.WallBiomeDataManager:wallBiomeDataInit:64]: failed to get walls all tags 
+[05Aug2021 13:05:13.873] [Thread-1/INFO] [STDOUT/]: [com.mactso.regrowth.config.WallBiomeDataManager:wallBiomeDataInit:64]: failed to get walls all tags 
+[05Aug2021 13:05:13.934] [main/WARN] [insane96mcp.insanelib.InsaneLib/]: Entity botania:pink_wither for Wither's Difficulty Feature entityBlacklist doesn't exist, will be ignored.
+[05Aug2021 13:05:13.938] [main/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:wither_skeleton_skull
+  New behavior: insane96mcp.progressivebosses.module.wither.dispenser.WitherSkullDispenseBehavior
+  Old behavior: net.minecraft.dispenser.IDispenseItemBehavior$22
+  Registration done at: 
+    insane96mcp.progressivebosses.module.wither.feature.MiscFeature.loadConfig(MiscFeature.java:75)
+    insane96mcp.progressivebosses.module.wither.WitherModule.loadConfig(WitherModule.java:37)
+    insane96mcp.progressivebosses.module.Modules.loadConfig(Modules.java:16)
+
+[05Aug2021 13:05:13.946] [Thread-1/WARN] [insane96mcp.insanelib.InsaneLib/]: Entity botania:pink_wither for Wither's Difficulty Feature entityBlacklist doesn't exist, will be ignored.
+[05Aug2021 13:05:13.947] [Thread-1/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:wither_skeleton_skull
+  New behavior: insane96mcp.progressivebosses.module.wither.dispenser.WitherSkullDispenseBehavior
+  Old behavior: insane96mcp.progressivebosses.module.wither.dispenser.WitherSkullDispenseBehavior
+  Registration done at: 
+    insane96mcp.progressivebosses.module.wither.feature.MiscFeature.loadConfig(MiscFeature.java:75)
+    insane96mcp.progressivebosses.module.wither.WitherModule.loadConfig(WitherModule.java:37)
+    insane96mcp.progressivebosses.module.Modules.loadConfig(Modules.java:16)
+
+[05Aug2021 13:05:13.955] [main/INFO] [losttrinkets/Config]: Loading losttrinkets/general_common.toml
+[05Aug2021 13:05:13.988] [main/INFO] [losttrinkets/Config]: Gathering Trinkets...
+[05Aug2021 13:05:13.990] [main/INFO] [losttrinkets/Config]: All: 68
+[05Aug2021 13:05:13.990] [main/INFO] [losttrinkets/Config]: Enabled: 68 Disabled: 0
+[05Aug2021 13:05:13.990] [main/INFO] [losttrinkets/Config]: Random: 68 Non-Random: 0
+[05Aug2021 13:05:13.993] [Thread-1/INFO] [losttrinkets/Config]: Reloading losttrinkets/general_common.toml
+[05Aug2021 13:05:13.993] [Thread-1/INFO] [losttrinkets/Config]: Gathering Trinkets...
+[05Aug2021 13:05:13.994] [Thread-1/INFO] [losttrinkets/Config]: All: 68
+[05Aug2021 13:05:13.995] [Thread-1/INFO] [losttrinkets/Config]: Enabled: 68 Disabled: 0
+[05Aug2021 13:05:13.995] [Thread-1/INFO] [losttrinkets/Config]: Random: 68 Non-Random: 0
+[05Aug2021 13:05:13.997] [Thread-1/INFO] [losttrinkets/Config]: Reloading losttrinkets/general_common.toml
+[05Aug2021 13:05:13.997] [Thread-1/INFO] [losttrinkets/Config]: Gathering Trinkets...
+[05Aug2021 13:05:13.997] [Thread-1/INFO] [losttrinkets/Config]: All: 68
+[05Aug2021 13:05:13.997] [Thread-1/INFO] [losttrinkets/Config]: Enabled: 68 Disabled: 0
+[05Aug2021 13:05:13.997] [Thread-1/INFO] [losttrinkets/Config]: Random: 68 Non-Random: 0
+[05Aug2021 13:05:14.006] [main/INFO] [com._idrae.travelers_index.TravelersIndex/]: Config set
+[05Aug2021 13:05:14.006] [Thread-1/INFO] [com._idrae.travelers_index.TravelersIndex/]: Config set
+[05Aug2021 13:05:14.006] [Thread-1/INFO] [com._idrae.travelers_index.TravelersIndex/]: Config set
+[05Aug2021 13:05:14.369] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/gameserver/servers/serveur21/minecraft/config/UniqueEnchantment-Battle.toml is not correct. Correcting
+[05Aug2021 13:05:14.370] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.battle.celestial_blessing.incompats was corrected from [uniuqee:climate_tranquility] to its default, [uniuqee:climate_tranquility]. 
+[05Aug2021 13:05:14.370] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.battle.ares_fragment.incompats was corrected from [uniuqee:berserk, uniuqee:alchemistsgrace, uniuqee:ender_mending] to its default, [uniuqee:berserk, uniuqee:alchemistsgrace, uniuqee:ender_mending]. 
+[05Aug2021 13:05:14.370] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/gameserver/servers/serveur21/minecraft/config/UniqueEnchantment-Battle.toml is not correct. Correcting
+[05Aug2021 13:05:14.379] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/gameserver/servers/serveur21/minecraft/config/UniqueEnchantment-Utils.toml is not correct. Correcting
+[05Aug2021 13:05:14.380] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.utils.thick_pick.items was corrected from [minecraft:diamond;5] to its default, [minecraft:diamond;5]. 
+[05Aug2021 13:05:14.381] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/gameserver/servers/serveur21/minecraft/config/UniqueEnchantment-Utils.toml is not correct. Correcting
+[05Aug2021 13:05:14.386] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/gameserver/servers/serveur21/minecraft/config/UniqueEnchantment-Utils.toml is not correct. Correcting
+[05Aug2021 13:05:14.391] [main/INFO] [com._idrae.towers_of_the_wild.TowersOfTheWild/]: Config set
+[05Aug2021 13:05:14.391] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[05Aug2021 13:05:14.392] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[05Aug2021 13:05:14.393] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[05Aug2021 13:05:14.393] [main/INFO] [APTweaks:DebugManager/]: Try to change log level to info
+[05Aug2021 13:05:14.397] [main/INFO] [APTweaks:DebugManager/]: Change log level from INFO to INFO
+[05Aug2021 13:05:14.397] [main/INFO] [APTweaks/]: Loaded common config file adaptive_performance_tweaks-common.toml ...
+[05Aug2021 13:05:14.399] [Thread-1/INFO] [APTweaks/]: Reload common config file adaptive_performance_tweaks-common.toml ...
+[05Aug2021 13:05:14.399] [Thread-1/WARN] [APTweaks/]: Changed values are not considered until the next server restart!
+[05Aug2021 13:05:14.400] [Thread-1/INFO] [APTweaks/]: Reload common config file adaptive_performance_tweaks-common.toml ...
+[05Aug2021 13:05:14.400] [Thread-1/WARN] [APTweaks/]: Changed values are not considered until the next server restart!
+[05Aug2021 13:05:14.413] [main/INFO] [quark/]: Loading Module Chain Linkage
+[05Aug2021 13:05:14.415] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[05Aug2021 13:05:14.415] [main/INFO] [quark/]: Loading Module Chute
+[05Aug2021 13:05:14.415] [main/INFO] [quark/]: Loading Module Color Slime
+[05Aug2021 13:05:14.415] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[05Aug2021 13:05:14.415] [main/INFO] [quark/]: Loading Module Ender Watcher
+[05Aug2021 13:05:14.415] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[05Aug2021 13:05:14.416] [main/INFO] [quark/]: Loading Module Feeding Trough
+[05Aug2021 13:05:14.417] [main/INFO] [quark/]: Loading Module Gravisand
+[05Aug2021 13:05:14.417] [main/INFO] [quark/]: Loading Module Iron Rod
+[05Aug2021 13:05:14.417] [main/INFO] [quark/]: Loading Module Jukebox Automation
+[05Aug2021 13:05:14.421] [main/INFO] [quark/]: Loading Module Metal Buttons
+[05Aug2021 13:05:14.421] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[05Aug2021 13:05:14.421] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[05Aug2021 13:05:14.424] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[05Aug2021 13:05:14.424] [main/INFO] [quark/]: Loading Module Weather Sensor
+[05Aug2021 13:05:14.424] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[05Aug2021 13:05:14.424] [main/INFO] [quark/]: Loading Module Burn Vines
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Framed Glass
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Gold Bars
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Grate
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Hedges
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Iron Plates
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Item Frames
+[05Aug2021 13:05:14.425] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[05Aug2021 13:05:14.426] [main/INFO] [quark/]: Loading Module Lit Lamp
+[05Aug2021 13:05:14.426] [main/INFO] [quark/]: Loading Module Midori
+[05Aug2021 13:05:14.426] [main/INFO] [quark/]: Loading Module More Brick Types
+[05Aug2021 13:05:14.426] [main/INFO] [quark/]: Loading Module More Potted Plants
+[05Aug2021 13:05:14.426] [main/INFO] [quark/]: Loading Module More Stone Variants
+[05Aug2021 13:05:14.426] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[05Aug2021 13:05:14.426] [main/INFO] [quark/]: Loading Module Paper Decor
+[05Aug2021 13:05:14.426] [main/INFO] [quark/]: Loading Module Quilted Wool
+[05Aug2021 13:05:14.426] [main/INFO] [quark/]: Loading Module Rope
+[05Aug2021 13:05:14.426] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[05Aug2021 13:05:14.427] [main/INFO] [quark/]: Loading Module Shingles
+[05Aug2021 13:05:14.427] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[05Aug2021 13:05:14.427] [main/INFO] [quark/]: Loading Module Stained Planks
+[05Aug2021 13:05:14.427] [main/INFO] [quark/]: Loading Module Stools
+[05Aug2021 13:05:14.428] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[05Aug2021 13:05:14.428] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[05Aug2021 13:05:14.428] [main/INFO] [quark/]: Loading Module Thatch
+[05Aug2021 13:05:14.428] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[05Aug2021 13:05:14.429] [main/INFO] [quark/]: Loading Module Turf
+[05Aug2021 13:05:14.429] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[05Aug2021 13:05:14.429] [main/INFO] [quark/]: Loading Module Variant Chests
+[05Aug2021 13:05:14.429] [main/INFO] [quark/]: Loading Module Variant Ladders
+[05Aug2021 13:05:14.429] [main/INFO] [quark/]: Loading Module Vertical Planks
+[05Aug2021 13:05:14.429] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[05Aug2021 13:05:14.429] [main/INFO] [quark/]: Loading Module Wooden Posts
+[05Aug2021 13:05:14.429] [main/INFO] [quark/]: Loading Module Chests In Boats
+[05Aug2021 13:05:14.430] [main/INFO] [quark/]: Loading Module Easy Transfering
+[05Aug2021 13:05:14.430] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[05Aug2021 13:05:14.430] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[05Aug2021 13:05:14.430] [main/INFO] [quark/]: Loading Module Item Sharing
+[05Aug2021 13:05:14.430] [main/INFO] [quark/]: Loading Module Right Click Armor
+[05Aug2021 13:05:14.430] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[05Aug2021 13:05:14.431] [main/INFO] [quark/]: Loading Module Abacus
+[05Aug2021 13:05:14.431] [main/INFO] [quark/]: Loading Module Ambient Discs
+[05Aug2021 13:05:14.431] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[05Aug2021 13:05:14.432] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[05Aug2021 13:05:14.433] [main/INFO] [quark/]: Loading Module Camera
+[05Aug2021 13:05:14.433] [main/INFO] [quark/]: Loading Module Color Runes
+[05Aug2021 13:05:14.434] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[05Aug2021 13:05:14.435] [main/INFO] [quark/]: Loading Module Pickarang
+[05Aug2021 13:05:14.435] [main/INFO] [quark/]: Loading Module Seed Pouch
+[05Aug2021 13:05:14.436] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[05Aug2021 13:05:14.436] [main/INFO] [quark/]: Loading Module Trowel
+[05Aug2021 13:05:14.436] [main/INFO] [quark/]: Loading Module Skull Pikes
+[05Aug2021 13:05:14.437] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[05Aug2021 13:05:14.437] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[05Aug2021 13:05:14.438] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[05Aug2021 13:05:14.439] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[05Aug2021 13:05:14.439] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[05Aug2021 13:05:14.439] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[05Aug2021 13:05:14.440] [main/INFO] [quark/]: Loading Module Dirt To Path
+[05Aug2021 13:05:14.441] [main/INFO] [quark/]: Loading Module Double Door Opening
+[05Aug2021 13:05:14.441] [main/INFO] [quark/]: Loading Module Dragon Scales
+[05Aug2021 13:05:14.441] [main/INFO] [quark/]: Loading Module Emotes
+[05Aug2021 13:05:14.441] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[05Aug2021 13:05:14.442] [main/INFO] [quark/]: Loading Module Glass Shard
+[05Aug2021 13:05:14.442] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[05Aug2021 13:05:14.443] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[05Aug2021 13:05:14.443] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[05Aug2021 13:05:14.444] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[05Aug2021 13:05:14.444] [main/INFO] [quark/]: Loading Module Lock Rotation
+[05Aug2021 13:05:14.447] [main/INFO] [quark/]: Loading Module More Banner Layers
+[05Aug2021 13:05:14.447] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[05Aug2021 13:05:14.451] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[05Aug2021 13:05:14.452] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[05Aug2021 13:05:14.452] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[05Aug2021 13:05:14.453] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[05Aug2021 13:05:14.453] [main/INFO] [quark/]: Loading Module Sign Editing
+[05Aug2021 13:05:14.454] [main/INFO] [quark/]: Loading Module Simple Harvest
+[05Aug2021 13:05:14.455] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[05Aug2021 13:05:14.455] [main/INFO] [quark/]: Loading Module Springy Slime
+[05Aug2021 13:05:14.455] [main/INFO] [quark/]: Loading Module Utility Recipes
+[05Aug2021 13:05:14.456] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[05Aug2021 13:05:14.456] [main/INFO] [quark/]: Loading Module Big Dungeon
+[05Aug2021 13:05:14.457] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[05Aug2021 13:05:14.457] [main/INFO] [quark/]: Loading Module Biotite
+[05Aug2021 13:05:14.458] [main/INFO] [quark/]: Loading Module Blossom Trees
+[05Aug2021 13:05:14.458] [main/INFO] [quark/]: Loading Module Cave Roots
+[05Aug2021 13:05:14.458] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[05Aug2021 13:05:14.458] [main/INFO] [quark/]: Loading Module Crevices
+[05Aug2021 13:05:14.458] [main/INFO] [quark/]: Loading Module Deepslate
+[05Aug2021 13:05:14.458] [main/INFO] [quark/]: Loading Module Fairy Rings
+[05Aug2021 13:05:14.458] [main/INFO] [quark/]: Loading Module Mega Caves
+[05Aug2021 13:05:14.458] [main/INFO] [quark/]: Loading Module Monster Box
+[05Aug2021 13:05:14.459] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[05Aug2021 13:05:14.459] [main/INFO] [quark/]: Loading Module New Stone Types
+[05Aug2021 13:05:14.459] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[05Aug2021 13:05:14.460] [main/INFO] [quark/]: Loading Module Speleothems
+[05Aug2021 13:05:14.460] [main/INFO] [quark/]: Loading Module Spiral Spires
+[05Aug2021 13:05:14.460] [main/INFO] [quark/]: Loading Module Underground Clay
+[05Aug2021 13:05:14.460] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[05Aug2021 13:05:14.460] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[05Aug2021 13:05:14.461] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[05Aug2021 13:05:14.461] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[05Aug2021 13:05:14.461] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[05Aug2021 13:05:14.461] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[05Aug2021 13:05:14.461] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[05Aug2021 13:05:14.461] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[05Aug2021 13:05:14.461] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[05Aug2021 13:05:14.462] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[05Aug2021 13:05:14.463] [main/INFO] [quark/]: Loading Module Crabs
+[05Aug2021 13:05:14.463] [main/INFO] [quark/]: Loading Module Forgotten
+[05Aug2021 13:05:14.464] [main/INFO] [quark/]: Loading Module Foxhound
+[05Aug2021 13:05:14.464] [main/INFO] [quark/]: Loading Module Frogs
+[05Aug2021 13:05:14.465] [main/INFO] [quark/]: Loading Module Stonelings
+[05Aug2021 13:05:14.465] [main/INFO] [quark/]: Loading Module Toretoise
+[05Aug2021 13:05:14.465] [main/INFO] [quark/]: Loading Module Wraith
+[05Aug2021 13:05:14.465] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[05Aug2021 13:05:14.465] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[05Aug2021 13:05:14.465] [main/INFO] [quark/]: Loading Module Chest Searching
+[05Aug2021 13:05:14.465] [main/INFO] [quark/]: Loading Module Greener Grass
+[05Aug2021 13:05:14.466] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[05Aug2021 13:05:14.466] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[05Aug2021 13:05:14.466] [main/INFO] [quark/]: Loading Module Usage Ticker
+[05Aug2021 13:05:14.466] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[05Aug2021 13:05:14.466] [main/INFO] [quark/]: Loading Module Backpack
+[05Aug2021 13:05:14.466] [main/INFO] [quark/]: Loading Module Crate
+[05Aug2021 13:05:14.467] [main/INFO] [quark/]: Loading Module Magnets
+[05Aug2021 13:05:14.467] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[05Aug2021 13:05:14.467] [main/INFO] [quark/]: Loading Module Pipes
+[05Aug2021 13:05:14.467] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[05Aug2021 13:05:14.467] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[05Aug2021 13:05:14.467] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[05Aug2021 13:05:14.467] [main/INFO] [quark/]: Loading Module Game Nerfs
+[05Aug2021 13:05:14.467] [main/INFO] [quark/]: Loading Module Narrator Readout
+[05Aug2021 13:05:14.467] [main/INFO] [quark/]: Loading Module Overlay Shader
+[05Aug2021 13:05:14.467] [main/INFO] [quark/]: Loading Module Shiba
+[05Aug2021 13:05:14.502] [modloading-worker-1/INFO] [ultimate_unicorn_mod/]: HELLO FROM PREINIT
+[05Aug2021 13:05:14.502] [modloading-worker-1/INFO] [ultimate_unicorn_mod/]: DIRT BLOCK >> minecraft:dirt
+[05Aug2021 13:05:14.503] [modloading-worker-6/INFO] [STDOUT/]: [com.mactso.harderspawners.Main:preInit:34]: harderspawners: Registering Handler
+[05Aug2021 13:05:14.738] [modloading-worker-2/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[05Aug2021 13:05:14.741] [modloading-worker-2/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$2210/76829984@216cf1e0
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71)
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85)
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265)
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at com.paleimitations.schoolsofmagic.common.registries.BasicArcanaRegistry.init(BasicArcanaRegistry.java:27)
+	at com.paleimitations.schoolsofmagic.common.registries.BookPageRegistry.init(BookPageRegistry.java:14)
+	at com.paleimitations.schoolsofmagic.common.registries.Registry.init(Registry.java:76)
+	at com.paleimitations.schoolsofmagic.SchoolsOfMagicMod.setup(SchoolsOfMagicMod.java:54)
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1618)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+
+[05Aug2021 13:05:14.742] [modloading-worker-5/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:glowstone_dust
+  New behavior: com.nekomaster1000.infernalexp.InfernalExpansion$1
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.nekomaster1000.infernalexp.InfernalExpansion.commonSetup(InfernalExpansion.java:193)
+    net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+    net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+
+[05Aug2021 13:05:14.743] [modloading-worker-2/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event FMLCommonSetupEvent dispatch for modid schoolsofmagic
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71) ~[minecraft_server.jar:36.2]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_231]
+	at com.paleimitations.schoolsofmagic.common.registries.BasicArcanaRegistry.init(BasicArcanaRegistry.java:27) ~[schoolsofmagic:2.1.00]
+	at com.paleimitations.schoolsofmagic.common.registries.BookPageRegistry.init(BookPageRegistry.java:14) ~[schoolsofmagic:2.1.00]
+	at com.paleimitations.schoolsofmagic.common.registries.Registry.init(Registry.java:76) ~[schoolsofmagic:2.1.00]
+	at com.paleimitations.schoolsofmagic.SchoolsOfMagicMod.setup(SchoolsOfMagicMod.java:54) ~[schoolsofmagic:2.1.00]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120) ~[forge:36.2]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121) ~[forge:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1626) [?:1.8.0_231]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1618) [?:1.8.0_231]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_231]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_231]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_231]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_231]
+[05Aug2021 13:05:14.771] [modloading-worker-1/INFO] [com.cannolicatfish.rankine.ProjectRankine/]: Rankine: "CommonSetup" Event Complete!
+[05Aug2021 13:05:14.830] [modloading-worker-3/INFO] [craftandhunt/]: Sexy summons logged.
+[05Aug2021 13:05:14.931] [modloading-worker-1/INFO] [Puzzles Lib/]: Reloading common config for all mods
+[05Aug2021 13:05:15.454] [modloading-worker-4/WARN] [melonslise.subwild.SubWild/]: 
+[05Aug2021 13:05:15.455] [modloading-worker-4/WARN] [melonslise.subwild.SubWild/]: @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[05Aug2021 13:05:15.455] [modloading-worker-4/WARN] [melonslise.subwild.SubWild/]: Yung's Better Caves Present! Enabling workaround for wall feature placements!
+[05Aug2021 13:05:15.455] [modloading-worker-4/WARN] [melonslise.subwild.SubWild/]: @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[05Aug2021 13:05:15.455] [modloading-worker-4/WARN] [melonslise.subwild.SubWild/]: 
+[05Aug2021 13:05:15.478] [modloading-worker-2/INFO] [dev.itsmeow.whisperwoods.WhisperwoodsMod/]: Summoning a hidebehind to eat you...
+[05Aug2021 13:05:15.483] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:anchor
+[05Aug2021 13:05:15.488] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for doom:ballista
+[05Aug2021 13:05:15.488] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:battlestaff
+[05Aug2021 13:05:15.490] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Starting version check at https://raw.githubusercontent.com/yungnickyoung/YUNGs-Better-Caves/1.16/versions.json
+[05Aug2021 13:05:15.492] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:battlestaff_of_terror
+[05Aug2021 13:05:15.492] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:bone_cudgel
+[05Aug2021 13:05:15.492] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:boneclub
+[05Aug2021 13:05:15.492] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:broadsword
+[05Aug2021 13:05:15.492] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:broken_sawblade
+[05Aug2021 13:05:15.492] [modloading-worker-6/WARN] [epicfight/]: Failed to load custom item cgm:assault_rifle. Item not exist!
+[05Aug2021 13:05:15.492] [modloading-worker-6/WARN] [epicfight/]: Failed to load custom item cgm:bazooka. Item not exist!
+[05Aug2021 13:05:15.492] [modloading-worker-6/WARN] [epicfight/]: Failed to load custom item cgm:grenade_launcher. Item not exist!
+[05Aug2021 13:05:15.492] [modloading-worker-6/WARN] [epicfight/]: Failed to load custom item cgm:heavy_rifle. Item not exist!
+[05Aug2021 13:05:15.492] [modloading-worker-6/WARN] [epicfight/]: Failed to load custom item cgm:machine_pistol. Item not exist!
+[05Aug2021 13:05:15.492] [modloading-worker-6/WARN] [epicfight/]: Failed to load custom item cgm:mini_gun. Item not exist!
+[05Aug2021 13:05:15.493] [modloading-worker-6/WARN] [epicfight/]: Failed to load custom item cgm:pistol. Item not exist!
+[05Aug2021 13:05:15.493] [modloading-worker-6/WARN] [epicfight/]: Failed to load custom item cgm:rifle. Item not exist!
+[05Aug2021 13:05:15.493] [modloading-worker-6/WARN] [epicfight/]: Failed to load custom item cgm:shotgun. Item not exist!
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for doom:chaingun
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:chill_gale_knife
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:claymore
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_bronze
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_copper
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_diamond
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_electrum
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_gold
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_invar
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_iron
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_lead
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_nickel
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_platinum
+[05Aug2021 13:05:15.493] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_silver
+[05Aug2021 13:05:15.494] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_steel
+[05Aug2021 13:05:15.494] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_stone
+[05Aug2021 13:05:15.494] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_tin
+[05Aug2021 13:05:15.494] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for spartanweaponry:dagger_wood
+[05Aug2021 13:05:15.494] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:dagger
+[05Aug2021 13:05:15.494] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:dark_katana
+[05Aug2021 13:05:15.494] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:encrusted_anchor
+[05Aug2021 13:05:15.494] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:eternal_knife
+[05Aug2021 13:05:15.494] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:fang_of_frost
+[05Aug2021 13:05:15.494] [modloading-worker-6/WARN] [epicfight/]: Failed to load custom item dungeons_gear:fighters_bindings. Item not exist!
+[05Aug2021 13:05:15.494] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:flail
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:whispering_spear
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:frost_slayer
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:gauntlet
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:glaive
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:grave_bane
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:great_axeblade
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:great_hammer
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:growing_staff
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:hammer_of_gravity
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:heartstealer
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for doom:heavycannon
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:katana
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:mace
+[05Aug2021 13:05:15.495] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:masters_katana
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:mauler
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:mechanized_sawblade
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:moon_dagger
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:nightmares_bite
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for doom:pistol
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:resolute_tempest_knife
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:shear_dagger
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for doom:shotgun
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:sickle
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:soul_fist
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:soul_knife
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:spear
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:stormlander
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:suns_grace
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for doom:supershotgun
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:tempest_knife
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for tetra:modular_double
+[05Aug2021 13:05:15.496] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for tetra:modular_sword
+[05Aug2021 13:05:15.502] [modloading-worker-2/INFO] [syric.dragonseeker.Dragonseeker/]: HELLO FROM PREINIT
+[05Aug2021 13:05:15.502] [modloading-worker-2/INFO] [syric.dragonseeker.Dragonseeker/]: DIRT BLOCK >> minecraft:dirt
+[05Aug2021 13:05:15.503] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for doom:unmaykr
+[05Aug2021 13:05:15.504] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:venom_glaive
+[05Aug2021 13:05:15.505] [modloading-worker-6/INFO] [epicfight/]: Register Custom Capaiblity for dungeons_gear:whispering_spear
+[05Aug2021 13:05:15.512] [modloading-worker-4/INFO] [STDOUT/]: [com.mactso.regrowth.Main:preInit:32]: Regrowth 16.4 1.1.0.18: Registering Handler
+[05Aug2021 13:05:15.513] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Found status: BETA Current: 1.16.4-1.1.2 Target: null
+[05Aug2021 13:05:15.513] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[05Aug2021 13:05:15.519] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: UP_TO_DATE Current: 1.2.5 Target: null
+[05Aug2021 13:05:15.519] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [harderspawners] Starting version check at https://github.com/mactso/HarderSpawners/raw/master/update.json
+[05Aug2021 13:05:15.561] [modloading-worker-3/INFO] [corgiaoc.byg.BYG/]: Reading Sub-Biomes json
+[05Aug2021 13:05:15.832] [modloading-worker-3/INFO] [corgiaoc.byg.BYG/]: Reading json
+[05Aug2021 13:05:15.847] [modloading-worker-3/INFO] [corgiaoc.byg.BYG/]: BYG: "Common Setup" Event Complete!
+[05Aug2021 13:05:15.850] [modloading-worker-7/INFO] [com.minttea.cfbpmmocompat.CFBPMMOCompat/]: Patching into Cooking For Blockheads and opening the portal to PMMO
+[05Aug2021 13:05:15.851] [modloading-worker-7/INFO] [com.minttea.cfbpmmocompat.CFBPMMOCompat/]: Done
+[05Aug2021 13:05:15.866] [modloading-worker-5/INFO] [TerraForged/]: Common setup
+[05Aug2021 13:05:15.870] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [harderspawners] Found status: BETA Current: 1.36.0.16 Target: 1.36.0.16
+[05Aug2021 13:05:15.870] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [chunkanimator] Starting version check at https://github.com/Harleyoc1/ChunkAnimator/blob/1.16.5/version_info.json?raw=true
+[05Aug2021 13:05:16.489] [modloading-worker-0/INFO] [Bookshelf/]: Registering 3 command argument types.
+[05Aug2021 13:05:16.489] [modloading-worker-0/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[05Aug2021 13:05:16.499] [modloading-worker-5/INFO] [TerraForged/]: Performance Settings [default=false]
+[05Aug2021 13:05:16.499] [modloading-worker-5/INFO] [TerraForged/]:  - Thread Count: 16 (default: 8)
+[05Aug2021 13:05:16.499] [modloading-worker-5/INFO] [TerraForged/]:  - Tile Size: 3 (default: 3)
+[05Aug2021 13:05:16.499] [modloading-worker-5/INFO] [TerraForged/]:  - Batching: true (default: true)
+[05Aug2021 13:05:16.499] [modloading-worker-5/INFO] [TerraForged/]:  - Batch Count: 6 (default: 6)
+[05Aug2021 13:05:16.550] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [chunkanimator] Found status: UP_TO_DATE Current: 1.16.5-1.2.4 Target: null
+[05Aug2021 13:05:16.578] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [antiquewaystones] Starting version check at https://gitlab.com/HorribleNerd/antique-waystones/-/raw/main/update.json
+[05Aug2021 13:05:16.595] [modloading-worker-4/INFO] [occultism/]: Common setup complete.
+[05Aug2021 13:05:16.595] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dummmmmmy:target_dummy, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:16.912] [Blue Skies supporters thread./INFO] [ModdingLegacy/blue_skies/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[05Aug2021 13:05:16.937] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for losttrinkets:dark_vex, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:17.440] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [antiquewaystones] Found status: UP_TO_DATE Current: 1.3 Target: null
+[05Aug2021 13:05:17.441] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/ferreusveritas/DynamicTrees/blob/1.16.5/version_info.json?raw=true
+[05Aug2021 13:05:17.447] [Blue Skies supporters thread./INFO] [ModdingLegacy/blue_skies/]: Successfully loaded the Modding legacy supporters list.
+[05Aug2021 13:05:17.482] [modloading-worker-2/INFO] [AIReducer/]: ReflectorMinecraft setup was successful
+[05Aug2021 13:05:17.511] [modloading-worker-6/INFO] [gobber2/]: Gobber common setup
+[05Aug2021 13:05:17.527] [modloading-worker-0/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.capability.ManaCapability:register:62]: Finished Registering ManaCapability
+[05Aug2021 13:05:17.542] [modloading-worker-0/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.network.Networking:registerMessages:27]: Registering packets!!
+[05Aug2021 13:05:17.545] [modloading-worker-5/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[05Aug2021 13:05:17.640] [modloading-worker-3/INFO] [survivalist/]: Registering network channel...
+[05Aug2021 13:05:17.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: UP_TO_DATE Current: 1.16.5-0.10.0-Beta23 Target: null
+[05Aug2021 13:05:17.647] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictreesplus] Starting version check at https://github.com/supermassimo/DynamicTreesPlus/blob/1.16.5/version_info.json?raw=true
+[05Aug2021 13:05:17.682] [modloading-worker-2/INFO] [druidcraft/]: Setup method registered.
+[05Aug2021 13:05:17.685] [modloading-worker-5/INFO] [Puzzles Lib/]: Reloading common config for all mods
+[05Aug2021 13:05:17.955] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictreesplus] Found status: UP_TO_DATE Current: 1.16.5-0.1.0-Beta10 Target: null
+[05Aug2021 13:05:17.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dtbop] Starting version check at https://github.com/the-realest-stu/DynamicTrees-BOP/blob/master/version_info.json?raw=true
+[05Aug2021 13:05:17.985] [modloading-worker-0/INFO] [com.farsight.FarsightMod/]: farsight_view mod initialized
+[05Aug2021 13:05:18.004] [modloading-worker-2/INFO] [its_meow.betteranimalsplus.BetterAnimalsPlusMod/]: Overspawning lammergeiers...
+[05Aug2021 13:05:18.040] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[05Aug2021 13:05:18.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dtbop] Found status: BETA Current: 1.16.5-2.0.6 Target: null
+[05Aug2021 13:05:18.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.16.5
+[05Aug2021 13:05:18.513] [modloading-worker-0/WARN] [mixin/]: Mixin curiosquarkobp.mixins.json:QuarkOdditiesHandleBackpackMessageMixin has multiple constructors, ()V was selected
+
+[05Aug2021 13:05:18.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 10.1.3 Target: 10.1.3
+[05Aug2021 13:05:18.597] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [persistent_players] Starting version check at https://maxhenkel.de/update/persistent_players.json
+[05Aug2021 13:05:18.616] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for quark:rope
+  New behavior: vazkii.quark.content.building.module.RopeModule$BehaviourRope
+  Old behavior: vazkii.quark.content.building.module.RopeModule$BehaviourRope
+  Registration done at: 
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+    vazkii.quark.base.module.ModuleLoader.dispatch(ModuleLoader.java:117)
+    vazkii.quark.base.module.ModuleLoader.configChanged(ModuleLoader.java:63)
+
+[05Aug2021 13:05:18.646] [modloading-worker-3/INFO] [com.litewolf101.illagers_plus.IllagersPlus/]: Added Illagers to Raids
+[05Aug2021 13:05:18.683] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:18.698] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:18.953] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:18.956] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:18.957] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:18.961] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_13
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.961] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_cat
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.961] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_blocks
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.961] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_chirp
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.962] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_far
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.962] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_mall
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.962] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_mellohi
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.962] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_stal
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.962] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_strad
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.962] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_ward
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.962] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_11
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.962] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_wait
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.962] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:music_disc_pigstep
+  New behavior: vazkii.quark.content.automation.module.JukeboxAutomationModule$MusicDiscBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.lang.Iterable.forEach(Iterable.java:75)
+    vazkii.quark.content.automation.module.JukeboxAutomationModule.setup(JukeboxAutomationModule.java:41)
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+
+[05Aug2021 13:05:18.972] [modloading-worker-0/ERROR] [com.telepathicgrunt.blame.Blame/]: 
+****************** Blame Report Dispenser Behavior 1.16.5-3.2.5-forge ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:chain
+  New behavior: vazkii.quark.content.automation.module.ChainLinkageModule$LinkCartsBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    java.util.HashMap$Values.forEach(HashMap.java:981)
+    vazkii.quark.base.module.ModuleLoader.dispatch(ModuleLoader.java:117)
+    vazkii.quark.base.module.ModuleLoader.setup(ModuleLoader.java:75)
+
+[05Aug2021 13:05:18.973] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:18.973] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:18.974] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:18.982] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:18.983] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[05Aug2021 13:05:19.044] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [persistent_players] Found status: UP_TO_DATE Current: 1.16.5-1.0.2 Target: null
+[05Aug2021 13:05:19.044] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Starting version check at https://mrcrayfish.com/modupdatejson?id=catalogue
+[05Aug2021 13:05:20.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Found status: BETA Current: 1.3.0 Target: 1.3.0
+[05Aug2021 13:05:20.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeitweaker] Starting version check at https://updates.blamejared.com/get?n=JEITweaker&gv=1.16.5
+[05Aug2021 13:05:20.051] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeitweaker] Found status: BETA Current: 1.0.1.34 Target: 1.0.1.34
+[05Aug2021 13:05:20.051] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.16.5
+[05Aug2021 13:05:20.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Found status: BETA_OUTDATED Current: 7.1.0.368 Target: 7.1.0.369
+[05Aug2021 13:05:20.512] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Aug2021 13:05:20.712] [modloading-worker-1/INFO] [CraftTweaker/]: CraftTweaker has loaded successfully!
+[05Aug2021 13:05:20.943] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event COMMON_SETUP, 1 errors found
+[05Aug2021 13:05:20.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.0 Target: null
+[05Aug2021 13:05:20.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[05Aug2021 13:05:20.963] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 78b9c76b-eb5f-434f-814d-443c6596286f
+[05Aug2021 13:05:20.965] [main/INFO] [STDOUT/]: [net.minecraft.crash.CrashReport:func_85057_a:196]: Negative index in crash report handler (16/18)
+[05Aug2021 13:05:20.970] [main/FATAL] [net.minecraftforge.fml.server.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2021-08-05_13.05.20-fml.txt
+[05Aug2021 13:05:20.973] [main/FATAL] [net.minecraft.server.Main/]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Schools of Magic: Second Semester (schoolsofmagic) encountered an error during the common_setup event phase
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:269) ~[forge:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:236) ~[forge:?]
+	at net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:211) ~[forge:?]
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:45) ~[forge:?]
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_231]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[minecraft_server.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [minecraft_server.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [minecraft_server.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [minecraft_server.jar:?]

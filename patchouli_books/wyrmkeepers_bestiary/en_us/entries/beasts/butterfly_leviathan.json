@@ -1,0 +1,30 @@
+{
+    "name" : "Butterfly Leviathan",
+    "icon" : "wyrmroost:blue_geode_dragon_armor",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "The Butterfly Leviathan is a large and dangerous aquatic creature. Its large size makes living in rivers and shallower waters impossible, so if one must seek out such a beast, it is best to search in the deepest of oceans."
+        },
+		{
+            "type" : "entity",
+            "entity" : "wyrmroost:butterfly_leviathan",
+			"scale" : 0.4,
+            "offset" : 1.5,
+            "rotate" : false,
+            "default_rotation" : 45.0
+        },
+        {
+            "type" : "text",
+            "title" : "Behavior",
+            "text" : "These solitary and ferocious ocean predators will attack anything that approaches them. Their large and powerful jaws can crush a boat, and I've heard reports of many encounters with the Leviathan coincide with lightning strikes. Perhaps too many for it to be a true coincidence..."
+        },
+        {
+            "type" : "text",
+            "title" : "Taming",
+            "text" : "I have not successfully tamed a Butterfly Leviathan, and in fact I wouldn't dare attempt it. However, the captain of the ship upon which I am travelling claims to have heard a tale of a man who has tamed one. Allegedly, he came across a beached Leviathan that had washed ashore during a rainstorm, and after being struck by lightning, was daft enough to feed it raw meat, rather than run for his life. I remain skeptical."
+        }
+    ]
+}

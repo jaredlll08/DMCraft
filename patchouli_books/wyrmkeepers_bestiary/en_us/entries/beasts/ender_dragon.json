@@ -1,0 +1,28 @@
+{
+    "name" : "Ender Dragon",
+    "icon" : "minecraft:dragon_egg",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "I've heard tales of a mysterious and powerful dragon guarding an island in an immense void. I know travel to other realms is possible, but the sum total of information on this creature I've found is little more than tall tales and passing rumour. I once spoke to a madman who claimed to know where to find this island, only to be taken to a random location in a forest."
+        },
+        {
+            "type" : "text",
+            "text" : "The man claimed some sort of strange eye led him there. On the following page I've attached a sketch of this alleged creature's appearance. I hope I may one day learn more."
+        },
+		{
+            "type" : "entity",
+            "entity" : "minecraft:ender_dragon",
+            "offset" : -6.0,
+			"scale" : 1.5,
+            "rotate" : false,
+            "default_rotation" : -135.0
+        },
+        {
+            "type" : "empty",
+            "draw_filler" : false
+        }
+    ]
+}

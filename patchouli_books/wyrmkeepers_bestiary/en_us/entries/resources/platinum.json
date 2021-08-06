@@ -1,0 +1,16 @@
+{
+    "name" : "Platinum",
+    "icon" : "wyrmroost:platinum_ingot",
+    "category" : "resources",
+    "pages" : [
+        {
+            "type" : "spotlight",
+            "item" : "wyrmroost:platinum_ore",
+            "text" : "Platinum is a relatively common earthly metal used to construct useful $(l:equipment/platinum_gear)equipment$(). Miners I've consulted with tell me they often find it when in search of iron deposits."
+        },
+        {
+            "type" : "empty",
+            "draw_filler" : false
+        }
+    ]
+}

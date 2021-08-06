@@ -1,0 +1,36 @@
+{
+    "name" : "Platinum Equipment",
+    "icon" : "wyrmroost:platinum_sword",
+    "category" : "equipment",
+    "pages" : [
+        {
+            "type" : "text",
+            "item" : "wyrmroost:platinum_ore",
+            "text" : "Platinum is a relatively common earthly metal used to construct tools, armor and weapons by skilled craftsmen."
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:platinum_sword",
+            "recipe2" : "wyrmroost:platinum_pickaxe"
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:platinum_axe",
+            "recipe2" : "wyrmroost:platinum_shovel"
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:platinum_hoe",
+            "recipe2" : "wyrmroost:platinum_helmet"
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:platinum_chestplate",
+            "recipe2" : "wyrmroost:platinum_leggings"
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:platinum_boots"
+        }
+    ]
+}

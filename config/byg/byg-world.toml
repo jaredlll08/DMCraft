@@ -52,6 +52,8 @@
 	pendoriteSpawns = "byg:forest_fault"
 	#What biome(s) does Budding Ametrine spawn in? Default: "byg:shattered_viscal_isles".
 	buddingAmetrineSpawns = "byg:shattered_viscal_isles"
+	#What biome(s) does Emeraldite spawn in? Default: "byg:wailing_garth".
+	emeralditeSpawns = "byg:wailing_garth"
 	#What biome(s) does Therium spawn in? Default: "byg#THE_END".
 	theriumSpawns = "byg#THEEND"
 

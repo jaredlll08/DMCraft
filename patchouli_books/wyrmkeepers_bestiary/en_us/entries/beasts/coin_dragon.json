@@ -1,0 +1,29 @@
+{
+    "name" : "Coin Dragon",
+    "icon" : "wyrmroost:coin_dragon",
+    "category" : "patchouli:beasts",
+
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "I've only ever seen Coin Dragons dwell inside chests in long-abandoned mine shafts, or other such structures."
+        },
+		{
+            "type" : "entity",
+            "entity" : "wyrmroost:coin_dragon",
+			"scale" : 1.0,
+            "offset" : 0.0,
+            "rotate" : false,
+            "default_rotation" : 45.0
+        },
+        {
+            "type" : "text",
+            "title" : "Behavior",
+            "text" : "Quite frankly, coin dragons do very little of interest, beyond hovering and wandering aimlessly. I ended up trading it to a passing merchant for a trumpet."
+        },
+        {
+            "type" : "text",
+            "text" : ""
+        }
+    ]
+}

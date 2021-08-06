@@ -1,0 +1,38 @@
+{
+    "name" : "Dragon Armor",
+    "icon" : "wyrmroost:platinum_dragon_armor",
+    "category" : "equipment",
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "I've found that an assortment of materials can make potent armor for certain varieties of dragons. In particular, the Royal Red and Overworld Drake can be armored quite effectively."
+        },
+        {
+            "type" : "crafting",
+            "title" : "Iron & Gold",
+            "recipe" : "wyrmroost:iron_dragon_armor",
+            "recipe2" : "wyrmroost:gold_dragon_armor"
+        },
+        {
+            "type" : "crafting",
+            "title" : "Diamond & Platinum",
+            "recipe" : "wyrmroost:diamond_dragon_armor",
+            "recipe2" : "wyrmroost:platinum_dragon_armor"
+        },
+        {
+            "type" : "crafting",
+            "title" : "Blue & Red Geode",
+            "recipe" : "wyrmroost:blue_geode_dragon_armor",
+            "recipe2" : "wyrmroost:red_geode_dragon_armor"
+        },
+        {
+            "type" : "crafting",
+            "title" : "Purple Geode",
+            "recipe" : "wyrmroost:purple_geode_dragon_armor"
+        },
+        {
+            "type" : "empty",
+            "draw_filler" : false
+        }
+    ]
+}

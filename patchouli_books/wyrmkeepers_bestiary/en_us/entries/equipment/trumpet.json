@@ -1,0 +1,16 @@
+{
+    "name" : "Trumpet",
+    "icon" : "wyrmroost:trumpet",
+    "category" : "equipment",
+    "pages" : [
+        {
+            "type" : "spotlight",
+            "item" : "wyrmroost:trumpet",
+            "text" : "I was able to trade a coin dragon to a passing merchant in exchange for a trumpet. It seems to replicate the sounds of a Butterfly Leviathan quite well."
+        },
+        {
+            "type" : "empty",
+            "draw_filler" : false
+        }
+    ]
+}

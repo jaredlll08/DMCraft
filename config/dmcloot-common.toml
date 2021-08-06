@@ -1,44 +1,68 @@
 
-#Default strength muliplier of each rarity.
-["Default Rarity Multipliers"]
-	#If all items should recive random modifiers. Else they must be randomized through nbt.
+[General]
+	#If all applicable items should recive random modifiers. Else they must be randomized through nbt.
 	modify_all = true
+	#Changes the base strength of "most" modifiers, default 0.2D (20%)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	global_strength_modifier = 0.2
+	#Chance of the item not having a prefix or suffix (seperate)
+	#Range: 0.0 ~ 1.0
+	empty_affix_chance = 0.2
 
-	#Registry names of items that the modifier should also be applied to.
-	["Default Rarity Multipliers"."Item Additions"]
-		additions_lifesteal = []
-		additions_fire = []
-		additions_guarding = ["#crafttweaker:relics", "#blue_skies:arcs"]
-		additions_frost = []
-		additions_mending = []
-		additions_learning = ["#crafttweaker:relics", "#blue_skies:arcs"]
-		additions_reaching = ["#crafttweaker:relics", "#blue_skies:arcs"]
-		additions_speed = []
-		additions_swiftness = ["#crafttweaker:relics", "#blue_skies:arcs"]
+#Chance of a rarity being chosen out of the others.
+["Rarity Weights"]
+	#Range: > 0
+	0_common = 11
+	#Range: > 0
+	1_uncommon = 10
+	#Range: > 0
+	2_rare = 9
+	#Range: > 0
+	3_epic = 8
+	#Range: > 0
+	4_legendary = 7
+	#Range: > 0
+	5_mythic = 6
 
-["Modifier Weights"]
+#Registry names of items that the modifier should also be applied to.
+["Item Additions"]
+	frost = []
+	fire = []
+	learning = []
+	speed = []
+	lifesteal = []
+	mending = []
+	swiftness = []
+	guarding = []
+	reaching = []
+	regeneration = []
+	aquatic = []
 
-	#Chance of the suffix being chose out of others.
-	["Modifier Weights"."Suffix Weights"]
-		#Range: > 0
-		weight_speed = 5
-		#Range: > 0
-		weight_learning = 0.1
-		#Range: > 0
-		weight_swiftness = 1
-		#Range: > 0
-		weight_guarding = 5
+#Chance of the prefix being chose out of others.
+["Prefix Weights"]
+	#Range: > 0
+	frost = 5
+	#Range: > 0
+	fire = 5
+	#Range: > 0
+	lifesteal = 5
+	#Range: > 0
+	mending = 5
+	#Range: > 0
+	reaching = 5
+	#Range: > 0
+	aquatic = 5
 
-	#Chance of the prefix being chose out of others.
-	["Modifier Weights"."Prefix Weights"]
-		#Range: > 0
-		weight_fire = 5
-		#Range: > 0
-		weight_reaching = 1
-		#Range: > 0
-		weight_lifesteal = 1
-		#Range: > 0
-		weight_mending = 0.5
-		#Range: > 0
-		weight_frost = 5
+#Chance of the suffix being chose out of others.
+["Suffix Weights"]
+	#Range: > 0
+	learning = 5
+	#Range: > 0
+	speed = 5
+	#Range: > 0
+	swiftness = 5
+	#Range: > 0
+	guarding = 5
+	#Range: > 0
+	regeneration = 5
 

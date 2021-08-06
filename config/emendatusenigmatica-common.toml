@@ -1908,3 +1908,6 @@
 ["Stratum Config: astral_marble"]
 	active = false
 
+["Stratum Config: quark_deepslate"]
+	active = false
+

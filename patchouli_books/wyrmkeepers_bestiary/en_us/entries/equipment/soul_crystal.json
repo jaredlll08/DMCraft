@@ -1,0 +1,15 @@
+{
+    "name" : "Dragon Soul Crystal",
+    "icon" : "wyrmroost:soul_crystal",
+    "category" : "equipment",
+    "pages" : [
+        {
+            "type" : "text",
+            "text" : "The Dragon Soul Crystal is a remarkable artifact that allows one to place a dragon inside a pocket dimension contained within it. This allows a dragon tamer to transport a dragon as large as a Royal Red inside one's pocket!"
+        },
+        {
+            "type" : "crafting",
+            "recipe" : "wyrmroost:soul_crystal"
+        }
+    ]
+}
