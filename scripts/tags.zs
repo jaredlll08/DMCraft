@@ -41,7 +41,7 @@ import stdlib.List;
     <item:minecraft:nether_star>,
     <item:bountifulbaubles:ender_dragon_scale>,
     <item:cagedmobs:dragon_scale>,
-    <item:quark:ravager_hide>,
+    //<item:quark:ravager_hide>,
     <item:alexsmobs:void_worm_mandible>,
     <item:alexsmobs:void_worm_eye>,
     <item:alexsmobs:void_worm_beak>,
@@ -55,7 +55,11 @@ import stdlib.List;
 // Ancient
 
 <tag:items:crafttweaker:ancient>.add([
-    <item:quark:ancient_tome>
+    // <item:quark:ancient_tome>
+    <item:minecraft:ancient_debris>,
+    <item:minecraft:netherite_scrap>,
+    <item:minecraft:netherite_ingot>,
+    <item:minecraft:netherite_block>
 ]);
 
 // Relics
@@ -87,10 +91,10 @@ for coinsTag in coinsTags {
     <tag:items:crafttweaker:currency>.add(coinsTag);
 } */
 <tag:items:crafttweaker:currency>.add([
-    <item:calemiutils:coin_penny>,
-    <item:calemiutils:coin_nickel>,
-    <item:calemiutils:coin_quarter>,
-    <item:calemiutils:coin_dollar>
+    <item:dotcoinmod:diamond_coin>,
+    <item:dotcoinmod:gold_coin>,
+    <item:dotcoinmod:iron_coin>,
+    <item:dotcoinmod:copper_coin>
 ]);
 
 // Healing
@@ -121,5 +125,5 @@ for coinsTag in coinsTags {
 // Heirlooms
 
 <tag:items:crafttweaker:heirloom>.add([
-  <item:minecraft:netherite_sword>
+  <item:minecraft:enchanted_book>
 ]);

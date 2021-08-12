@@ -16,6 +16,7 @@ var Relics = [0xFFFF78, 0xC9C967];
 var Anointment = [0xE7F06E, 0xC5CC6A];
 var Healing = [0xFF0000, 0xAA0000];
 var Gunslinger = [0xD3C1A3, 0xADA089];
+var Heirloom = [0xFF6F00, 0xE3721B];
 
 IngredientAny.getInstance().modifyTooltip((stack, tooltip, advanced) => {
 
@@ -27,7 +28,7 @@ IngredientAny.getInstance().modifyTooltip((stack, tooltip, advanced) => {
         tooltip[0] = (tooltip[0].formattedText as MCTextComponent).setStyle(tooltip[0].getStyle().setColor(Exotic[0]));
         tooltip.insert(1, ("Exotic" as MCTextComponent).setStyle(new MCStyle().setColor(Exotic[1])));
     }
-    else if <tag:items:crafttweaker:ancient>.asIIngredient().matches(stack) {
+    else if stack.registryName.path.matchesRegex(".*(netherite|ancient).*") {
         tooltip[0] = (tooltip[0].formattedText as MCTextComponent).setStyle(tooltip[0].getStyle().setColor(Ancient[0]));
         tooltip.insert(1, ("Ancient" as MCTextComponent).setStyle(new MCStyle().setColor(Ancient[1])));
     }
@@ -46,6 +47,12 @@ IngredientAny.getInstance().modifyTooltip((stack, tooltip, advanced) => {
     else if <tag:items:crafttweaker:currency>.asIIngredient().matches(stack){
         tooltip[0] = (tooltip[0].formattedText as MCTextComponent).setStyle(tooltip[0].getStyle().setColor(Currency[0]));
         tooltip.insert(1, ("Currency" as MCTextComponent).setStyle(new MCStyle().setColor(Currency[1])));
+    }
+    else if <tag:items:crafttweaker:heirloom>.asIIngredient().matches(stack){
+        //tooltip.insert(0, ("Incantation" as MCTextComponent));
+        //tooltip.remove(2 as usize);
+        tooltip[0] = (tooltip[0].formattedText as MCTextComponent).setStyle(tooltip[0].getStyle().setColor(Heirloom[0]));
+        tooltip.insert(1, ("Spellworking" as MCTextComponent).setStyle(new MCStyle().setColor(Heirloom[1])));
     }
     else if <tag:items:crafttweaker:relics>.asIIngredient().matches(stack) {
         if tooltip.length > 1 && tooltip[1].getString() != "Relic" {
