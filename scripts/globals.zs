@@ -35,4 +35,19 @@ public class globals{
     public static positionTargetMin(entity as MCEntity, distance as double) as string {
         return positionTargetMin(entity.position, distance);
     }
+
+    public static var rarities = {
+        "Currency": new DMRarity("Currency", 0xA7C4F2, 0x8296B5),
+        "Uncommon": new DMRarity("Uncommon",0x55FF55, 0x3AAD3A),
+        "Rare": new DMRarity("Rare", 0x5555FF, 0x3A3AAD),
+        "Exotic": new DMRarity("Exotic", 0x3FFA7, 0xC9163),
+        "Trophy": new DMRarity("Trophy", 0xB580FF, 0x765A9E),
+        "Ancient": new DMRarity("Ancient", 0xFF0037, 0xAB2642),
+        "Relics": new DMRarity("Relics", 0xFFFF78, 0xC9C967),
+        "Anointment": new DMRarity("Anointment", 0xE7F06E, 0xC5CC6A),
+        "Healing": new DMRarity("Healing", 0xFF0000, 0xAA0000),
+        "Gunslinger": new DMRarity("Gunslinger", 0xD3C1A3, 0xADA089),
+        "Heirloom": new DMRarity("Heirloom", 0xFF6F00, 0xE3721B)
+    } as DMRarity[string]; 
+
 }
