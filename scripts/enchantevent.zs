@@ -53,7 +53,7 @@ CTEventManager.register<MCItemTossEvent>((event) => {
                             val playerLuck = (1 + (player.getLuck() / 100)) / 10;
                             val failChance = 0.5;
                             val curseChance = 0.25;
-                            val successRand = (world.random.nextFloat(0,1) - (entityItem.item.getEnchantmentLevel(ench) / 10)) + playerLuck;
+                            val successRand = (world.random.nextDouble(0,1) - (entityItem.item.getEnchantmentLevel(ench) / 10)) + playerLuck;
                             val failDamage = (((item.damage * 0.25) * 10) as int) / 10;
                             if successRand >= failChance {
                                 item.mutable().withEnchantment(ench, entityItem.item.getEnchantmentLevel(ench));
@@ -68,10 +68,10 @@ CTEventManager.register<MCItemTossEvent>((event) => {
                                 server.executeCommand("execute in " + world.dimension +" run playsound minecraft:entity.iron_golem.death ambient @p " + globals.positionCommand((entity as MCEntity).getPosition()) + " 50 1.3");
                                 server.executeCommand("execute in " + world.dimension + " run particle occultism:ritual_waiting " + globals.positionCommand((entity as MCEntity).getPosition()) + " 0.01 0.01 0.01 0.2 150");
                                 val failComponent = ("Failed to apply " as MCTextComponent) + MCTextComponent.createTranslationTextComponent(ench.name) + " " + (entityItem.item.getEnchantmentLevel(ench) as string) as MCTextComponent + " to " + MCTextComponent.createTranslationTextComponent(item.translationKey);
-                                /*if successRand <= curseChance {
-                                    val curseEnch = globalarrays.curses[1] as MCEnchantment;
-                                    item.mutable().withEnchantment(curseEnch, world.random.nextInt(curseEnch.getMinLevel(), curseEnch.getMaxLevel()));
-                                }*/
+                                if successRand <= curseChance {
+                                     val curseEnch = globalarrays.curses[1] as MCEnchantment;
+                                     item.mutable().withEnchantment(curseEnch, world.random.nextInt(curseEnch.getMinLevel(), curseEnch.getMaxLevel()));
+                                }
                                 player.sendStatusMessage(failComponent.setStyle(new MCStyle().setColor(11743532)), true);
                                 entityItem.item.mutable().removeEnchantment(ench);
                                 item.mutable().withDamage((((item.damage - failDamage)* 10) as int ) / 10);
