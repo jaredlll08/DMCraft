@@ -44,22 +44,21 @@ CTEventManager.register<MCItemTossEvent>((event) => {
                             if !ench.canApply(item){
                                 continue;
                             }
-                            //player.sendMessage(player.getLuck() as string);
+                            for compat in item.enchantments {
+                                if !ench.isCompatibleWith(compat){
+                                    continue;
+                                }
+                            }
+                            //player.sendMessage(ench.getName());
                             val playerLuck = (1 + (player.getLuck() / 100)) / 10;
+                            val failChance = 0.5;
+                            val curseChance = 0.25;
                             val successRand = (world.random.nextFloat(0,1) - (entityItem.item.getEnchantmentLevel(ench) / 10)) + playerLuck;
-                            val tooltipCol = 14188952;
-                            /*entity.item.modifyTooltip((stack, tooltip, advanced) => { 
-                                tooltipCol = tooltip[0].getStyle().getColor(); 
-                            })*/
-                            //player.sendMessage(successRand as string);
-                            if successRand >= 0.5 {
+                            val failDamage = (((item.damage * 0.25) * 10) as int) / 10;
+                            if successRand >= failChance {
                                 item.mutable().withEnchantment(ench, entityItem.item.getEnchantmentLevel(ench));
                                 server.executeCommand("execute in " + world.dimension +" run summon firework_rocket " + globals.positionCommand((entity as MCEntity).getPosition()) + " {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:0,Flicker:0,Trail:0,Colors:[I;3887386],FadeColors:[I;4312372]}]}}}}");
-                                server.executeCommand("execute in " + world.dimension +" run summon firework_rocket " + globals.positionCommand((entity as MCEntity).getPosition()) + " {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:0,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;"+tooltipCol+"],FadeColors:[I;4312372]}]}}}}");
-                                server.executeCommand("execute in " + world.dimension + " run particle minecraft:enchant " + globals.positionCommand((entity as MCEntity).getPosition()) + "1 1 1 0 40");
-                                server.executeCommand("execute in " + world.dimension + " positioned " + globals.positionCommand((entity as MCEntity).getPosition()) + " run stopsound @a ambient minecraft:entity.firework_rocket.blast");
-                                server.executeCommand("execute in " + world.dimension + " positioned " + globals.positionCommand((entity as MCEntity).getPosition()) + " run stopsound @a ambient minecraft:entity.firework_rocket.large_blast");
-                                server.executeCommand("execute in " + world.dimension + " positioned " + globals.positionCommand((entity as MCEntity).getPosition()) + " run stopsound @a ambient minecraft:entity.firework_rocket.shoot");
+                                server.executeCommand("execute in " + world.dimension + " run particle minecraft:enchant " + globals.positionCommand((entity as MCEntity).getPosition()) + " 0.5 1 0.5 0 150");
                                 server.executeCommand("execute in " + world.dimension +" run playsound minecraft:entity.evoker.cast_spell ambient @p " + globals.positionCommand((entity as MCEntity).getPosition()) + " 50 1.3");
                                 //val enchLength = ench.getDisplayName(0).getString().length - 2;
                                 val successComponent = ("Applied " as MCTextComponent) + MCTextComponent.createTranslationTextComponent(ench.name) + " " + (entityItem.item.getEnchantmentLevel(ench) as string) as MCTextComponent + " to " + MCTextComponent.createTranslationTextComponent(item.translationKey);
@@ -67,9 +66,16 @@ CTEventManager.register<MCItemTossEvent>((event) => {
                                 entityItem.item.mutable().removeEnchantment(ench);
                             } else {
                                 server.executeCommand("execute in " + world.dimension +" run playsound minecraft:entity.iron_golem.death ambient @p " + globals.positionCommand((entity as MCEntity).getPosition()) + " 50 1.3");
+                                server.executeCommand("execute in " + world.dimension + " run particle occultism:ritual_waiting " + globals.positionCommand((entity as MCEntity).getPosition()) + " 0.01 0.01 0.01 0.2 150");
                                 val failComponent = ("Failed to apply " as MCTextComponent) + MCTextComponent.createTranslationTextComponent(ench.name) + " " + (entityItem.item.getEnchantmentLevel(ench) as string) as MCTextComponent + " to " + MCTextComponent.createTranslationTextComponent(item.translationKey);
+                                /*if successRand <= curseChance {
+                                    val curseEnch = globalarrays.curses[1] as MCEnchantment;
+                                    item.mutable().withEnchantment(curseEnch, world.random.nextInt(curseEnch.getMinLevel(), curseEnch.getMaxLevel()));
+                                }*/
                                 player.sendStatusMessage(failComponent.setStyle(new MCStyle().setColor(11743532)), true);
                                 entityItem.item.mutable().removeEnchantment(ench);
+                                item.mutable().withDamage((((item.damage - failDamage)* 10) as int ) / 10);
+                                player.sendMessage((item.damage - failDamage) as string);
                             }
                             
                         }

@@ -35,12 +35,9 @@ import stdlib.List;
 // Exotics
 
 <tag:items:crafttweaker:exotics>.add([
-    <item:meetyourfight:phantoplasm>,
-    <item:meetyourfight:fortunes_favor>,
-    <item:meetyourfight:mossy_tooth>,
     <item:minecraft:nether_star>,
     <item:bountifulbaubles:ender_dragon_scale>,
-    <item:cagedmobs:dragon_scale>,
+    //<item:cagedmobs:dragon_scale>,
     //<item:quark:ravager_hide>,
     <item:alexsmobs:void_worm_mandible>,
     <item:alexsmobs:void_worm_eye>,
